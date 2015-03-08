@@ -2,9 +2,9 @@ Command line:
    tb_controlled_box_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  64336
+     -socket  56890
 
-Sat Mar 07 19:11:05 2015
+Sun Mar 08 15:58:44 2015
 
 
- Elaboration Time: 0.0624 sec
+ Elaboration Time: 0.140401 sec

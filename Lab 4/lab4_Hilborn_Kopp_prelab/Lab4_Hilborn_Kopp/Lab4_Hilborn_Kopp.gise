@@ -34,34 +34,35 @@
   </files>
 
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
-    <transform xil_pn:end_ts="1425780406" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1425780406">
+    <transform xil_pn:end_ts="1425851730" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1425851730">
       <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1425780406" xil_pn:in_ck="4745777291661453713" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1425780406">
+    <transform xil_pn:end_ts="1425851730" xil_pn:in_ck="4745777291661453713" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1425851730">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="controlled_box.vhd"/>
       <outfile xil_pn:name="tb_controlled_box.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1425780406" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="7057955731857679667" xil_pn:start_ts="1425780406">
+    <transform xil_pn:end_ts="1425851730" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="7057955731857679667" xil_pn:start_ts="1425851730">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1425780406" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-601171167171662795" xil_pn:start_ts="1425780406">
+    <transform xil_pn:end_ts="1425851730" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-601171167171662795" xil_pn:start_ts="1425851730">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1425780406" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-7359864774006123273" xil_pn:start_ts="1425780406">
+    <transform xil_pn:end_ts="1425851730" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-7359864774006123273" xil_pn:start_ts="1425851730">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1425780406" xil_pn:in_ck="4745777291661453713" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1425780406">
+    <transform xil_pn:end_ts="1425851730" xil_pn:in_ck="4745777291661453713" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1425851730">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="controlled_box.vhd"/>
       <outfile xil_pn:name="tb_controlled_box.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1425780409" xil_pn:in_ck="4745777291661453713" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="4884620833628839230" xil_pn:start_ts="1425780406">
+    <transform xil_pn:end_ts="1425851733" xil_pn:in_ck="4745777291661453713" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="4884620833628839230" xil_pn:start_ts="1425851730">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="fuse.log"/>
@@ -71,7 +72,7 @@
       <outfile xil_pn:name="tb_controlled_box_isim_beh.exe"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1425780410" xil_pn:in_ck="-466919453084373630" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="2483173829182539777" xil_pn:start_ts="1425780409">
+    <transform xil_pn:end_ts="1425851733" xil_pn:in_ck="-466919453084373630" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="2483173829182539777" xil_pn:start_ts="1425851733">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="isim.cmd"/>

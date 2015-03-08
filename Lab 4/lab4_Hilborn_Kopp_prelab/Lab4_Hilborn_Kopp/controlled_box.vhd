@@ -28,7 +28,7 @@ entity controlled_box is
 end controlled_box;
 
 architecture Behavioral of controlled_box is
-	signal redraw: STD_LOGIC_VECTOR(5 downto 0) := (others => '0');
+	signal redraw: STD_LOGIC_VECTOR(5 downto 0);-- := (others => '0');
 	
 	-- X-axis values:
 	constant boxLocXMin: std_logic_vector(9 downto 0) := "0000000001";

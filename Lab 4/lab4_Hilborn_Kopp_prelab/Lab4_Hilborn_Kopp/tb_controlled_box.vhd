@@ -127,7 +127,12 @@ BEGIN
       wait for clk_period*10;
 
       -- insert stimulus here 
+		
+		-- Testtbench not behaving as expected: The box does not move.
+		-- bk thinks this is because the redraw variable is not changing and it will not
+		-- 	get past that if statement (line 59 in controlled_box.vhd)
 		reset <= '0';
+		wait for 100 us;
 		move_right <= '1';
 		wait for 200 us;
 		move_right <= '0';
