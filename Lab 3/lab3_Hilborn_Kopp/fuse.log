@@ -1,0 +1,21 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/Brendon/Dropbox/school/Y3S2/ENEL 453/Labs/Lab 3/lab3_Hilborn_Kopp/tb_sync_signals_generator_isim_beh.exe -prj C:/Users/Brendon/Dropbox/school/Y3S2/ENEL 453/Labs/Lab 3/lab3_Hilborn_Kopp/tb_sync_signals_generator_beh.prj work.tb_sync_signals_generator 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Brendon/Dropbox/school/Y3S2/ENEL 453/Labs/Lab 3/lab3_Hilborn_Kopp/sync_signal_generator.vhd" into library work
+Parsing VHDL file "C:/Users/Brendon/Dropbox/school/Y3S2/ENEL 453/Labs/Lab 3/lab3_Hilborn_Kopp/tb_sync_signals_generator.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity sync_signals_generator [sync_signals_generator_default]
+Compiling architecture behavior of entity tb_sync_signals_generator
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 7 VHDL Units
+Built simulation executable C:/Users/Brendon/Dropbox/school/Y3S2/ENEL 453/Labs/Lab 3/lab3_Hilborn_Kopp/tb_sync_signals_generator_isim_beh.exe
+Fuse Memory Usage: 34124 KB
+Fuse CPU Usage: 389 ms

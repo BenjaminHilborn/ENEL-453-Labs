@@ -1,0 +1,2 @@
+vhdl isim_temp "sync_signal_generator.vhd"
+vhdl isim_temp "tb_sync_signals_generator.vhd"

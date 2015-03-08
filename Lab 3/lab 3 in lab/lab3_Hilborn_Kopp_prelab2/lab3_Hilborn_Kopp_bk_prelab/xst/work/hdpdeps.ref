@@ -1,0 +1,55 @@
+V3 27
+FL "D:/UofC/Third Year/ENEL 453/lab 3/lab3_Hilborn_Kopp_prelab2/lab3_Hilborn_Kopp_bk_prelab/bouncing_box.vhd" 2015/02/24.15:29:42 P.20131013
+EN work/bouncing_box 1424821875 \
+      FL "D:/UofC/Third Year/ENEL 453/lab 3/lab3_Hilborn_Kopp_prelab2/lab3_Hilborn_Kopp_bk_prelab/bouncing_box.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/bouncing_box/Behavioral 1424821876 \
+      FL "D:/UofC/Third Year/ENEL 453/lab 3/lab3_Hilborn_Kopp_prelab2/lab3_Hilborn_Kopp_bk_prelab/bouncing_box.vhd" \
+      EN work/bouncing_box 1424821875
+FL "D:/UofC/Third Year/ENEL 453/lab 3/lab3_Hilborn_Kopp_prelab2/lab3_Hilborn_Kopp_bk_prelab/clock_divider.vhd" 2015/02/23.22:52:44 P.20131013
+EN work/clock_divider 1424821873 \
+      FL "D:/UofC/Third Year/ENEL 453/lab 3/lab3_Hilborn_Kopp_prelab2/lab3_Hilborn_Kopp_bk_prelab/clock_divider.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/clock_divider/Behavioral 1424821874 \
+      FL "D:/UofC/Third Year/ENEL 453/lab 3/lab3_Hilborn_Kopp_prelab2/lab3_Hilborn_Kopp_bk_prelab/clock_divider.vhd" \
+      EN work/clock_divider 1424821873 CP downcounter
+FL "D:/UofC/Third Year/ENEL 453/lab 3/lab3_Hilborn_Kopp_prelab2/lab3_Hilborn_Kopp_bk_prelab/downcounter.vhd" 2015/02/03.10:31:42 P.20131013
+EN work/downcounter 1424821867 \
+      FL "D:/UofC/Third Year/ENEL 453/lab 3/lab3_Hilborn_Kopp_prelab2/lab3_Hilborn_Kopp_bk_prelab/downcounter.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/downcounter/Behavioral 1424821868 \
+      FL "D:/UofC/Third Year/ENEL 453/lab 3/lab3_Hilborn_Kopp_prelab2/lab3_Hilborn_Kopp_bk_prelab/downcounter.vhd" \
+      EN work/downcounter 1424821867
+FL "D:/UofC/Third Year/ENEL 453/lab 3/lab3_Hilborn_Kopp_prelab2/lab3_Hilborn_Kopp_bk_prelab/sync_signal_generator.vhd" 2015/02/23.23:54:32 P.20131013
+EN work/sync_signals_generator 1424821869 \
+      FL "D:/UofC/Third Year/ENEL 453/lab 3/lab3_Hilborn_Kopp_prelab2/lab3_Hilborn_Kopp_bk_prelab/sync_signal_generator.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/sync_signals_generator/Behavioral 1424821870 \
+      FL "D:/UofC/Third Year/ENEL 453/lab 3/lab3_Hilborn_Kopp_prelab2/lab3_Hilborn_Kopp_bk_prelab/sync_signal_generator.vhd" \
+      EN work/sync_signals_generator 1424821869
+FL "D:/UofC/Third Year/ENEL 453/lab 3/lab3_Hilborn_Kopp_prelab2/lab3_Hilborn_Kopp_bk_prelab/up_down_counter.vhd" 2015/02/23.18:12:32 P.20131013
+EN work/up_down_counter 1424821871 \
+      FL "D:/UofC/Third Year/ENEL 453/lab 3/lab3_Hilborn_Kopp_prelab2/lab3_Hilborn_Kopp_bk_prelab/up_down_counter.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/up_down_counter/Behavioral 1424821872 \
+      FL "D:/UofC/Third Year/ENEL 453/lab 3/lab3_Hilborn_Kopp_prelab2/lab3_Hilborn_Kopp_bk_prelab/up_down_counter.vhd" \
+      EN work/up_down_counter 1424821871
+FL "D:/UofC/Third Year/ENEL 453/lab 3/lab3_Hilborn_Kopp_prelab2/lab3_Hilborn_Kopp_bk_prelab/vga_module.vhd" 2015/02/24.15:34:18 P.20131013
+EN work/vga_module 0 \
+      FL "D:/UofC/Third Year/ENEL 453/lab 3/lab3_Hilborn_Kopp_prelab2/lab3_Hilborn_Kopp_bk_prelab/vga_module.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/vga_module/Behavioral 0 \
+      FL "D:/UofC/Third Year/ENEL 453/lab 3/lab3_Hilborn_Kopp_prelab2/lab3_Hilborn_Kopp_bk_prelab/vga_module.vhd" \
+      EN work/vga_module 0 CP sync_signals_generator CP up_down_counter \
+      CP clock_divider CP bouncing_box CP vga_stripes_dff
+FL "D:/UofC/Third Year/ENEL 453/lab 3/lab3_Hilborn_Kopp_prelab2/lab3_Hilborn_Kopp_bk_prelab/vga_stripes_dff.vhd" 2015/02/24.14:32:16 P.20131013
+EN work/vga_stripes_dff 1424821877 \
+      FL "D:/UofC/Third Year/ENEL 453/lab 3/lab3_Hilborn_Kopp_prelab2/lab3_Hilborn_Kopp_bk_prelab/vga_stripes_dff.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/vga_stripes_dff/Behavioral 1424821878 \
+      FL "D:/UofC/Third Year/ENEL 453/lab 3/lab3_Hilborn_Kopp_prelab2/lab3_Hilborn_Kopp_bk_prelab/vga_stripes_dff.vhd" \
+      EN work/vga_stripes_dff 1424821877

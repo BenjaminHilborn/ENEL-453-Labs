@@ -1,0 +1,5 @@
+set -tmpdir "E:/Lab2_Hilborn_Kopp/xst/projnav.tmp"
+set -xsthdpdir "E:/Lab2_Hilborn_Kopp/xst"
+elaborate
+-ifn sevensegment.prj
+-ifmt mixed

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="lab3_Hilborn_Kopp.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name=".lso"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="bouncing_box.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="bouncing_box.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="bouncing_box.xst"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_bouncing_box_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_bouncing_box_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_clockdivider_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_clockdivider_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_sync_signals_generator_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_sync_signals_generator_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_up_down_counter_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_up_down_counter_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_vga_module_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_vga_module_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="tb_vga_module_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_vga_module_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_vga_stripes_dff_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_vga_stripes_dff_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="vga_module.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="vga_module.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="vga_module.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="vga_module.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="vga_module.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="vga_module.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="vga_module.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="vga_module.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="vga_module_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="vga_module_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="vga_module_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="vga_module_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="vga_stripes_dff.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="vga_stripes_dff.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="vga_stripes_dff.xst"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1424813539" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1424813539">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1424977473" xil_pn:in_ck="8718872829715706144" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1424977473">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="bouncing_box.vhd"/>
+      <outfile xil_pn:name="clock_divider.vhd"/>
+      <outfile xil_pn:name="downcounter.vhd"/>
+      <outfile xil_pn:name="sync_signal_generator.vhd"/>
+      <outfile xil_pn:name="tb_bouncing_box.vhd"/>
+      <outfile xil_pn:name="tb_clockdivider.vhd"/>
+      <outfile xil_pn:name="tb_sync_signals_generator.vhd"/>
+      <outfile xil_pn:name="tb_up_down_counter.vhd"/>
+      <outfile xil_pn:name="tb_vga_module.vhd"/>
+      <outfile xil_pn:name="tb_vga_stripes_dff.vhd"/>
+      <outfile xil_pn:name="up_down_counter.vhd"/>
+      <outfile xil_pn:name="vga_module.vhd"/>
+      <outfile xil_pn:name="vga_stripes_dff.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1424977477" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="8715919695995429592" xil_pn:start_ts="1424977477">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1424977477" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-5785298009021738726" xil_pn:start_ts="1424977477">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1424976993" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-2970715442023421764" xil_pn:start_ts="1424976993">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1424977477" xil_pn:in_ck="8718872829715706144" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1424977477">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="bouncing_box.vhd"/>
+      <outfile xil_pn:name="clock_divider.vhd"/>
+      <outfile xil_pn:name="downcounter.vhd"/>
+      <outfile xil_pn:name="sync_signal_generator.vhd"/>
+      <outfile xil_pn:name="tb_bouncing_box.vhd"/>
+      <outfile xil_pn:name="tb_clockdivider.vhd"/>
+      <outfile xil_pn:name="tb_sync_signals_generator.vhd"/>
+      <outfile xil_pn:name="tb_up_down_counter.vhd"/>
+      <outfile xil_pn:name="tb_vga_module.vhd"/>
+      <outfile xil_pn:name="tb_vga_stripes_dff.vhd"/>
+      <outfile xil_pn:name="up_down_counter.vhd"/>
+      <outfile xil_pn:name="vga_module.vhd"/>
+      <outfile xil_pn:name="vga_stripes_dff.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1424977481" xil_pn:in_ck="8718872829715706144" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="6033130801048987336" xil_pn:start_ts="1424977477">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="tb_vga_module_beh.prj"/>
+      <outfile xil_pn:name="tb_vga_module_isim_beh.exe"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1424977592" xil_pn:in_ck="8160738780111427759" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-8368904385915116245" xil_pn:start_ts="1424977592">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="tb_vga_module_isim_beh.wdb"/>
+    </transform>
+    <transform xil_pn:end_ts="1425235419" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1425235419">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1425235419" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="7425011022305262386" xil_pn:start_ts="1425235419">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1425235419" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-2970715442023421764" xil_pn:start_ts="1425235419">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1425235419" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1425235419">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1425235419" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="7327486550478425904" xil_pn:start_ts="1425235419">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1425235419" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="2988080280822507185" xil_pn:start_ts="1425235419">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1425235419" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="8070299871811728774" xil_pn:start_ts="1425235419">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1425235426" xil_pn:in_ck="-2871969125466071293" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="-5954873835280252145" xil_pn:start_ts="1425235419">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name=".lso"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="vga_module.lso"/>
+      <outfile xil_pn:name="vga_module.ngc"/>
+      <outfile xil_pn:name="vga_module.ngr"/>
+      <outfile xil_pn:name="vga_module.prj"/>
+      <outfile xil_pn:name="vga_module.stx"/>
+      <outfile xil_pn:name="vga_module.syr"/>
+      <outfile xil_pn:name="vga_module.xst"/>
+      <outfile xil_pn:name="vga_module_vhdl.prj"/>
+      <outfile xil_pn:name="vga_module_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+  </transforms>
+
+</generated_project>

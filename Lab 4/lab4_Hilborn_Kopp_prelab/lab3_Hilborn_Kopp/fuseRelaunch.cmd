@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "simprims_ver" -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/Users/blhilbor/Desktop/Lab 3/lab3_Hilborn_Kopp_postlabwork/lab3_Hilborn_Kopp/tb_vga_module_isim_translate.exe" -prj "C:/Users/blhilbor/Desktop/Lab 3/lab3_Hilborn_Kopp_postlabwork/lab3_Hilborn_Kopp/tb_vga_module_translate.prj" "work.tb_vga_module" "work.glbl" 

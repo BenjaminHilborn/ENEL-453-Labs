@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Brendon/Dropbox/BH BK share/ENEL 453/Labs/Lab 3/lab3_Hilborn_Kopp_postlabwork/lab3_Hilborn_Kopp/tb_vga_module_isim_beh.exe" -prj "C:/Users/Brendon/Dropbox/BH BK share/ENEL 453/Labs/Lab 3/lab3_Hilborn_Kopp_postlabwork/lab3_Hilborn_Kopp/tb_vga_module_beh.prj" "work.tb_vga_module" 

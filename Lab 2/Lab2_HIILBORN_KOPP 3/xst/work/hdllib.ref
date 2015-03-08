@@ -1,0 +1,12 @@
+AR sevensegment behavioral "C:/Users/Brendon/Dropbox/BH BK share/ENEL 453/Labs/Lab 2/Lab2_HIILBORN_KOPP 3/sevensegment.vhd" sub00/vhpl05 1423552257
+EN tb_sevensegment NULL "C:/Users/Benjamin/Desktop/Lab2_HILBORN_KOPP 2/tb_sevensegment.vhd" sub00/vhpl10 1423425988
+AR clock_divider behavioral "C:/Users/Brendon/Dropbox/BH BK share/ENEL 453/Labs/Lab 2/Lab2_HIILBORN_KOPP 3/clock_divider.vhd" sub00/vhpl03 1423552255
+EN digital_clock NULL "C:/Users/Brendon/Dropbox/BH BK share/ENEL 453/Labs/Lab 2/Lab2_HIILBORN_KOPP 3/digital_clock.vhd" sub00/vhpl08 1423552258
+EN clock_divider NULL "C:/Users/Brendon/Dropbox/BH BK share/ENEL 453/Labs/Lab 2/Lab2_HIILBORN_KOPP 3/clock_divider.vhd" sub00/vhpl02 1423552254
+AR sevensegment_selector behavioral "C:/Users/Brendon/Dropbox/BH BK share/ENEL 453/Labs/Lab 2/Lab2_HIILBORN_KOPP 3/sevensegment_selector.vhd" sub00/vhpl07 1423552253
+EN sevensegment NULL "C:/Users/Brendon/Dropbox/BH BK share/ENEL 453/Labs/Lab 2/Lab2_HIILBORN_KOPP 3/sevensegment.vhd" sub00/vhpl04 1423552256
+AR downcounter behavioral "C:/Users/Brendon/Dropbox/BH BK share/ENEL 453/Labs/Lab 2/Lab2_HIILBORN_KOPP 3/downcounter.vhd" sub00/vhpl01 1423552251
+AR digital_clock behavioral "C:/Users/Brendon/Dropbox/BH BK share/ENEL 453/Labs/Lab 2/Lab2_HIILBORN_KOPP 3/digital_clock.vhd" sub00/vhpl11 1423552259
+EN downcounter NULL "C:/Users/Brendon/Dropbox/BH BK share/ENEL 453/Labs/Lab 2/Lab2_HIILBORN_KOPP 3/downcounter.vhd" sub00/vhpl00 1423552250
+EN sevensegment_selector NULL "C:/Users/Brendon/Dropbox/BH BK share/ENEL 453/Labs/Lab 2/Lab2_HIILBORN_KOPP 3/sevensegment_selector.vhd" sub00/vhpl06 1423552252
+EN tb_selector NULL "C:/Users/Benjamin/Desktop/Lab2_HILBORN_KOPP 2/tb_selector.vhd" sub00/vhpl09 1423425949

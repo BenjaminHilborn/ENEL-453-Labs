@@ -1,0 +1,5 @@
+work	"clock_divider.vhd"
+work	"digital_clock.vhd"
+work	"downcounter.vhd"
+work	"sevensegment.vhd"
+work	"sevensegment_selector.vhd"

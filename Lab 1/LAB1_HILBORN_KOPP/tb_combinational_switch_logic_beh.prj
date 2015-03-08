@@ -1,0 +1,2 @@
+vhdl work "switch_logic.vhd"
+vhdl work "tb_combinational_switch_logic.vhd"

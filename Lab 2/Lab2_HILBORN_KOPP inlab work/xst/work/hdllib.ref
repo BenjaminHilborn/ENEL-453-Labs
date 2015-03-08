@@ -1,0 +1,6 @@
+AR sevensegment behavioral "E:/Lab 2/Prelab/Brendon's Prelab/lab 2 vhd files/sevensegment.vhd" sub00/vhpl05 1423005583
+AR clock_divider behavioral E:/Lab2_HILBORN_KOPP/clock_divider.vhd sub00/vhpl03 1423002488
+EN clock_divider NULL E:/Lab2_HILBORN_KOPP/clock_divider.vhd sub00/vhpl02 1423002487
+EN sevensegment NULL "E:/Lab 2/Prelab/Brendon's Prelab/lab 2 vhd files/sevensegment.vhd" sub00/vhpl04 1423005582
+AR downcounter behavioral E:/Lab2_HILBORN_KOPP/downcounter.vhd sub00/vhpl01 1423002486
+EN downcounter NULL E:/Lab2_HILBORN_KOPP/downcounter.vhd sub00/vhpl00 1423002485

@@ -1,0 +1,3 @@
+vhdl work "downcounter.vhd"
+vhdl work "clock_divider.vhd"
+vhdl work "tb_clockdivider.vhd"

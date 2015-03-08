@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLParsers" num="3516" delta="new" >Found error in file &quot;<arg fmt="%s" index="1">G:/Lab2_HILBORN_KOPP 2/digital_clock.vhd</arg>&quot;. 
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/sevensegment</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">E:/Lab 2/Prelab/Brendon&apos;s Prelab/lab 2 vhd files/sevensegment.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">G:/Lab2_HILBORN_KOPP 2/sevensegment.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/sevensegment/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">E:/Lab 2/Prelab/Brendon&apos;s Prelab/lab 2 vhd files/sevensegment.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">G:/Lab2_HILBORN_KOPP 2/sevensegment.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3458" delta="new" >Because of erroneous VHDL file(s), automatic determination of correct order of compilation of files in project file &quot;<arg fmt="%s" index="1">G:/Lab2_HILBORN_KOPP 2/digital_clock_vhdl.prj</arg>&quot; may be inaccurate. Please put the files in the project file in correct order with keyword &apos;nosort&apos; at end of the project file, or compile your vhdl file(s) individually to find and fix the error(s) in your vhdl file(s). 
+</msg>
+
+<msg type="error" file="HDLParsers" num="3312" delta="new" >&quot;<arg fmt="%s" index="1">G:/Lab2_HILBORN_KOPP 2/digital_clock.vhd</arg>&quot; Line <arg fmt="%d" index="2">104</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">singlesec</arg>&apos;.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1209" delta="new" >&quot;<arg fmt="%s" index="1">G:/Lab2_HILBORN_KOPP 2/digital_clock.vhd</arg>&quot; Line <arg fmt="%d" index="2">104</arg>. <arg fmt="%s" index="3">singlesec</arg>: Undefined symbol (last report in this block)
+</msg>
+
+<msg type="error" file="HDLParsers" num="3312" delta="new" >&quot;<arg fmt="%s" index="1">G:/Lab2_HILBORN_KOPP 2/digital_clock.vhd</arg>&quot; Line <arg fmt="%d" index="2">105</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">tensec</arg>&apos;.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1209" delta="new" >&quot;<arg fmt="%s" index="1">G:/Lab2_HILBORN_KOPP 2/digital_clock.vhd</arg>&quot; Line <arg fmt="%d" index="2">105</arg>. <arg fmt="%s" index="3">tensec</arg>: Undefined symbol (last report in this block)
+</msg>
+
+<msg type="error" file="HDLParsers" num="3312" delta="new" >&quot;<arg fmt="%s" index="1">G:/Lab2_HILBORN_KOPP 2/digital_clock.vhd</arg>&quot; Line <arg fmt="%d" index="2">106</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">singlemin</arg>&apos;.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1209" delta="new" >&quot;<arg fmt="%s" index="1">G:/Lab2_HILBORN_KOPP 2/digital_clock.vhd</arg>&quot; Line <arg fmt="%d" index="2">106</arg>. <arg fmt="%s" index="3">singlemin</arg>: Undefined symbol (last report in this block)
+</msg>
+
+<msg type="error" file="HDLParsers" num="3312" delta="new" >&quot;<arg fmt="%s" index="1">G:/Lab2_HILBORN_KOPP 2/digital_clock.vhd</arg>&quot; Line <arg fmt="%d" index="2">107</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">tenmin</arg>&apos;.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1209" delta="new" >&quot;<arg fmt="%s" index="1">G:/Lab2_HILBORN_KOPP 2/digital_clock.vhd</arg>&quot; Line <arg fmt="%d" index="2">107</arg>. <arg fmt="%s" index="3">tenmin</arg>: Undefined symbol (last report in this block)
+</msg>
+
+<msg type="error" file="HDLParsers" num="3312" delta="new" >&quot;<arg fmt="%s" index="1">G:/Lab2_HILBORN_KOPP 2/digital_clock.vhd</arg>&quot; Line <arg fmt="%d" index="2">110</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">i_CA</arg>&apos;.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1209" delta="new" >&quot;<arg fmt="%s" index="1">G:/Lab2_HILBORN_KOPP 2/digital_clock.vhd</arg>&quot; Line <arg fmt="%d" index="2">110</arg>. <arg fmt="%s" index="3">i_CA</arg>: Undefined symbol (last report in this block)
+</msg>
+
+<msg type="error" file="HDLParsers" num="3312" delta="new" >&quot;<arg fmt="%s" index="1">G:/Lab2_HILBORN_KOPP 2/digital_clock.vhd</arg>&quot; Line <arg fmt="%d" index="2">111</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">i_CB</arg>&apos;.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1209" delta="new" >&quot;<arg fmt="%s" index="1">G:/Lab2_HILBORN_KOPP 2/digital_clock.vhd</arg>&quot; Line <arg fmt="%d" index="2">111</arg>. <arg fmt="%s" index="3">i_CB</arg>: Undefined symbol (last report in this block)
+</msg>
+
+<msg type="error" file="HDLParsers" num="3312" delta="new" >&quot;<arg fmt="%s" index="1">G:/Lab2_HILBORN_KOPP 2/digital_clock.vhd</arg>&quot; Line <arg fmt="%d" index="2">112</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">i_CC</arg>&apos;.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1209" delta="new" >&quot;<arg fmt="%s" index="1">G:/Lab2_HILBORN_KOPP 2/digital_clock.vhd</arg>&quot; Line <arg fmt="%d" index="2">112</arg>. <arg fmt="%s" index="3">i_CC</arg>: Undefined symbol (last report in this block)
+</msg>
+
+<msg type="error" file="HDLParsers" num="3312" delta="new" >&quot;<arg fmt="%s" index="1">G:/Lab2_HILBORN_KOPP 2/digital_clock.vhd</arg>&quot; Line <arg fmt="%d" index="2">113</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">i_CD</arg>&apos;.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1209" delta="new" >&quot;<arg fmt="%s" index="1">G:/Lab2_HILBORN_KOPP 2/digital_clock.vhd</arg>&quot; Line <arg fmt="%d" index="2">113</arg>. <arg fmt="%s" index="3">i_CD</arg>: Undefined symbol (last report in this block)
+</msg>
+
+<msg type="error" file="HDLParsers" num="3312" delta="new" >&quot;<arg fmt="%s" index="1">G:/Lab2_HILBORN_KOPP 2/digital_clock.vhd</arg>&quot; Line <arg fmt="%d" index="2">114</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">i_CE</arg>&apos;.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1209" delta="new" >&quot;<arg fmt="%s" index="1">G:/Lab2_HILBORN_KOPP 2/digital_clock.vhd</arg>&quot; Line <arg fmt="%d" index="2">114</arg>. <arg fmt="%s" index="3">i_CE</arg>: Undefined symbol (last report in this block)
+</msg>
+
+<msg type="error" file="HDLParsers" num="3312" delta="new" >&quot;<arg fmt="%s" index="1">G:/Lab2_HILBORN_KOPP 2/digital_clock.vhd</arg>&quot; Line <arg fmt="%d" index="2">115</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">i_CF</arg>&apos;.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1209" delta="new" >&quot;<arg fmt="%s" index="1">G:/Lab2_HILBORN_KOPP 2/digital_clock.vhd</arg>&quot; Line <arg fmt="%d" index="2">115</arg>. <arg fmt="%s" index="3">i_CF</arg>: Undefined symbol (last report in this block)
+</msg>
+
+<msg type="error" file="HDLParsers" num="3312" delta="new" >&quot;<arg fmt="%s" index="1">G:/Lab2_HILBORN_KOPP 2/digital_clock.vhd</arg>&quot; Line <arg fmt="%d" index="2">116</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">i_CG</arg>&apos;.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1209" delta="new" >&quot;<arg fmt="%s" index="1">G:/Lab2_HILBORN_KOPP 2/digital_clock.vhd</arg>&quot; Line <arg fmt="%d" index="2">116</arg>. <arg fmt="%s" index="3">i_CG</arg>: Undefined symbol (last report in this block)
+</msg>
+
+<msg type="error" file="HDLParsers" num="3312" delta="new" >&quot;<arg fmt="%s" index="1">G:/Lab2_HILBORN_KOPP 2/digital_clock.vhd</arg>&quot; Line <arg fmt="%d" index="2">118</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">i_DP_in</arg>&apos;.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1209" delta="new" >&quot;<arg fmt="%s" index="1">G:/Lab2_HILBORN_KOPP 2/digital_clock.vhd</arg>&quot; Line <arg fmt="%d" index="2">118</arg>. <arg fmt="%s" index="3">i_DP_in</arg>: Undefined symbol (last report in this block)
+</msg>
+
+<msg type="error" file="HDLParsers" num="3312" delta="new" >&quot;<arg fmt="%s" index="1">G:/Lab2_HILBORN_KOPP 2/digital_clock.vhd</arg>&quot; Line <arg fmt="%d" index="2">119</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">i_data</arg>&apos;.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1209" delta="new" >&quot;<arg fmt="%s" index="1">G:/Lab2_HILBORN_KOPP 2/digital_clock.vhd</arg>&quot; Line <arg fmt="%d" index="2">119</arg>. <arg fmt="%s" index="3">i_data</arg>: Undefined symbol (last report in this block)
+</msg>
+
+<msg type="error" file="HDLParsers" num="851" delta="new" >&quot;<arg fmt="%s" index="1">G:/Lab2_HILBORN_KOPP 2/digital_clock.vhd</arg>&quot; Line <arg fmt="%d" index="2">109</arg>. Formal <arg fmt="%s" index="3">dp_in</arg> of <arg fmt="%s" index="4">sevensegment</arg> with no default value must be associated with an actual value.
+</msg>
+
+<msg type="error" file="HDLParsers" num="3312" delta="new" >&quot;<arg fmt="%s" index="1">G:/Lab2_HILBORN_KOPP 2/digital_clock.vhd</arg>&quot; Line <arg fmt="%d" index="2">128</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">tens_minutes</arg>&apos;.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1209" delta="new" >&quot;<arg fmt="%s" index="1">G:/Lab2_HILBORN_KOPP 2/digital_clock.vhd</arg>&quot; Line <arg fmt="%d" index="2">128</arg>. <arg fmt="%s" index="3">tens_minutes</arg>: Undefined symbol (last report in this block)
+</msg>
+
+<msg type="error" file="HDLParsers" num="164" delta="new" >&quot;<arg fmt="%s" index="1">G:/Lab2_HILBORN_KOPP 2/digital_clock.vhd</arg>&quot; Line <arg fmt="%d" index="2">129</arg>. <arg fmt="%s" index="3">parse error, unexpected TOKBEGIN, expecting IDENTIFIER or STRING_LITERAL</arg>
+</msg>
+
+</messages>
+

@@ -1,0 +1,14 @@
+AR up_down_counter behavioral "C:/Users/Brendon/Dropbox/BH BK share/ENEL 453/Labs/Lab 3/lab3_Hilborn_Kopp_postlabwork/lab3_Hilborn_Kopp/up_down_counter.vhd" sub00/vhpl06 1425235426
+EN vga_stripes_dff NULL "C:/Users/Brendon/Dropbox/BH BK share/ENEL 453/Labs/Lab 3/lab3_Hilborn_Kopp_postlabwork/lab3_Hilborn_Kopp/vga_stripes_dff.vhd" sub00/vhpl00 1425235431
+AR clock_divider behavioral "C:/Users/Brendon/Dropbox/BH BK share/ENEL 453/Labs/Lab 3/lab3_Hilborn_Kopp_postlabwork/lab3_Hilborn_Kopp/clock_divider.vhd" sub00/vhpl11 1425235428
+EN clock_divider NULL "C:/Users/Brendon/Dropbox/BH BK share/ENEL 453/Labs/Lab 3/lab3_Hilborn_Kopp_postlabwork/lab3_Hilborn_Kopp/clock_divider.vhd" sub00/vhpl10 1425235427
+EN bouncing_box NULL "C:/Users/Brendon/Dropbox/BH BK share/ENEL 453/Labs/Lab 3/lab3_Hilborn_Kopp_postlabwork/lab3_Hilborn_Kopp/bouncing_box.vhd" sub00/vhpl01 1425235429
+AR vga_module behavioral "C:/Users/Brendon/Dropbox/BH BK share/ENEL 453/Labs/Lab 3/lab3_Hilborn_Kopp_postlabwork/lab3_Hilborn_Kopp/vga_module.vhd" sub00/vhpl13 1425235434
+EN up_down_counter NULL "C:/Users/Brendon/Dropbox/BH BK share/ENEL 453/Labs/Lab 3/lab3_Hilborn_Kopp_postlabwork/lab3_Hilborn_Kopp/up_down_counter.vhd" sub00/vhpl05 1425235425
+AR bouncing_box behavioral "C:/Users/Brendon/Dropbox/BH BK share/ENEL 453/Labs/Lab 3/lab3_Hilborn_Kopp_postlabwork/lab3_Hilborn_Kopp/bouncing_box.vhd" sub00/vhpl02 1425235430
+EN vga_module NULL "C:/Users/Brendon/Dropbox/BH BK share/ENEL 453/Labs/Lab 3/lab3_Hilborn_Kopp_postlabwork/lab3_Hilborn_Kopp/vga_module.vhd" sub00/vhpl07 1425235433
+AR downcounter behavioral "C:/Users/Brendon/Dropbox/BH BK share/ENEL 453/Labs/Lab 3/lab3_Hilborn_Kopp_postlabwork/lab3_Hilborn_Kopp/downcounter.vhd" sub00/vhpl09 1425235422
+EN downcounter NULL "C:/Users/Brendon/Dropbox/BH BK share/ENEL 453/Labs/Lab 3/lab3_Hilborn_Kopp_postlabwork/lab3_Hilborn_Kopp/downcounter.vhd" sub00/vhpl08 1425235421
+EN sync_signals_generator NULL "C:/Users/Brendon/Dropbox/BH BK share/ENEL 453/Labs/Lab 3/lab3_Hilborn_Kopp_postlabwork/lab3_Hilborn_Kopp/sync_signal_generator.vhd" sub00/vhpl03 1425235423
+AR vga_stripes_dff behavioral "C:/Users/Brendon/Dropbox/BH BK share/ENEL 453/Labs/Lab 3/lab3_Hilborn_Kopp_postlabwork/lab3_Hilborn_Kopp/vga_stripes_dff.vhd" sub00/vhpl12 1425235432
+AR sync_signals_generator behavioral "C:/Users/Brendon/Dropbox/BH BK share/ENEL 453/Labs/Lab 3/lab3_Hilborn_Kopp_postlabwork/lab3_Hilborn_Kopp/sync_signal_generator.vhd" sub00/vhpl04 1425235424

@@ -1,0 +1,7 @@
+vhdl isim_temp "downcounter.vhd"
+vhdl isim_temp "vga_stripes_dff.vhd"
+vhdl isim_temp "up_down_counter.vhd"
+vhdl isim_temp "sync_signal_generator.vhd"
+vhdl isim_temp "clock_divider.vhd"
+vhdl isim_temp "bouncing_box.vhd"
+vhdl isim_temp "vga_module.vhd"

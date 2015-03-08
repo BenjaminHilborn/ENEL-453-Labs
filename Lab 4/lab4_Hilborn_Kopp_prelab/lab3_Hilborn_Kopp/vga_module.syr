@@ -1,0 +1,698 @@
+Release 14.6 - xst P.68d (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Reading design: vga_module.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "vga_module.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "vga_module"
+Output Format                      : NGC
+Target Device                      : xc3s100e-5-cp132
+
+---- Source Options
+Top Module Name                    : vga_module
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/blhilbor/Desktop/Lab 3/lab3_Hilborn_Kopp_postlabwork/lab3_Hilborn_Kopp/downcounter.vhd" in Library work.
+Architecture behavioral of Entity downcounter is up to date.
+Compiling vhdl file "C:/Users/blhilbor/Desktop/Lab 3/lab3_Hilborn_Kopp_postlabwork/lab3_Hilborn_Kopp/sync_signal_generator.vhd" in Library work.
+Architecture behavioral of Entity sync_signals_generator is up to date.
+Compiling vhdl file "C:/Users/blhilbor/Desktop/Lab 3/lab3_Hilborn_Kopp_postlabwork/lab3_Hilborn_Kopp/up_down_counter.vhd" in Library work.
+Architecture behavioral of Entity up_down_counter is up to date.
+Compiling vhdl file "C:/Users/blhilbor/Desktop/Lab 3/lab3_Hilborn_Kopp_postlabwork/lab3_Hilborn_Kopp/clock_divider.vhd" in Library work.
+Architecture behavioral of Entity clock_divider is up to date.
+Compiling vhdl file "C:/Users/blhilbor/Desktop/Lab 3/lab3_Hilborn_Kopp_postlabwork/lab3_Hilborn_Kopp/bouncing_box.vhd" in Library work.
+Architecture behavioral of Entity bouncing_box is up to date.
+Compiling vhdl file "C:/Users/blhilbor/Desktop/Lab 3/lab3_Hilborn_Kopp_postlabwork/lab3_Hilborn_Kopp/vga_stripes_dff.vhd" in Library work.
+Architecture behavioral of Entity vga_stripes_dff is up to date.
+Compiling vhdl file "C:/Users/blhilbor/Desktop/Lab 3/lab3_Hilborn_Kopp_postlabwork/lab3_Hilborn_Kopp/vga_module.vhd" in Library work.
+Architecture behavioral of Entity vga_module is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <vga_module> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <sync_signals_generator> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <up_down_counter> in library <work> (architecture <behavioral>) with generics.
+	WIDTH = 10
+
+Analyzing hierarchy for entity <clock_divider> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <bouncing_box> in library <work> (architecture <behavioral>).
+WARNING:Xst:2094 - "C:/Users/blhilbor/Desktop/Lab 3/lab3_Hilborn_Kopp_postlabwork/lab3_Hilborn_Kopp/bouncing_box.vhd" line 24: Default value is ignored for signal <boxLocXMax>.
+WARNING:Xst:2094 - "C:/Users/blhilbor/Desktop/Lab 3/lab3_Hilborn_Kopp_postlabwork/lab3_Hilborn_Kopp/bouncing_box.vhd" line 26: Default value is ignored for signal <boxLocYMax>.
+
+Analyzing hierarchy for entity <vga_stripes_dff> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <downcounter> in library <work> (architecture <behavioral>) with generics.
+	WIDTH = 15
+	period = 9
+
+Analyzing hierarchy for entity <downcounter> in library <work> (architecture <behavioral>) with generics.
+	WIDTH = 4
+	period = 9
+
+Analyzing hierarchy for entity <downcounter> in library <work> (architecture <behavioral>) with generics.
+	WIDTH = 7
+	period = 99
+
+Analyzing hierarchy for entity <downcounter> in library <work> (architecture <behavioral>) with generics.
+	WIDTH = 4
+	period = 5
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <vga_module> in library <work> (Architecture <behavioral>).
+WARNING:Xst:753 - "C:/Users/blhilbor/Desktop/Lab 3/lab3_Hilborn_Kopp_postlabwork/lab3_Hilborn_Kopp/vga_module.vhd" line 134: Unconnected output port 'sec_dig1' of component 'clock_divider'.
+WARNING:Xst:753 - "C:/Users/blhilbor/Desktop/Lab 3/lab3_Hilborn_Kopp_postlabwork/lab3_Hilborn_Kopp/vga_module.vhd" line 134: Unconnected output port 'sec_dig2' of component 'clock_divider'.
+WARNING:Xst:753 - "C:/Users/blhilbor/Desktop/Lab 3/lab3_Hilborn_Kopp_postlabwork/lab3_Hilborn_Kopp/vga_module.vhd" line 134: Unconnected output port 'min_dig1' of component 'clock_divider'.
+WARNING:Xst:753 - "C:/Users/blhilbor/Desktop/Lab 3/lab3_Hilborn_Kopp_postlabwork/lab3_Hilborn_Kopp/vga_module.vhd" line 134: Unconnected output port 'min_dig2' of component 'clock_divider'.
+INFO:Xst:1561 - "C:/Users/blhilbor/Desktop/Lab 3/lab3_Hilborn_Kopp_postlabwork/lab3_Hilborn_Kopp/vga_module.vhd" line 182: Mux is complete : default of case is discarded
+WARNING:Xst:819 - "C:/Users/blhilbor/Desktop/Lab 3/lab3_Hilborn_Kopp_postlabwork/lab3_Hilborn_Kopp/vga_module.vhd" line 178: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <vga_select>
+Entity <vga_module> analyzed. Unit <vga_module> generated.
+
+Analyzing Entity <sync_signals_generator> in library <work> (Architecture <behavioral>).
+Entity <sync_signals_generator> analyzed. Unit <sync_signals_generator> generated.
+
+Analyzing generic Entity <up_down_counter> in library <work> (Architecture <behavioral>).
+	WIDTH = 10
+Entity <up_down_counter> analyzed. Unit <up_down_counter> generated.
+
+Analyzing Entity <clock_divider> in library <work> (Architecture <behavioral>).
+WARNING:Xst:753 - "C:/Users/blhilbor/Desktop/Lab 3/lab3_Hilborn_Kopp_postlabwork/lab3_Hilborn_Kopp/clock_divider.vhd" line 51: Unconnected output port 'value' of component 'downcounter'.
+WARNING:Xst:753 - "C:/Users/blhilbor/Desktop/Lab 3/lab3_Hilborn_Kopp_postlabwork/lab3_Hilborn_Kopp/clock_divider.vhd" line 64: Unconnected output port 'value' of component 'downcounter'.
+WARNING:Xst:753 - "C:/Users/blhilbor/Desktop/Lab 3/lab3_Hilborn_Kopp_postlabwork/lab3_Hilborn_Kopp/clock_divider.vhd" line 77: Unconnected output port 'value' of component 'downcounter'.
+WARNING:Xst:753 - "C:/Users/blhilbor/Desktop/Lab 3/lab3_Hilborn_Kopp_postlabwork/lab3_Hilborn_Kopp/clock_divider.vhd" line 129: Unconnected output port 'zero' of component 'downcounter'.
+Entity <clock_divider> analyzed. Unit <clock_divider> generated.
+
+Analyzing generic Entity <downcounter.1> in library <work> (Architecture <behavioral>).
+	WIDTH = 15
+	period = 9
+Entity <downcounter.1> analyzed. Unit <downcounter.1> generated.
+
+Analyzing generic Entity <downcounter.2> in library <work> (Architecture <behavioral>).
+	WIDTH = 4
+	period = 9
+Entity <downcounter.2> analyzed. Unit <downcounter.2> generated.
+
+Analyzing generic Entity <downcounter.3> in library <work> (Architecture <behavioral>).
+	WIDTH = 7
+	period = 99
+Entity <downcounter.3> analyzed. Unit <downcounter.3> generated.
+
+Analyzing generic Entity <downcounter.4> in library <work> (Architecture <behavioral>).
+	WIDTH = 4
+	period = 5
+Entity <downcounter.4> analyzed. Unit <downcounter.4> generated.
+
+Analyzing Entity <bouncing_box> in library <work> (Architecture <behavioral>).
+WARNING:Xst:2094 - "C:/Users/blhilbor/Desktop/Lab 3/lab3_Hilborn_Kopp_postlabwork/lab3_Hilborn_Kopp/bouncing_box.vhd" line 24: Default value is ignored for signal <boxLocXMax>.
+WARNING:Xst:2094 - "C:/Users/blhilbor/Desktop/Lab 3/lab3_Hilborn_Kopp_postlabwork/lab3_Hilborn_Kopp/bouncing_box.vhd" line 26: Default value is ignored for signal <boxLocYMax>.
+Entity <bouncing_box> analyzed. Unit <bouncing_box> generated.
+
+Analyzing Entity <vga_stripes_dff> in library <work> (Architecture <behavioral>).
+INFO:Xst:2679 - Register <next_stripe> in unit <vga_stripes_dff> has a constant value of 0 during circuit operation. The register is replaced by logic.
+Entity <vga_stripes_dff> analyzed. Unit <vga_stripes_dff> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <sync_signals_generator>.
+    Related source file is "C:/Users/blhilbor/Desktop/Lab 3/lab3_Hilborn_Kopp_postlabwork/lab3_Hilborn_Kopp/sync_signal_generator.vhd".
+    Found 11-bit up counter for signal <currentHPos>.
+    Found 12-bit comparator greater for signal <currentHPos$cmp_gt0000> created at line 45.
+    Found 11-bit up counter for signal <currentVPos>.
+    Found 12-bit comparator greatequal for signal <currentVPos$cmp_ge0000> created at line 48.
+    Found 12-bit comparator lessequal for signal <currentVPos$cmp_le0000> created at line 45.
+    Found 12-bit comparator greatequal for signal <HorBlank$cmp_ge0000> created at line 62.
+    Found 12-bit comparator less for signal <HorBlank$cmp_lt0000> created at line 62.
+    Found 12-bit comparator less for signal <HorSync$cmp_lt0000> created at line 60.
+    Found 11-bit subtractor for signal <scanlineX$addsub0000> created at line 64.
+    Found 11-bit subtractor for signal <scanlineX$addsub0001> created at line 64.
+    Found 11-bit subtractor for signal <scanlineY$addsub0000> created at line 69.
+    Found 11-bit subtractor for signal <scanlineY$addsub0001> created at line 69.
+    Found 12-bit comparator greatequal for signal <VerBlank$cmp_ge0000> created at line 68.
+    Found 12-bit comparator less for signal <VerBlank$cmp_lt0000> created at line 68.
+    Found 12-bit comparator less for signal <VerSync$cmp_lt0000> created at line 67.
+    Summary:
+	inferred   2 Counter(s).
+	inferred   4 Adder/Subtractor(s).
+	inferred   9 Comparator(s).
+Unit <sync_signals_generator> synthesized.
+
+
+Synthesizing Unit <up_down_counter>.
+    Related source file is "C:/Users/blhilbor/Desktop/Lab 3/lab3_Hilborn_Kopp_postlabwork/lab3_Hilborn_Kopp/up_down_counter.vhd".
+    Found 10-bit updown counter for signal <current_val>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <up_down_counter> synthesized.
+
+
+Synthesizing Unit <bouncing_box>.
+    Related source file is "C:/Users/blhilbor/Desktop/Lab 3/lab3_Hilborn_Kopp_postlabwork/lab3_Hilborn_Kopp/bouncing_box.vhd".
+    Found 10-bit updown counter for signal <boxLocX>.
+    Found 10-bit comparator greatequal for signal <boxLocX$cmp_ge0000> created at line 48.
+    Found 10-bit comparator lessequal for signal <boxLocX$cmp_le0000> created at line 54.
+    Found 10-bit adder for signal <boxLocXMax>.
+    Found 10-bit updown counter for signal <boxLocY>.
+    Found 10-bit comparator greatequal for signal <boxLocY$cmp_ge0000> created at line 64.
+    Found 10-bit comparator lessequal for signal <boxLocY$cmp_le0000> created at line 70.
+    Found 10-bit adder for signal <boxLocYMax>.
+    Found 1-bit register for signal <boxMoveDirX>.
+    Found 10-bit comparator greater for signal <boxMoveDirX$cmp_gt0000> created at line 54.
+    Found 10-bit comparator less for signal <boxMoveDirX$cmp_lt0000> created at line 48.
+    Found 1-bit register for signal <boxMoveDirY>.
+    Found 10-bit comparator greater for signal <boxMoveDirY$cmp_gt0000> created at line 70.
+    Found 10-bit comparator less for signal <boxMoveDirY$cmp_lt0000> created at line 64.
+    Found 10-bit adder for signal <pixelColor$add0000> created at line 83.
+    Found 10-bit adder for signal <pixelColor$add0001> created at line 83.
+    Found 11-bit comparator greatequal for signal <pixelColor$cmp_ge0000> created at line 83.
+    Found 11-bit comparator greatequal for signal <pixelColor$cmp_ge0001> created at line 83.
+    Found 11-bit comparator less for signal <pixelColor$cmp_lt0000> created at line 83.
+    Found 11-bit comparator less for signal <pixelColor$cmp_lt0001> created at line 83.
+    Found 6-bit up counter for signal <redraw>.
+    Summary:
+	inferred   3 Counter(s).
+	inferred   2 D-type flip-flop(s).
+	inferred   4 Adder/Subtractor(s).
+	inferred  12 Comparator(s).
+Unit <bouncing_box> synthesized.
+
+
+Synthesizing Unit <vga_stripes_dff>.
+    Related source file is "C:/Users/blhilbor/Desktop/Lab 3/lab3_Hilborn_Kopp_postlabwork/lab3_Hilborn_Kopp/vga_stripes_dff.vhd".
+WARNING:Xst:646 - Signal <next_stripe> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Using one-hot encoding for signal <colorstate>.
+    Found 32-bit up counter for signal <count_pixels>.
+    Found 32-bit comparator greatequal for signal <count_pixels$cmp_ge0000> created at line 35.
+    Found 8-bit register for signal <q>.
+    Found 32-bit comparator less for signal <q$cmp_lt0000> created at line 35.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   8 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+Unit <vga_stripes_dff> synthesized.
+
+
+Synthesizing Unit <downcounter_1>.
+    Related source file is "C:/Users/blhilbor/Desktop/Lab 3/lab3_Hilborn_Kopp_postlabwork/lab3_Hilborn_Kopp/downcounter.vhd".
+    Found 15-bit down counter for signal <current_count>.
+    Found 1-bit register for signal <i_zero>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+Unit <downcounter_1> synthesized.
+
+
+Synthesizing Unit <downcounter_2>.
+    Related source file is "C:/Users/blhilbor/Desktop/Lab 3/lab3_Hilborn_Kopp_postlabwork/lab3_Hilborn_Kopp/downcounter.vhd".
+    Found 4-bit down counter for signal <current_count>.
+    Found 1-bit register for signal <i_zero>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+Unit <downcounter_2> synthesized.
+
+
+Synthesizing Unit <downcounter_3>.
+    Related source file is "C:/Users/blhilbor/Desktop/Lab 3/lab3_Hilborn_Kopp_postlabwork/lab3_Hilborn_Kopp/downcounter.vhd".
+    Found 7-bit down counter for signal <current_count>.
+    Found 1-bit register for signal <i_zero>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+Unit <downcounter_3> synthesized.
+
+
+Synthesizing Unit <downcounter_4>.
+    Related source file is "C:/Users/blhilbor/Desktop/Lab 3/lab3_Hilborn_Kopp_postlabwork/lab3_Hilborn_Kopp/downcounter.vhd".
+    Found 4-bit down counter for signal <current_count>.
+    Found 1-bit register for signal <i_zero>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+Unit <downcounter_4> synthesized.
+
+
+Synthesizing Unit <clock_divider>.
+    Related source file is "C:/Users/blhilbor/Desktop/Lab 3/lab3_Hilborn_Kopp_postlabwork/lab3_Hilborn_Kopp/clock_divider.vhd".
+Unit <clock_divider> synthesized.
+
+
+Synthesizing Unit <vga_module>.
+    Related source file is "C:/Users/blhilbor/Desktop/Lab 3/lab3_Hilborn_Kopp_postlabwork/lab3_Hilborn_Kopp/vga_module.vhd".
+WARNING:Xst:646 - Signal <i_Hz> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <vga_module> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 8
+ 10-bit adder                                          : 4
+ 11-bit subtractor                                     : 4
+# Counters                                             : 14
+ 10-bit updown counter                                 : 3
+ 11-bit up counter                                     : 2
+ 15-bit down counter                                   : 1
+ 32-bit up counter                                     : 1
+ 4-bit down counter                                    : 5
+ 6-bit up counter                                      : 1
+ 7-bit down counter                                    : 1
+# Registers                                            : 10
+ 1-bit register                                        : 9
+ 8-bit register                                        : 1
+# Comparators                                          : 23
+ 10-bit comparator greatequal                          : 2
+ 10-bit comparator greater                             : 2
+ 10-bit comparator less                                : 2
+ 10-bit comparator lessequal                           : 2
+ 11-bit comparator greatequal                          : 2
+ 11-bit comparator less                                : 2
+ 12-bit comparator greatequal                          : 3
+ 12-bit comparator greater                             : 1
+ 12-bit comparator less                                : 4
+ 12-bit comparator lessequal                           : 1
+ 32-bit comparator greatequal                          : 1
+ 32-bit comparator less                                : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:1290 - Hierarchical block <tenHzClock> is unconnected in block <CLOCK_DIV>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <oneHzClock> is unconnected in block <CLOCK_DIV>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <deciHzClock> is unconnected in block <CLOCK_DIV>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <minHzClock> is unconnected in block <CLOCK_DIV>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <tenminHzClock> is unconnected in block <CLOCK_DIV>.
+   It will be removed from the design.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 8
+ 10-bit adder                                          : 4
+ 11-bit subtractor                                     : 4
+# Counters                                             : 14
+ 10-bit updown counter                                 : 3
+ 11-bit up counter                                     : 2
+ 15-bit down counter                                   : 1
+ 32-bit up counter                                     : 1
+ 4-bit down counter                                    : 5
+ 6-bit up counter                                      : 1
+ 7-bit down counter                                    : 1
+# Registers                                            : 17
+ Flip-Flops                                            : 17
+# Comparators                                          : 23
+ 10-bit comparator greatequal                          : 2
+ 10-bit comparator greater                             : 2
+ 10-bit comparator less                                : 2
+ 10-bit comparator lessequal                           : 2
+ 11-bit comparator greatequal                          : 2
+ 11-bit comparator less                                : 2
+ 12-bit comparator greatequal                          : 3
+ 12-bit comparator greater                             : 1
+ 12-bit comparator less                                : 4
+ 12-bit comparator lessequal                           : 1
+ 32-bit comparator greatequal                          : 1
+ 32-bit comparator less                                : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:2677 - Node <CLOCK_DIV/deciHzClock/i_zero> of sequential type is unconnected in block <vga_module>.
+WARNING:Xst:2677 - Node <CLOCK_DIV/tenminHzClock/i_zero> of sequential type is unconnected in block <vga_module>.
+WARNING:Xst:2677 - Node <CLOCK_DIV/tenHzClock/i_zero> of sequential type is unconnected in block <vga_module>.
+WARNING:Xst:2677 - Node <CLOCK_DIV/oneHzClock/i_zero> of sequential type is unconnected in block <vga_module>.
+WARNING:Xst:2677 - Node <CLOCK_DIV/minHzClock/i_zero> of sequential type is unconnected in block <vga_module>.
+
+Optimizing unit <vga_module> ...
+
+Optimizing unit <bouncing_box> ...
+
+Optimizing unit <vga_stripes_dff> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block vga_module, actual ratio is 20.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 121
+ Flip-Flops                                            : 121
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : vga_module.ngr
+Top Level Output File Name         : vga_module
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 23
+
+Cell Usage :
+# BELS                             : 763
+#      GND                         : 1
+#      INV                         : 54
+#      LUT1                        : 66
+#      LUT2                        : 112
+#      LUT2_D                      : 2
+#      LUT2_L                      : 2
+#      LUT3                        : 68
+#      LUT3_D                      : 1
+#      LUT3_L                      : 1
+#      LUT4                        : 52
+#      LUT4_D                      : 2
+#      LUT4_L                      : 2
+#      MUXCY                       : 231
+#      MUXF5                       : 8
+#      VCC                         : 1
+#      XORCY                       : 160
+# FlipFlops/Latches                : 121
+#      FDR                         : 26
+#      FDRE                        : 82
+#      FDS                         : 2
+#      FDSE                        : 11
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 22
+#      IBUF                        : 12
+#      OBUF                        : 10
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s100ecp132-5 
+
+ Number of Slices:                      190  out of    960    19%  
+ Number of Slice Flip Flops:            121  out of   1920     6%  
+ Number of 4 input LUTs:                362  out of   1920    18%  
+ Number of IOs:                          23
+ Number of bonded IOBs:                  23  out of     83    27%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 121   |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 7.349ns (Maximum Frequency: 136.079MHz)
+   Minimum input arrival time before clock: 4.954ns
+   Maximum output required time after clock: 14.440ns
+   Maximum combinational path delay: 6.051ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 7.349ns (frequency: 136.079MHz)
+  Total number of paths / destination ports: 7318 / 274
+-------------------------------------------------------------------------
+Delay:               7.349ns (Levels of Logic = 14)
+  Source:            CHANGE_BOX_SIZE/current_val_0 (FF)
+  Destination:       BOX/boxLocY_9 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: CHANGE_BOX_SIZE/current_val_0 to BOX/boxLocY_9
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q             5   0.514   0.690  CHANGE_BOX_SIZE/current_val_0 (CHANGE_BOX_SIZE/current_val_0)
+     LUT1:I0->O            1   0.612   0.000  BOX/Madd_boxLocYMax_cy<0>_rt (BOX/Madd_boxLocYMax_cy<0>_rt)
+     MUXCY:S->O            1   0.404   0.000  BOX/Madd_boxLocYMax_cy<0> (BOX/Madd_boxLocYMax_cy<0>)
+     MUXCY:CI->O           1   0.051   0.000  BOX/Madd_boxLocYMax_cy<1> (BOX/Madd_boxLocYMax_cy<1>)
+     MUXCY:CI->O           1   0.051   0.000  BOX/Madd_boxLocYMax_cy<2> (BOX/Madd_boxLocYMax_cy<2>)
+     MUXCY:CI->O           1   0.051   0.000  BOX/Madd_boxLocYMax_cy<3> (BOX/Madd_boxLocYMax_cy<3>)
+     MUXCY:CI->O           1   0.051   0.000  BOX/Madd_boxLocYMax_cy<4> (BOX/Madd_boxLocYMax_cy<4>)
+     MUXCY:CI->O           1   0.051   0.000  BOX/Madd_boxLocYMax_cy<5> (BOX/Madd_boxLocYMax_cy<5>)
+     MUXCY:CI->O           1   0.051   0.000  BOX/Madd_boxLocYMax_cy<6> (BOX/Madd_boxLocYMax_cy<6>)
+     MUXCY:CI->O           1   0.051   0.000  BOX/Madd_boxLocYMax_cy<7> (BOX/Madd_boxLocYMax_cy<7>)
+     MUXCY:CI->O           0   0.051   0.000  BOX/Madd_boxLocYMax_cy<8> (BOX/Madd_boxLocYMax_cy<8>)
+     XORCY:CI->O           1   0.699   0.426  BOX/Madd_boxLocYMax_xor<9> (BOX/boxLocYMax<9>)
+     LUT2:I1->O            1   0.612   0.000  BOX/Mcompar_boxLocY_cmp_ge0000_lut<9> (BOX/Mcompar_boxLocY_cmp_ge0000_lut<9>)
+     MUXCY:S->O            2   0.752   0.383  BOX/Mcompar_boxLocY_cmp_ge0000_cy<9> (BOX/boxLocY_cmp_ge0000)
+     LUT4:I3->O           10   0.612   0.750  BOX/boxLocY_not00012 (BOX/boxLocY_not0001)
+     FDRE:CE                   0.483          BOX/boxLocY_0
+    ----------------------------------------
+    Total                      7.349ns (5.100ns logic, 2.249ns route)
+                                       (69.4% logic, 30.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 209 / 144
+-------------------------------------------------------------------------
+Offset:              4.954ns (Levels of Logic = 3)
+  Source:            buttons<3> (PAD)
+  Destination:       CLOCK_DIV/hundredHzClock/i_zero (FF)
+  Destination Clock: clk rising
+
+  Data Path: buttons<3> to CLOCK_DIV/hundredHzClock/i_zero
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            65   1.106   1.112  buttons_3_IBUF (buttons_3_IBUF)
+     LUT3:I2->O            1   0.612   0.360  CLOCK_DIV/hundredHzClock/i_zero_or0000_SW0 (N22)
+     LUT4:I3->O            1   0.612   0.357  CLOCK_DIV/hundredHzClock/i_zero_or0000 (CLOCK_DIV/hundredHzClock/i_zero_or0000)
+     FDR:R                     0.795          CLOCK_DIV/hundredHzClock/i_zero
+    ----------------------------------------
+    Total                      4.954ns (3.125ns logic, 1.829ns route)
+                                       (63.1% logic, 36.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 29504 / 10
+-------------------------------------------------------------------------
+Offset:              14.440ns (Levels of Logic = 23)
+  Source:            VGA_SYNC/currentVPos_2 (FF)
+  Destination:       blue<1> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: VGA_SYNC/currentVPos_2 to blue<1>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q             6   0.514   0.721  VGA_SYNC/currentVPos_2 (VGA_SYNC/currentVPos_2)
+     LUT4:I0->O            1   0.612   0.000  VGA_SYNC/Mcompar_currentVPos_cmp_ge0000_lut<1> (VGA_SYNC/Mcompar_currentVPos_cmp_ge0000_lut<1>)
+     MUXCY:S->O            1   0.404   0.000  VGA_SYNC/Mcompar_currentVPos_cmp_ge0000_cy<1> (VGA_SYNC/Mcompar_currentVPos_cmp_ge0000_cy<1>)
+     MUXCY:CI->O           1   0.052   0.000  VGA_SYNC/Mcompar_currentVPos_cmp_ge0000_cy<2> (VGA_SYNC/Mcompar_currentVPos_cmp_ge0000_cy<2>)
+     MUXCY:CI->O           1   0.052   0.000  VGA_SYNC/Mcompar_currentVPos_cmp_ge0000_cy<3> (VGA_SYNC/Mcompar_currentVPos_cmp_ge0000_cy<3>)
+     MUXCY:CI->O           4   0.399   0.568  VGA_SYNC/Mcompar_currentVPos_cmp_ge0000_cy<4> (VGA_SYNC/Mcompar_currentVPos_cmp_ge0000_cy<4>)
+     LUT4:I1->O           68   0.612   1.235  VGA_SYNC/i_Blank_or0000 (vga_blank)
+     LUT2:I0->O            2   0.612   0.532  VGA_SYNC/scanlineX<0>1 (scanlineX<0>)
+     LUT2:I0->O            1   0.612   0.000  BOX/Mcompar_pixelColor_cmp_lt0000_lut<0> (BOX/Mcompar_pixelColor_cmp_lt0000_lut<0>)
+     MUXCY:S->O            1   0.404   0.000  BOX/Mcompar_pixelColor_cmp_lt0000_cy<0> (BOX/Mcompar_pixelColor_cmp_lt0000_cy<0>)
+     MUXCY:CI->O           1   0.051   0.000  BOX/Mcompar_pixelColor_cmp_lt0000_cy<1> (BOX/Mcompar_pixelColor_cmp_lt0000_cy<1>)
+     MUXCY:CI->O           1   0.051   0.000  BOX/Mcompar_pixelColor_cmp_lt0000_cy<2> (BOX/Mcompar_pixelColor_cmp_lt0000_cy<2>)
+     MUXCY:CI->O           1   0.051   0.000  BOX/Mcompar_pixelColor_cmp_lt0000_cy<3> (BOX/Mcompar_pixelColor_cmp_lt0000_cy<3>)
+     MUXCY:CI->O           1   0.051   0.000  BOX/Mcompar_pixelColor_cmp_lt0000_cy<4> (BOX/Mcompar_pixelColor_cmp_lt0000_cy<4>)
+     MUXCY:CI->O           1   0.051   0.000  BOX/Mcompar_pixelColor_cmp_lt0000_cy<5> (BOX/Mcompar_pixelColor_cmp_lt0000_cy<5>)
+     MUXCY:CI->O           1   0.051   0.000  BOX/Mcompar_pixelColor_cmp_lt0000_cy<6> (BOX/Mcompar_pixelColor_cmp_lt0000_cy<6>)
+     MUXCY:CI->O           1   0.051   0.000  BOX/Mcompar_pixelColor_cmp_lt0000_cy<7> (BOX/Mcompar_pixelColor_cmp_lt0000_cy<7>)
+     MUXCY:CI->O           1   0.051   0.000  BOX/Mcompar_pixelColor_cmp_lt0000_cy<8> (BOX/Mcompar_pixelColor_cmp_lt0000_cy<8>)
+     MUXCY:CI->O           1   0.051   0.000  BOX/Mcompar_pixelColor_cmp_lt0000_cy<9> (BOX/Mcompar_pixelColor_cmp_lt0000_cy<9>)
+     MUXCY:CI->O           1   0.399   0.509  BOX/Mcompar_pixelColor_cmp_lt0000_cy<10> (BOX/Mcompar_pixelColor_cmp_lt0000_cy<10>)
+     LUT4:I0->O            8   0.612   0.712  BOX/pixelColor_and00001 (BOX/pixelColor_and0000)
+     LUT3:I1->O            1   0.612   0.000  red<2>_F (N58)
+     MUXF5:I0->O           1   0.278   0.357  red<2> (red_2_OBUF)
+     OBUF:I->O                 3.169          red_2_OBUF (red<2>)
+    ----------------------------------------
+    Total                     14.440ns (9.806ns logic, 4.634ns route)
+                                       (67.9% logic, 32.1% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 16 / 8
+-------------------------------------------------------------------------
+Delay:               6.051ns (Levels of Logic = 4)
+  Source:            switches<0> (PAD)
+  Destination:       blue<0> (PAD)
+
+  Data Path: switches<0> to blue<0>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             4   1.106   0.529  switches_0_IBUF (switches_0_IBUF)
+     LUT3:I2->O            1   0.612   0.000  blue<0>_F (N72)
+     MUXF5:I0->O           1   0.278   0.357  blue<0> (blue_0_OBUF)
+     OBUF:I->O                 3.169          blue_0_OBUF (blue<0>)
+    ----------------------------------------
+    Total                      6.051ns (5.165ns logic, 0.886ns route)
+                                       (85.4% logic, 14.6% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 6.04 secs
+ 
+--> 
+
+Total memory usage is 267116 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   25 (   0 filtered)
+Number of infos    :    2 (   0 filtered)
+

@@ -1,0 +1,2 @@
+vhdl work "sevensegment_selector.vhd"
+vhdl work "tb_selector.vhd"

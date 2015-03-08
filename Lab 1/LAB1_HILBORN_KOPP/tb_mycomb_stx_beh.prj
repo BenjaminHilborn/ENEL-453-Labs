@@ -1,0 +1,2 @@
+vhdl isim_temp "switch_logic.vhd"
+vhdl isim_temp "tb_mycomb.vhd"

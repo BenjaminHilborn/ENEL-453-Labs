@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/UofC/Third Year/ENEL 453/lab 3/lab3_Hilborn_Kopp_prelab2/lab3_Hilborn_Kopp_bk_prelab/tb_vga_stripes_dff_isim_beh.exe" -prj "D:/UofC/Third Year/ENEL 453/lab 3/lab3_Hilborn_Kopp_prelab2/lab3_Hilborn_Kopp_bk_prelab/tb_vga_stripes_dff_beh.prj" "work.tb_vga_stripes_dff" 

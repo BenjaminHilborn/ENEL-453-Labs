@@ -1,0 +1,34 @@
+V3 23
+FL "E:/Lab 2/Prelab/Brendon's Prelab/lab 2 vhd files/sevensegment.vhd" 2015/02/02.22:51:38 P.20131013
+FL E:/Lab2_HILBORN_KOPP/clock_divider.vhd 2015/02/03.15:27:56 P.20131013
+FL E:/Lab2_HILBORN_KOPP/downcounter.vhd 2015/02/03.10:31:42 P.20131013
+FL E:/Lab2_HILBORN_KOPP/sevensegment.vhd 2015/02/03.12:41:42 P.20131013
+FL "G:/Lab2_HILBORN_KOPP 2/clock_divider.vhd" 2015/02/03.16:09:00 P.20131013
+EN work/clock_divider 1423076584 FL "G:/Lab2_HILBORN_KOPP 2/clock_divider.vhd" \
+      PB ieee/std_logic_1164 1370735607
+AR work/clock_divider/Behavioral 1423076585 \
+      FL "G:/Lab2_HILBORN_KOPP 2/clock_divider.vhd" EN work/clock_divider 1423076584 \
+      CP downcounter
+EN work/digital_clock 0 FL "G:/Lab2_HILBORN_KOPP 2/digital_clock.vhd" \
+      PB ieee/std_logic_1164 1370735607
+AR work/digital_clock/Behavioral 0 \
+      FL "G:/Lab2_HILBORN_KOPP 2/digital_clock.vhd" EN work/digital_clock 0 \
+      CP sevensegment_selector CP clock_divider CP sevensegment
+FL "G:/Lab2_HILBORN_KOPP 2/downcounter.vhd" 2015/02/03.10:31:42 P.20131013
+EN work/downcounter 1423076580 FL "G:/Lab2_HILBORN_KOPP 2/downcounter.vhd" \
+      PB ieee/std_logic_1164 1370735607 PB ieee/NUMERIC_STD 1370735611 \
+      PB ieee/STD_LOGIC_UNSIGNED 1370735609
+AR work/downcounter/Behavioral 1423076581 \
+      FL "G:/Lab2_HILBORN_KOPP 2/downcounter.vhd" EN work/downcounter 1423076580
+FL "G:/Lab2_HILBORN_KOPP 2/sevensegment.vhd" 2015/02/02.22:51:38 P.20131013
+EN work/sevensegment 1423076586 FL "G:/Lab2_HILBORN_KOPP 2/sevensegment.vhd" \
+      PB ieee/std_logic_1164 1370735607
+AR work/sevensegment/Behavioral 1423076587 \
+      FL "G:/Lab2_HILBORN_KOPP 2/sevensegment.vhd" EN work/sevensegment 1423076586
+FL "G:/Lab2_HILBORN_KOPP 2/sevensegment_selector.vhd" 2015/02/03.16:52:20 P.20131013
+EN work/sevensegment_selector 1423076582 \
+      FL "G:/Lab2_HILBORN_KOPP 2/sevensegment_selector.vhd" \
+      PB ieee/std_logic_1164 1370735607
+AR work/sevensegment_selector/Behavioral 1423076583 \
+      FL "G:/Lab2_HILBORN_KOPP 2/sevensegment_selector.vhd" \
+      EN work/sevensegment_selector 1423076582

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "G:/Lab2_HILBORN_KOPP 2/tb_selector_isim_beh.exe" -prj "G:/Lab2_HILBORN_KOPP 2/tb_selector_beh.prj" "work.tb_selector" 

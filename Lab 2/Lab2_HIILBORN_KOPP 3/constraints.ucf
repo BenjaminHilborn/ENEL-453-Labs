@@ -1,0 +1,15 @@
+NET "clk" LOC="M6"; #25MHz clock signal
+NET "reset" LOC="G12"; #reset input
+NET "AN1" LOC="K14"; #"F12"; 
+NET "AN2" LOC="M13"; #"J12"; 
+NET "AN3" LOC="J12"; #"M13"; 
+NET "AN4" LOC="F12"; #"K14"; 
+NET "CA" LOC="L14"; 
+NET "CB" LOC="H12";
+NET "CC" LOC="N14";
+NET "CD" LOC="N11";
+NET "CE" LOC="P12";
+NET "CF" LOC="L13";
+NET "CG" LOC="M12";
+NET "DP" LOC="N13";
+#NET "switch" LOC="P11";

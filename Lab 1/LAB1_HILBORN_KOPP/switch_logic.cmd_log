@@ -1,0 +1,29 @@
+xst -intstyle ise -ifn "C:/Users/blhilbor/LAB1_HILBORN_KOPP/switch_logic.xst" -ofn "C:/Users/blhilbor/LAB1_HILBORN_KOPP/switch_logic.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 switch_logic.ngc switch_logic.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o switch_logic_map.ncd switch_logic.ngd switch_logic.pcf 
+par -w -intstyle ise -ol high -t 1 switch_logic_map.ncd switch_logic.ncd switch_logic.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml switch_logic.twx switch_logic.ncd -o switch_logic.twr switch_logic.pcf 
+bitgen -intstyle ise -f switch_logic.ut switch_logic.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s100e-cp132-5 switch_logic.ngc switch_logic.ngd  
+xst -intstyle ise -ifn "C:/Users/blhilbor/LAB1_HILBORN_KOPP/switch_logic.xst" -ofn "C:/Users/blhilbor/LAB1_HILBORN_KOPP/switch_logic.syr" 
+xst -intstyle ise -ifn "C:/Users/blhilbor/LAB1_HILBORN_KOPP/switch_logic.xst" -ofn "C:/Users/blhilbor/LAB1_HILBORN_KOPP/switch_logic.syr" 
+xst -intstyle ise -ifn "C:/Users/blhilbor/LAB1_HILBORN_KOPP/switch_logic.xst" -ofn "C:/Users/blhilbor/LAB1_HILBORN_KOPP/switch_logic.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s100e-cp132-5 switch_logic.ngc switch_logic.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o switch_logic_map.ncd switch_logic.ngd switch_logic.pcf 
+par -w -intstyle ise -ol high -t 1 switch_logic_map.ncd switch_logic.ncd switch_logic.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml switch_logic.twx switch_logic.ncd -o switch_logic.twr switch_logic.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f switch_logic.ut switch_logic.ncd 
+bitgen -intstyle ise -f switch_logic.ut switch_logic.ncd 
+xst -intstyle ise -ifn "C:/Users/blhilbor/LAB1_HILBORN_KOPP/switch_logic.xst" -ofn "C:/Users/blhilbor/LAB1_HILBORN_KOPP/switch_logic.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s100e-cp132-5 switch_logic.ngc switch_logic.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o switch_logic_map.ncd switch_logic.ngd switch_logic.pcf 
+par -w -intstyle ise -ol high -t 1 switch_logic_map.ncd switch_logic.ncd switch_logic.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml switch_logic.twx switch_logic.ncd -o switch_logic.twr switch_logic.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f switch_logic.ut switch_logic.ncd 
+xst -intstyle ise -ifn "C:/Users/blhilbor/LAB1_HILBORN_KOPP/switch_logic.xst" -ofn "C:/Users/blhilbor/LAB1_HILBORN_KOPP/switch_logic.syr" 
+xst -intstyle ise -ifn "C:/Users/blhilbor/LAB1_HILBORN_KOPP/switch_logic.xst" -ofn "C:/Users/blhilbor/LAB1_HILBORN_KOPP/switch_logic.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s100e-cp132-5 switch_logic.ngc switch_logic.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o switch_logic_map.ncd switch_logic.ngd switch_logic.pcf 
+par -w -intstyle ise -ol high -t 1 switch_logic_map.ncd switch_logic.ncd switch_logic.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml switch_logic.twx switch_logic.ncd -o switch_logic.twr switch_logic.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f switch_logic.ut switch_logic.ncd 

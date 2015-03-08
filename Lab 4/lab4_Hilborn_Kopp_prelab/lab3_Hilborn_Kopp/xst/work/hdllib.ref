@@ -1,0 +1,14 @@
+AR up_down_counter behavioral "C:/Users/blhilbor/Desktop/Lab 3/lab3_Hilborn_Kopp_postlabwork/lab3_Hilborn_Kopp/up_down_counter.vhd" sub00/vhpl06 1425343913
+EN vga_stripes_dff NULL "C:/Users/blhilbor/Desktop/Lab 3/lab3_Hilborn_Kopp_postlabwork/lab3_Hilborn_Kopp/vga_stripes_dff.vhd" sub00/vhpl00 1425343918
+AR clock_divider behavioral "C:/Users/blhilbor/Desktop/Lab 3/lab3_Hilborn_Kopp_postlabwork/lab3_Hilborn_Kopp/clock_divider.vhd" sub00/vhpl11 1425343915
+EN clock_divider NULL "C:/Users/blhilbor/Desktop/Lab 3/lab3_Hilborn_Kopp_postlabwork/lab3_Hilborn_Kopp/clock_divider.vhd" sub00/vhpl10 1425343914
+EN bouncing_box NULL "C:/Users/blhilbor/Desktop/Lab 3/lab3_Hilborn_Kopp_postlabwork/lab3_Hilborn_Kopp/bouncing_box.vhd" sub00/vhpl01 1425343916
+AR vga_module behavioral "C:/Users/blhilbor/Desktop/Lab 3/lab3_Hilborn_Kopp_postlabwork/lab3_Hilborn_Kopp/vga_module.vhd" sub00/vhpl13 1425343921
+EN up_down_counter NULL "C:/Users/blhilbor/Desktop/Lab 3/lab3_Hilborn_Kopp_postlabwork/lab3_Hilborn_Kopp/up_down_counter.vhd" sub00/vhpl05 1425343912
+AR bouncing_box behavioral "C:/Users/blhilbor/Desktop/Lab 3/lab3_Hilborn_Kopp_postlabwork/lab3_Hilborn_Kopp/bouncing_box.vhd" sub00/vhpl02 1425343917
+EN vga_module NULL "C:/Users/blhilbor/Desktop/Lab 3/lab3_Hilborn_Kopp_postlabwork/lab3_Hilborn_Kopp/vga_module.vhd" sub00/vhpl07 1425343920
+AR downcounter behavioral "C:/Users/blhilbor/Desktop/Lab 3/lab3_Hilborn_Kopp_postlabwork/lab3_Hilborn_Kopp/downcounter.vhd" sub00/vhpl09 1425343909
+EN downcounter NULL "C:/Users/blhilbor/Desktop/Lab 3/lab3_Hilborn_Kopp_postlabwork/lab3_Hilborn_Kopp/downcounter.vhd" sub00/vhpl08 1425343908
+EN sync_signals_generator NULL "C:/Users/blhilbor/Desktop/Lab 3/lab3_Hilborn_Kopp_postlabwork/lab3_Hilborn_Kopp/sync_signal_generator.vhd" sub00/vhpl03 1425343910
+AR vga_stripes_dff behavioral "C:/Users/blhilbor/Desktop/Lab 3/lab3_Hilborn_Kopp_postlabwork/lab3_Hilborn_Kopp/vga_stripes_dff.vhd" sub00/vhpl12 1425343919
+AR sync_signals_generator behavioral "C:/Users/blhilbor/Desktop/Lab 3/lab3_Hilborn_Kopp_postlabwork/lab3_Hilborn_Kopp/sync_signal_generator.vhd" sub00/vhpl04 1425343911

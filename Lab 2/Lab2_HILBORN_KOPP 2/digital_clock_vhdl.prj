@@ -1,0 +1,5 @@
+vhdl work "G:\Lab2_HILBORN_KOPP 2\downcounter.vhd"
+vhdl work "G:\Lab2_HILBORN_KOPP 2\sevensegment_selector.vhd"
+vhdl work "G:\Lab2_HILBORN_KOPP 2\sevensegment.vhd"
+vhdl work "G:\Lab2_HILBORN_KOPP 2\clock_divider.vhd"
+vhdl work "G:\Lab2_HILBORN_KOPP 2\digital_clock.vhd"

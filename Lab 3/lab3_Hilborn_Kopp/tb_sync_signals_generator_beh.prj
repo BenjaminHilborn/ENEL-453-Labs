@@ -1,0 +1,2 @@
+vhdl work "sync_signal_generator.vhd"
+vhdl work "tb_sync_signals_generator.vhd"

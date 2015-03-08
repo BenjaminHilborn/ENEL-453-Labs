@@ -1,0 +1,21 @@
+V3 11
+FL "E:/Lab 2/Prelab/Brendon's Prelab/lab 2 vhd files/sevensegment.vhd" 2015/02/02.22:51:38 P.68d
+EN work/sevensegment 1423005582 \
+      FL "E:/Lab 2/Prelab/Brendon's Prelab/lab 2 vhd files/sevensegment.vhd" \
+      PB ieee/std_logic_1164 1370735607
+AR work/sevensegment/Behavioral 1423005583 \
+      FL "E:/Lab 2/Prelab/Brendon's Prelab/lab 2 vhd files/sevensegment.vhd" \
+      EN work/sevensegment 1423005582
+FL E:/Lab2_HILBORN_KOPP/clock_divider.vhd 2015/02/03.15:27:56 P.68d
+EN work/clock_divider 1423002487 FL E:/Lab2_HILBORN_KOPP/clock_divider.vhd \
+      PB ieee/std_logic_1164 1370735607
+AR work/clock_divider/Behavioral 1423002488 \
+      FL E:/Lab2_HILBORN_KOPP/clock_divider.vhd EN work/clock_divider 1423002487 \
+      CP downcounter
+FL E:/Lab2_HILBORN_KOPP/downcounter.vhd 2015/02/03.10:31:42 P.68d
+EN work/downcounter 1423002485 FL E:/Lab2_HILBORN_KOPP/downcounter.vhd \
+      PB ieee/std_logic_1164 1370735607 PB ieee/NUMERIC_STD 1370735611 \
+      PB ieee/STD_LOGIC_UNSIGNED 1370735609
+AR work/downcounter/Behavioral 1423002486 \
+      FL E:/Lab2_HILBORN_KOPP/downcounter.vhd EN work/downcounter 1423002485
+FL E:/Lab2_HILBORN_KOPP/sevensegment.vhd 2015/02/03.12:41:42 P.68d

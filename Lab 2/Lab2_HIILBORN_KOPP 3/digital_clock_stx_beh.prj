@@ -1,0 +1,5 @@
+vhdl isim_temp "downcounter.vhd"
+vhdl isim_temp "sevensegment_selector.vhd"
+vhdl isim_temp "sevensegment.vhd"
+vhdl isim_temp "clock_divider.vhd"
+vhdl isim_temp "digital_clock.vhd"

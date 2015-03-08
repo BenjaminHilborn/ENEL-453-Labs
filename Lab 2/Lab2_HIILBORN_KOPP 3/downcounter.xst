@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Benjamin/Desktop/Lab2_HILBORN_KOPP 2/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Benjamin/Desktop/Lab2_HILBORN_KOPP 2/xst"
+elaborate
+-ifn downcounter.prj
+-ifmt mixed

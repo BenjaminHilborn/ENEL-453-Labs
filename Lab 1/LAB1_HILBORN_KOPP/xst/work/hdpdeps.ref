@@ -1,0 +1,8 @@
+V3 3
+FL C:/Users/blhilbor/LAB1_HILBORN_KOPP/switch_logic.vhd 2015/01/20.16:23:55 P.68d
+EN work/switch_logic 1421796423 \
+      FL C:/Users/blhilbor/LAB1_HILBORN_KOPP/switch_logic.vhd \
+      PB ieee/std_logic_1164 1370735607
+AR work/switch_logic/Behavioral 1421796424 \
+      FL C:/Users/blhilbor/LAB1_HILBORN_KOPP/switch_logic.vhd \
+      EN work/switch_logic 1421796423

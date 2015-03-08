@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "G:/Lab2_HILBORN_KOPP 2/digital_clock.xst" -ofn "G:/Lab2_HILBORN_KOPP 2/digital_clock.syr" 

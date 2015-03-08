@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Brendon/Dropbox/school/Y3S2/ENEL 453/Labs/Lab 3/lab3_Hilborn_Kopp/tb_sync_signals_generator_isim_beh.exe" -prj "C:/Users/Brendon/Dropbox/school/Y3S2/ENEL 453/Labs/Lab 3/lab3_Hilborn_Kopp/tb_sync_signals_generator_beh.prj" "work.tb_sync_signals_generator" 

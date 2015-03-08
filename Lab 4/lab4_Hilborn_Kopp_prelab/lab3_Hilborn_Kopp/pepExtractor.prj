@@ -1,0 +1,7 @@
+work	"bouncing_box.vhd"
+work	"clock_divider.vhd"
+work	"downcounter.vhd"
+work	"sync_signal_generator.vhd"
+work	"up_down_counter.vhd"
+work	"vga_module.vhd"
+work	"vga_stripes_dff.vhd"

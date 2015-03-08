@@ -1,0 +1,18 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -o "C:/Users/blhilbor/LAB1_HILBORN_KOPP/tb_mycomb_isim_beh.exe" -prj "C:/Users/blhilbor/LAB1_HILBORN_KOPP/tb_mycomb_beh.prj" "work.tb_mycomb" 
+ISim P.68d (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/blhilbor/LAB1_HILBORN_KOPP/switch_logic.vhd" into library work
+Parsing VHDL file "C:/Users/blhilbor/LAB1_HILBORN_KOPP/tb_mycomb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture behavioral of entity switch_logic [switch_logic_default]
+Compiling architecture behavior of entity tb_mycomb
+Time Resolution for simulation is 1ps.
+Compiled 5 VHDL Units
+Built simulation executable C:/Users/blhilbor/LAB1_HILBORN_KOPP/tb_mycomb_isim_beh.exe
+Fuse Memory Usage: 28884 KB
+Fuse CPU Usage: 389 ms

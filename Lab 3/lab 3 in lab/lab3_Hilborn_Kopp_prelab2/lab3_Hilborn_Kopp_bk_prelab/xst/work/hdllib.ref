@@ -1,0 +1,13 @@
+AR up_down_counter behavioral "D:/UofC/Third Year/ENEL 453/lab 3/lab3_Hilborn_Kopp_prelab2/lab3_Hilborn_Kopp_bk_prelab/up_down_counter.vhd" sub00/vhpl06 1424821872
+EN vga_stripes_dff NULL "D:/UofC/Third Year/ENEL 453/lab 3/lab3_Hilborn_Kopp_prelab2/lab3_Hilborn_Kopp_bk_prelab/vga_stripes_dff.vhd" sub00/vhpl00 1424821877
+AR clock_divider behavioral "D:/UofC/Third Year/ENEL 453/lab 3/lab3_Hilborn_Kopp_prelab2/lab3_Hilborn_Kopp_bk_prelab/clock_divider.vhd" sub00/vhpl11 1424821874
+EN clock_divider NULL "D:/UofC/Third Year/ENEL 453/lab 3/lab3_Hilborn_Kopp_prelab2/lab3_Hilborn_Kopp_bk_prelab/clock_divider.vhd" sub00/vhpl10 1424821873
+EN bouncing_box NULL "D:/UofC/Third Year/ENEL 453/lab 3/lab3_Hilborn_Kopp_prelab2/lab3_Hilborn_Kopp_bk_prelab/bouncing_box.vhd" sub00/vhpl01 1424821875
+EN up_down_counter NULL "D:/UofC/Third Year/ENEL 453/lab 3/lab3_Hilborn_Kopp_prelab2/lab3_Hilborn_Kopp_bk_prelab/up_down_counter.vhd" sub00/vhpl05 1424821871
+AR bouncing_box behavioral "D:/UofC/Third Year/ENEL 453/lab 3/lab3_Hilborn_Kopp_prelab2/lab3_Hilborn_Kopp_bk_prelab/bouncing_box.vhd" sub00/vhpl02 1424821876
+EN vga_module NULL "D:/UofC/Third Year/ENEL 453/lab 3/lab3_Hilborn_Kopp_prelab2/lab3_Hilborn_Kopp_bk_prelab/vga_module.vhd" sub00/vhpl07 1424821879
+AR downcounter behavioral "D:/UofC/Third Year/ENEL 453/lab 3/lab3_Hilborn_Kopp_prelab2/lab3_Hilborn_Kopp_bk_prelab/downcounter.vhd" sub00/vhpl09 1424821868
+EN downcounter NULL "D:/UofC/Third Year/ENEL 453/lab 3/lab3_Hilborn_Kopp_prelab2/lab3_Hilborn_Kopp_bk_prelab/downcounter.vhd" sub00/vhpl08 1424821867
+EN sync_signals_generator NULL "D:/UofC/Third Year/ENEL 453/lab 3/lab3_Hilborn_Kopp_prelab2/lab3_Hilborn_Kopp_bk_prelab/sync_signal_generator.vhd" sub00/vhpl03 1424821869
+AR vga_stripes_dff behavioral "D:/UofC/Third Year/ENEL 453/lab 3/lab3_Hilborn_Kopp_prelab2/lab3_Hilborn_Kopp_bk_prelab/vga_stripes_dff.vhd" sub00/vhpl12 1424821878
+AR sync_signals_generator behavioral "D:/UofC/Third Year/ENEL 453/lab 3/lab3_Hilborn_Kopp_prelab2/lab3_Hilborn_Kopp_bk_prelab/sync_signal_generator.vhd" sub00/vhpl04 1424821870

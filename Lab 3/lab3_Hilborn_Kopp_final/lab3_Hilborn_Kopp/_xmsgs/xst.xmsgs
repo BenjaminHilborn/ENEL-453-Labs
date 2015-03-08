@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="2094" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/blhilbor/Desktop/Lab 3/lab3_Hilborn_Kopp_postlabwork/lab3_Hilborn_Kopp/bouncing_box.vhd</arg>&quot; line <arg fmt="%d" index="2">24</arg>: Default value is ignored for signal &lt;<arg fmt="%s" index="3">boxLocXMax</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2094" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/blhilbor/Desktop/Lab 3/lab3_Hilborn_Kopp_postlabwork/lab3_Hilborn_Kopp/bouncing_box.vhd</arg>&quot; line <arg fmt="%d" index="2">26</arg>: Default value is ignored for signal &lt;<arg fmt="%s" index="3">boxLocYMax</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/blhilbor/Desktop/Lab 3/lab3_Hilborn_Kopp_postlabwork/lab3_Hilborn_Kopp/vga_module.vhd</arg>&quot; line <arg fmt="%d" index="2">134</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">sec_dig1</arg>&apos; of component &apos;<arg fmt="%s" index="4">clock_divider</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/blhilbor/Desktop/Lab 3/lab3_Hilborn_Kopp_postlabwork/lab3_Hilborn_Kopp/vga_module.vhd</arg>&quot; line <arg fmt="%d" index="2">134</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">sec_dig2</arg>&apos; of component &apos;<arg fmt="%s" index="4">clock_divider</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/blhilbor/Desktop/Lab 3/lab3_Hilborn_Kopp_postlabwork/lab3_Hilborn_Kopp/vga_module.vhd</arg>&quot; line <arg fmt="%d" index="2">134</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">min_dig1</arg>&apos; of component &apos;<arg fmt="%s" index="4">clock_divider</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/blhilbor/Desktop/Lab 3/lab3_Hilborn_Kopp_postlabwork/lab3_Hilborn_Kopp/vga_module.vhd</arg>&quot; line <arg fmt="%d" index="2">134</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">min_dig2</arg>&apos; of component &apos;<arg fmt="%s" index="4">clock_divider</arg>&apos;.
+</msg>
+
+<msg type="info" file="Xst" num="1561" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/blhilbor/Desktop/Lab 3/lab3_Hilborn_Kopp_postlabwork/lab3_Hilborn_Kopp/vga_module.vhd</arg>&quot; line <arg fmt="%d" index="2">182</arg>: Mux is complete : default of case is discarded
+</msg>
+
+<msg type="warning" file="Xst" num="819" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/blhilbor/Desktop/Lab 3/lab3_Hilborn_Kopp_postlabwork/lab3_Hilborn_Kopp/vga_module.vhd</arg>&quot; line <arg fmt="%d" index="2">178</arg>: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+<arg fmt="%s" index="3">&lt;vga_select&gt;</arg>
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/blhilbor/Desktop/Lab 3/lab3_Hilborn_Kopp_postlabwork/lab3_Hilborn_Kopp/clock_divider.vhd</arg>&quot; line <arg fmt="%d" index="2">51</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">value</arg>&apos; of component &apos;<arg fmt="%s" index="4">downcounter</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/blhilbor/Desktop/Lab 3/lab3_Hilborn_Kopp_postlabwork/lab3_Hilborn_Kopp/clock_divider.vhd</arg>&quot; line <arg fmt="%d" index="2">64</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">value</arg>&apos; of component &apos;<arg fmt="%s" index="4">downcounter</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/blhilbor/Desktop/Lab 3/lab3_Hilborn_Kopp_postlabwork/lab3_Hilborn_Kopp/clock_divider.vhd</arg>&quot; line <arg fmt="%d" index="2">77</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">value</arg>&apos; of component &apos;<arg fmt="%s" index="4">downcounter</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/blhilbor/Desktop/Lab 3/lab3_Hilborn_Kopp_postlabwork/lab3_Hilborn_Kopp/clock_divider.vhd</arg>&quot; line <arg fmt="%d" index="2">129</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">zero</arg>&apos; of component &apos;<arg fmt="%s" index="4">downcounter</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="2094" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/blhilbor/Desktop/Lab 3/lab3_Hilborn_Kopp_postlabwork/lab3_Hilborn_Kopp/bouncing_box.vhd</arg>&quot; line <arg fmt="%d" index="2">24</arg>: Default value is ignored for signal &lt;<arg fmt="%s" index="3">boxLocXMax</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2094" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/blhilbor/Desktop/Lab 3/lab3_Hilborn_Kopp_postlabwork/lab3_Hilborn_Kopp/bouncing_box.vhd</arg>&quot; line <arg fmt="%d" index="2">26</arg>: Default value is ignored for signal &lt;<arg fmt="%s" index="3">boxLocYMax</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="old" >Register &lt;<arg fmt="%s" index="1">next_stripe</arg>&gt; in unit &lt;<arg fmt="%s" index="2">vga_stripes_dff</arg>&gt; has a constant value of <arg fmt="%s" index="3">0</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">next_stripe</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">i_Hz</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">tenHzClock</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">CLOCK_DIV</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">oneHzClock</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">CLOCK_DIV</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">deciHzClock</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">CLOCK_DIV</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">minHzClock</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">CLOCK_DIV</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">tenminHzClock</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">CLOCK_DIV</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CLOCK_DIV/deciHzClock/i_zero</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vga_module</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CLOCK_DIV/tenminHzClock/i_zero</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vga_module</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CLOCK_DIV/tenHzClock/i_zero</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vga_module</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CLOCK_DIV/oneHzClock/i_zero</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vga_module</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CLOCK_DIV/minHzClock/i_zero</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vga_module</arg>&gt;.
+</msg>
+
+</messages>
+

@@ -1,0 +1,29 @@
+Command line:
+   tb_clockdivider_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  58663
+
+Tue Feb 10 00:02:56 2015
+
+
+ Elaboration Time: 0.1872 sec
+
+ Current Memory Usage: 1163.48 Meg
+
+ Total Signals          : 74
+ Total Nets             : 118
+ Total Signal Drivers   : 35
+ Total Blocks           : 13
+ Total Primitive Blocks : 11
+ Total Processes        : 28
+ Total Traceable Variables  : 44
+ Total Scalar Nets and Variables : 718
+Total Line Count : 98
+
+ Total Simulation Time: 0.1872 sec
+
+ Current Memory Usage: 1163.48 Meg
+
+Tue Feb 10 00:03:19 2015
+

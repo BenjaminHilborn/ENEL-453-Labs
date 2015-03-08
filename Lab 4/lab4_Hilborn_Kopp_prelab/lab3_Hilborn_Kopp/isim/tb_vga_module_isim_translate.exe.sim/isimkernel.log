@@ -1,0 +1,29 @@
+Command line:
+   tb_vga_module_isim_translate.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  60939
+
+Mon Mar 02 17:52:10 2015
+
+
+ Elaboration Time: 0.2184 sec
+
+ Current Memory Usage: 1363.37 Meg
+
+ Total Signals          : 13571
+ Total Nets             : 7404
+ Total Signal Drivers   : 7320
+ Total Blocks           : 1756
+ Total Primitive Blocks : 1086
+ Total Processes        : 9302
+ Total Traceable Variables  : 2446
+ Total Scalar Nets and Variables : 80235
+Total Line Count : 3768
+
+ Total Simulation Time: 0.733204 sec
+
+ Current Memory Usage: 891.478 Meg
+
+Mon Mar 02 17:56:45 2015
+

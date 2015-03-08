@@ -1,0 +1,9 @@
+AR sevensegment behavioral "G:/Lab2_HILBORN_KOPP 2/sevensegment.vhd" sub00/vhpl05 1423076587
+AR clock_divider behavioral "G:/Lab2_HILBORN_KOPP 2/clock_divider.vhd" sub00/vhpl03 1423076585
+EN digital_clock NULL "G:/Lab2_HILBORN_KOPP 2/digital_clock.vhd" sub00/vhpl08 1423076588
+EN clock_divider NULL "G:/Lab2_HILBORN_KOPP 2/clock_divider.vhd" sub00/vhpl02 1423076584
+AR sevensegment_selector behavioral "G:/Lab2_HILBORN_KOPP 2/sevensegment_selector.vhd" sub00/vhpl07 1423076583
+EN sevensegment NULL "G:/Lab2_HILBORN_KOPP 2/sevensegment.vhd" sub00/vhpl04 1423076586
+AR downcounter behavioral "G:/Lab2_HILBORN_KOPP 2/downcounter.vhd" sub00/vhpl01 1423076581
+EN downcounter NULL "G:/Lab2_HILBORN_KOPP 2/downcounter.vhd" sub00/vhpl00 1423076580
+EN sevensegment_selector NULL "G:/Lab2_HILBORN_KOPP 2/sevensegment_selector.vhd" sub00/vhpl06 1423076582

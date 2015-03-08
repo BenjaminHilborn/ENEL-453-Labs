@@ -1,0 +1,2 @@
+vhdl isim_temp "bouncing_box.vhd"
+vhdl isim_temp "tb_bouncing_box.vhd"

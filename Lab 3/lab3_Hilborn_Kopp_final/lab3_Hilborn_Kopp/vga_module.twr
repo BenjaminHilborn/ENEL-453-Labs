@@ -1,0 +1,112 @@
+--------------------------------------------------------------------------------
+Release 14.6 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.6\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 5
+-n 3 -fastpaths -xml vga_module.twx vga_module.ncd -o vga_module.twr
+vga_module.pcf -ucf constraints_vga_module.ucf
+
+Design file:              vga_module.ncd
+Physical constraint file: vga_module.pcf
+Device,package,speed:     xc3s100e,cp132,-5 (PRODUCTION 1.27 2013-06-08)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock clk
+------------+------------+------------+------------------+--------+
+            |Max Setup to|Max Hold to |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+buttons<0>  |    3.378(R)|    0.527(R)|clk_BUFGP         |   0.000|
+buttons<1>  |    1.756(R)|    0.040(R)|clk_BUFGP         |   0.000|
+buttons<3>  |    4.544(R)|    0.599(R)|clk_BUFGP         |   0.000|
+switches<0> |    0.976(R)|    0.397(R)|clk_BUFGP         |   0.000|
+------------+------------+------------+------------------+--------+
+
+Clock clk to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+blue<0>     |   19.722(R)|clk_BUFGP         |   0.000|
+blue<1>     |   19.920(R)|clk_BUFGP         |   0.000|
+green<0>    |   21.242(R)|clk_BUFGP         |   0.000|
+green<1>    |   20.702(R)|clk_BUFGP         |   0.000|
+green<2>    |   20.314(R)|clk_BUFGP         |   0.000|
+hsync       |    9.082(R)|clk_BUFGP         |   0.000|
+red<0>      |   20.287(R)|clk_BUFGP         |   0.000|
+red<1>      |   20.006(R)|clk_BUFGP         |   0.000|
+red<2>      |   20.325(R)|clk_BUFGP         |   0.000|
+vsync       |    9.489(R)|clk_BUFGP         |   0.000|
+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    6.680|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+buttons<2>     |blue<0>        |    7.021|
+buttons<2>     |blue<1>        |    7.231|
+buttons<2>     |green<0>       |    8.447|
+buttons<2>     |green<1>       |    8.416|
+buttons<2>     |green<2>       |    8.269|
+buttons<2>     |red<0>         |    8.870|
+buttons<2>     |red<1>         |    9.034|
+buttons<2>     |red<2>         |    8.009|
+switches<0>    |blue<0>        |    6.883|
+switches<1>    |blue<1>        |    8.082|
+switches<2>    |green<0>       |    7.873|
+switches<3>    |green<1>       |    7.735|
+switches<4>    |green<2>       |    7.402|
+switches<5>    |red<0>         |    7.414|
+switches<6>    |red<1>         |    7.012|
+switches<7>    |red<2>         |    7.737|
+---------------+---------------+---------+
+
+
+Analysis completed Mon Mar 02 17:49:12 2015 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 153 MB
+
+
+

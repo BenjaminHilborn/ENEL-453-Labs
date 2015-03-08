@@ -1,0 +1,2 @@
+verilog work "netgen/translate/vga_module_translate.v"
+vhdl work "tb_vga_module.vhd"

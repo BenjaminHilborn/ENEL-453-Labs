@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">E:/Lab2_HILBORN_KOPP/clock_divider.vhd</arg>&quot; line <arg fmt="%d" index="2">49</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">value</arg>&apos; of component &apos;<arg fmt="%s" index="4">downcounter</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">E:/Lab2_HILBORN_KOPP/clock_divider.vhd</arg>&quot; line <arg fmt="%d" index="2">62</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">value</arg>&apos; of component &apos;<arg fmt="%s" index="4">downcounter</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">E:/Lab2_HILBORN_KOPP/clock_divider.vhd</arg>&quot; line <arg fmt="%d" index="2">75</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">value</arg>&apos; of component &apos;<arg fmt="%s" index="4">downcounter</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">E:/Lab2_HILBORN_KOPP/clock_divider.vhd</arg>&quot; line <arg fmt="%d" index="2">127</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">zero</arg>&apos; of component &apos;<arg fmt="%s" index="4">downcounter</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">tenminHzClock/i_zero</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">clock_divider</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">minHzClock/current_count_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">clock_divider</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">minHzClock/current_count_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">clock_divider</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+</messages>
+
