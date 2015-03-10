@@ -82,7 +82,7 @@ begin
 					state <= ready;
 				else
 					decoded_value(7) <= '1';
-					state <= translate;
+					state <= translate; --test
 				end if;
 
 			when translate =>
