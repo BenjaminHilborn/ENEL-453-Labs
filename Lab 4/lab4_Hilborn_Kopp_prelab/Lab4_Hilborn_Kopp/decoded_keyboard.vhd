@@ -63,7 +63,7 @@ PS2_KEYBOARD: keyboard
 PS2_DECODE: process(clk)
 begin
 	if (rising_edge(clk)) then
-		ps2_newcode_old <= ps2_newcode;		
+		ps2_newcode_old <= ps2_newcode;
 		case state is
 			when ready =>
 				if (ps2_newcode_old = '0' and ps2_newcode = '1') then
@@ -72,31 +72,32 @@ begin
 				else
 					state <= new_code;
 				end if;
-			
-			when new_code => 
+
+			when new_code =>
 				if (ps2_code = NEXT_IS_BREAK) then
 					break <= '1';
 					state <= ready;
 				elsif (ps2_code = MULTIKEY) then
-					state <= translate;
+					multikey_code <= '1';
+					state <= ready;
 				else
 					decoded_value(7) <= '1';
 					state <= translate;
 				end if;
-				
-			when translate => 
+
+			when translate =>
 				break <= '0';
 				multikey_code <= '0';
-				
+
 				case ps2_code is
-					when CAPS_LOCK_CODE => 
+					when CAPS_LOCK_CODE =>
 						if (break = '0') then
 							caps_lock <= not caps_lock;
 						end if;
 					when CTRL_CODE =>
 						if (multikey_code = '1') then
 							ctrl_r <= not break;
-						else 	
+						else
 							ctrl_l <= not break;
 						end if;
 					when L_SHIFT_CODE =>
@@ -105,28 +106,28 @@ begin
 						shift_r <= not break;
 					when others => null;
 				end case;
-			
+
 				IF(ctrl_l = '1' OR ctrl_r = '1') THEN
 					-- Not decoding these values, just output 0
-					decoded_value <= x"00";            
-				ELSE 
+					decoded_value <= x"00";
+				ELSE
 				  CASE ps2_code IS
 					WHEN x"29" => decoded_value <= x"20"; --space
 					WHEN x"66" => decoded_value <= x"08"; --backspace (BS control code)
 					WHEN x"0D" => decoded_value <= x"09"; --tab (HT control code)
 					WHEN x"5A" => decoded_value <= x"0D"; --enter (CR control code)
 					WHEN x"76" => decoded_value <= x"1B"; --escape (ESC control code)
-					WHEN x"71" => 
+					WHEN x"71" =>
 					  IF(multikey_code = '1') THEN      --ps2 code for delete is a multi-key code
 						decoded_value <= x"7F";             --delete
 					  END IF;
 					WHEN OTHERS => NULL;
 				  END CASE;
-			  
+
 			  --translate letters
               IF((shift_r = '0' AND shift_l = '0' AND caps_lock = '0') OR
-                ((shift_r = '1' OR shift_l = '1') AND caps_lock = '1')) THEN  
-                CASE ps2_code IS              
+                ((shift_r = '1' OR shift_l = '1') AND caps_lock = '1')) THEN
+                CASE ps2_code IS
 				  -- LOWER CASE LETTERS:
                   WHEN x"1C" => decoded_value <= x"61"; --a
                   WHEN x"32" => decoded_value <= x"62"; --b
@@ -156,8 +157,8 @@ begin
                   WHEN x"1A" => decoded_value <= x"7A"; --z
                   WHEN OTHERS => NULL;
                 END CASE;
-              ELSE                                     
-                CASE ps2_code IS   
+              ELSE
+                CASE ps2_code IS
 				  -- UPPER CASE LETTERS:
                   WHEN x"1C" => decoded_value <= x"41"; --A
                   WHEN x"32" => decoded_value <= x"42"; --B
@@ -188,12 +189,12 @@ begin
                   WHEN OTHERS => NULL;
                 END CASE;
               END IF;
-              
-              IF(shift_l = '1' OR shift_r = '1') THEN 
+
+              IF(shift_l = '1' OR shift_r = '1') THEN
 					-- We are not decoding the shifted values (no &, ^, etc)
 					decoded_value <= x"00";
-              ELSE                                     
-			  CASE ps2_code IS 
+              ELSE
+			  CASE ps2_code IS
 					-- Decode the numbers
                   WHEN x"45" => decoded_value <= x"30"; --0
                   WHEN x"16" => decoded_value <= x"31"; --1
@@ -207,23 +208,23 @@ begin
                   WHEN x"46" => decoded_value <= x"39"; --9
                   WHEN OTHERS => NULL;
                 END CASE;
-              END IF;              
+              END IF;
             END IF;
-          
+
           IF(break = '0') THEN  --the code is a make
-            state <= ready;      --proceed to output state
+            state <= output;      --proceed to output state
           ELSE                  --code is a break
-            state <= output;       --return to ready state to await next PS2 code
-			value <= "0000000";
+            state <= ready;       --return to ready state to await next PS2 code
+						value <= "0000000";
           END IF;
-			
-			-- Output the received value	
+
+			-- Output the received value
         WHEN output =>
-			 -- If output has been assigned     
-            new_value_received <= '1';               
-            value <= decoded_value(6 DOWNTO 0);   
-			state <= output;                    
-		end case;		
+			 -- If output has been assigned
+            new_value_received <= '1';
+            value <= decoded_value(6 DOWNTO 0);
+						state <= ready;
+		end case;
 	end if;
 end process PS2_DECODE;
 
@@ -232,4 +233,3 @@ shift <= shift_l or shift_r;
 ctrl <= ctrl_l or ctrl_r;
 
 end Behavioral;
-
