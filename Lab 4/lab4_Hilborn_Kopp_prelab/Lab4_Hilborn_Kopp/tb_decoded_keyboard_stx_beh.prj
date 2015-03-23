@@ -1,0 +1,3 @@
+vhdl isim_temp "keyboard.vhd"
+vhdl isim_temp "decoded_keyboard.vhd.vhd"
+vhdl isim_temp "tb_decoded_keyboard.vhd"

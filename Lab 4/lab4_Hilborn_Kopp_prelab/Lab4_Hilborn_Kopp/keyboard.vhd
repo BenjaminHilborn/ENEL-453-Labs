@@ -36,8 +36,10 @@ signal ps2_parity: STD_LOGIC;
 -- PS/2 IDLE signals:
 signal count_idle: integer range 0 to 1375;
 
-begin
+signal ps2_data_key: std_logic;
 
+begin
+ps2_data_key <= ps2_data;
 -- Debounce the input ps2_clk:
 debounce_ps2_clk_changing <= 	debounce_ps2_clk_dffs(0) xor
 										debounce_ps2_clk_dffs(1); 			

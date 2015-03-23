@@ -49,12 +49,16 @@ begin
 MoveBox: process(clk, reset)
 begin
 	if (rising_edge(clk)) then
+	
 		if (reset = '1') then
+		
 			boxLocX <= "0111000101"; -- Starting location for X
 			boxLocY <= "0001100010"; -- Starting location for Y
 			redraw <= (others=>'0');
 		else 
+
 			if (kHz = '1') then
+
 				redraw <= redraw + 1;
 				if (redraw = "010000") then
 					redraw <= (others => '0');
@@ -64,21 +68,23 @@ begin
 					-- Write the controls needed to move the box up and down:
 					-- Details for this are given on Page 4 of the Pre-lab instructions.
 					if (move_right = '1') then
+					
 						if (boxLocX < boxLocXMax) then
 							boxLocX <= boxLocX + 1;
+							
 						end if;
-					end if;
-					if (move_left = '1') then
+					--end if;
+					elsif (move_left = '1') then
 						if (boxLocX > boxLocXMin) then
 							boxLocX <= boxLocX - 1;
 						end if;
-					end if;
-					if (move_up = '1') then
+					--end if;
+					elsif (move_up = '1') then
 						if (boxLocY > boxLocYMin) then
 							boxLocY <= boxLocY - 1;
 						end if;
-					end if;
-					if (move_down = '1') then
+					--end if;
+					elsif (move_down = '1') then
 						if (boxLocY < boxLocYMax) then
 							boxLocY <= boxLocY + 1;
 						end if;

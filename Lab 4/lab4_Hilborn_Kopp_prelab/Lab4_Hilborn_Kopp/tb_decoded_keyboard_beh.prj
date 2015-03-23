@@ -1,0 +1,3 @@
+vhdl work "keyboard.vhd"
+vhdl work "decoded_keyboard.vhd.vhd"
+vhdl work "tb_decoded_keyboard.vhd"

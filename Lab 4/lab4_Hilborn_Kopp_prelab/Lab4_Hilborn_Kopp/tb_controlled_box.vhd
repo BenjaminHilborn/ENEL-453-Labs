@@ -112,9 +112,9 @@ BEGIN
 	khz_process :process
    begin
 		kHz <= '0';
-		wait for clk_period/4;
+		wait for clk_period*4;
 		kHz <= '1';
-		wait for clk_period/4;
+		wait for clk_period*4;
    end process;
  
 
@@ -122,8 +122,9 @@ BEGIN
    stim_proc: process
    begin		
       -- hold reset state for 100 ns.
-      wait for 100 ns;	
 		reset <= '1';
+      wait for 100 ns;	
+		
       wait for clk_period*10;
 
       -- insert stimulus here 
@@ -131,19 +132,21 @@ BEGIN
 		-- Testtbench not behaving as expected: The box does not move.
 		-- bk: 	thinks this is because the redraw variable is not changing and it will not
 		-- 		get past that if statement (line 59 in controlled_box.vhd)
+		
 		reset <= '0';
 		wait for 100 us;
 		move_right <= '1';
-		wait for 200 us;
+		wait for 100 us;
 		move_right <= '0';
+		wait for 100 us;
 		move_down <= '1';
-		wait for 200 us;
+		wait for 100 us;
 		move_down <= '0';
 		move_left <= '1';
-		wait for 300 us;
+		wait for 100 us;
 		move_left <= '0';
 		move_up <= '1';
-		wait for 300 us;
+		wait for 100 us;
 		move_up <= '0';
 
       wait;

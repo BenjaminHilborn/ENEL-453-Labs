@@ -1,1 +1,2 @@
-work	"controlled_box.vhd"
+work	"decoded_keyboard.vhd.vhd"
+work	"keyboard.vhd"
