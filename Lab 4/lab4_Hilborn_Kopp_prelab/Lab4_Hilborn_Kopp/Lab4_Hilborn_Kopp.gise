@@ -29,17 +29,22 @@
     <file xil_pn:fileType="FILE_XST" xil_pn:name="clock_divider.xst"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="controlled_box_isim_beh.exe"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="decoded_keyboard_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_controlled_box_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_controlled_box_stx_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_decoded_keyboard_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="tb_decoded_keyboard_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_decoded_keyboard_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_keyboard.prj"/>
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="tb_keyboard.stx"/>
     <file xil_pn:fileType="FILE_XST" xil_pn:name="tb_keyboard.xst"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_keyboard_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_keyboard_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_vga_with_keyboard_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_vga_with_keyboard_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="tb_vga_with_keyboard_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_vga_with_keyboard_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="vga_with_keyboard.cmd_log"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="vga_with_keyboard.lso"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="vga_with_keyboard.ngc"/>
@@ -58,39 +63,11 @@
   </files>
 
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
-    <transform xil_pn:end_ts="1426029695" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1426029695">
+    <transform xil_pn:end_ts="1427230441" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1427230441">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1427229012" xil_pn:in_ck="5847030018157069934" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1427229012">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="../lab3_Hilborn_Kopp/clock_divider.vhd"/>
-      <outfile xil_pn:name="../lab3_Hilborn_Kopp/sync_signal_generator.vhd"/>
-      <outfile xil_pn:name="../lab3_Hilborn_Kopp/tb_clockdivider.vhd"/>
-      <outfile xil_pn:name="../lab3_Hilborn_Kopp/tb_sync_signals_generator.vhd"/>
-      <outfile xil_pn:name="controlled_box.vhd"/>
-      <outfile xil_pn:name="decoded_keyboard.vhd.vhd"/>
-      <outfile xil_pn:name="keyboard.vhd"/>
-      <outfile xil_pn:name="tb_controlled_box.vhd"/>
-      <outfile xil_pn:name="tb_decoded_keyboard.vhd"/>
-      <outfile xil_pn:name="tb_keyboard.vhd"/>
-      <outfile xil_pn:name="tb_vga_with_keyboard.vhd"/>
-      <outfile xil_pn:name="vga_with_keyboard.vhd"/>
-    </transform>
-    <transform xil_pn:end_ts="1427229012" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="8706406061394135678" xil_pn:start_ts="1427229012">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1427229012" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-4681095219012221376" xil_pn:start_ts="1427229012">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1427227687" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-1564705160762672222" xil_pn:start_ts="1427227687">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1427229012" xil_pn:in_ck="5847030018157069934" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1427229012">
+    <transform xil_pn:end_ts="1427230441" xil_pn:in_ck="5847030018157069934" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1427230441">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="../lab3_Hilborn_Kopp/clock_divider.vhd"/>
@@ -106,18 +83,48 @@
       <outfile xil_pn:name="tb_vga_with_keyboard.vhd"/>
       <outfile xil_pn:name="vga_with_keyboard.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1427229016" xil_pn:in_ck="5847030018157069934" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="1185577452882353940" xil_pn:start_ts="1427229012">
-      <status xil_pn:value="FailedRun"/>
+    <transform xil_pn:end_ts="1427230441" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="8706406061394135678" xil_pn:start_ts="1427230441">
+      <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1426029699" xil_pn:in_ck="-2575187644305761241" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-778562742750196747" xil_pn:start_ts="1426029699">
-      <status xil_pn:value="AbortedRun"/>
+    <transform xil_pn:end_ts="1427230441" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-4681095219012221376" xil_pn:start_ts="1427230441">
+      <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="OutOfDateForced"/>
+    </transform>
+    <transform xil_pn:end_ts="1427230441" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-1564705160762672222" xil_pn:start_ts="1427230441">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1427230441" xil_pn:in_ck="5847030018157069934" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1427230441">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="../lab3_Hilborn_Kopp/clock_divider.vhd"/>
+      <outfile xil_pn:name="../lab3_Hilborn_Kopp/sync_signal_generator.vhd"/>
+      <outfile xil_pn:name="../lab3_Hilborn_Kopp/tb_clockdivider.vhd"/>
+      <outfile xil_pn:name="../lab3_Hilborn_Kopp/tb_sync_signals_generator.vhd"/>
+      <outfile xil_pn:name="controlled_box.vhd"/>
+      <outfile xil_pn:name="decoded_keyboard.vhd.vhd"/>
+      <outfile xil_pn:name="keyboard.vhd"/>
+      <outfile xil_pn:name="tb_controlled_box.vhd"/>
+      <outfile xil_pn:name="tb_decoded_keyboard.vhd"/>
+      <outfile xil_pn:name="tb_keyboard.vhd"/>
+      <outfile xil_pn:name="tb_vga_with_keyboard.vhd"/>
+      <outfile xil_pn:name="vga_with_keyboard.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1427230447" xil_pn:in_ck="5847030018157069934" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="1185577452882353940" xil_pn:start_ts="1427230441">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="tb_vga_with_keyboard_beh.prj"/>
+      <outfile xil_pn:name="tb_vga_with_keyboard_isim_beh.exe"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1427230447" xil_pn:in_ck="8257628422634890036" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="7671654688989458007" xil_pn:start_ts="1427230447">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="isim.cmd"/>
-      <outfile xil_pn:name="tb_decoded_keyboard_isim_beh.wdb"/>
+      <outfile xil_pn:name="tb_vga_with_keyboard_isim_beh.wdb"/>
     </transform>
     <transform xil_pn:end_ts="1427222533" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1427222533">
       <status xil_pn:value="SuccessfullyRun"/>

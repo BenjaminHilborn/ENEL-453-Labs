@@ -5,49 +5,46 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="HDLCompiler" num="89" delta="unknown" >"C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/../lab3_Hilborn_Kopp/clock_divider.vhd" Line 51: &lt;<arg fmt="%s" index="1">downcounter</arg>&gt; remains a black-box since it has no binding entity.
+<msg type="warning" file="HDLCompiler" num="89" delta="unknown" >"C:/Users/Brendon/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/../lab3_Hilborn_Kopp/clock_divider.vhd" Line 51: &lt;<arg fmt="%s" index="1">downcounter</arg>&gt; remains a black-box since it has no binding entity.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="89" delta="unknown" >"C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/../lab3_Hilborn_Kopp/clock_divider.vhd" Line 64: &lt;<arg fmt="%s" index="1">downcounter</arg>&gt; remains a black-box since it has no binding entity.
+<msg type="warning" file="HDLCompiler" num="89" delta="unknown" >"C:/Users/Brendon/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/../lab3_Hilborn_Kopp/clock_divider.vhd" Line 64: &lt;<arg fmt="%s" index="1">downcounter</arg>&gt; remains a black-box since it has no binding entity.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="89" delta="unknown" >"C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/../lab3_Hilborn_Kopp/clock_divider.vhd" Line 77: &lt;<arg fmt="%s" index="1">downcounter</arg>&gt; remains a black-box since it has no binding entity.
+<msg type="warning" file="HDLCompiler" num="89" delta="unknown" >"C:/Users/Brendon/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/../lab3_Hilborn_Kopp/clock_divider.vhd" Line 77: &lt;<arg fmt="%s" index="1">downcounter</arg>&gt; remains a black-box since it has no binding entity.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="89" delta="unknown" >"C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/../lab3_Hilborn_Kopp/clock_divider.vhd" Line 90: &lt;<arg fmt="%s" index="1">downcounter</arg>&gt; remains a black-box since it has no binding entity.
+<msg type="warning" file="HDLCompiler" num="89" delta="unknown" >"C:/Users/Brendon/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/../lab3_Hilborn_Kopp/clock_divider.vhd" Line 90: &lt;<arg fmt="%s" index="1">downcounter</arg>&gt; remains a black-box since it has no binding entity.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="89" delta="unknown" >"C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/../lab3_Hilborn_Kopp/clock_divider.vhd" Line 103: &lt;<arg fmt="%s" index="1">downcounter</arg>&gt; remains a black-box since it has no binding entity.
+<msg type="warning" file="HDLCompiler" num="89" delta="unknown" >"C:/Users/Brendon/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/../lab3_Hilborn_Kopp/clock_divider.vhd" Line 103: &lt;<arg fmt="%s" index="1">downcounter</arg>&gt; remains a black-box since it has no binding entity.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="89" delta="unknown" >"C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/../lab3_Hilborn_Kopp/clock_divider.vhd" Line 116: &lt;<arg fmt="%s" index="1">downcounter</arg>&gt; remains a black-box since it has no binding entity.
+<msg type="warning" file="HDLCompiler" num="89" delta="unknown" >"C:/Users/Brendon/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/../lab3_Hilborn_Kopp/clock_divider.vhd" Line 116: &lt;<arg fmt="%s" index="1">downcounter</arg>&gt; remains a black-box since it has no binding entity.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="89" delta="unknown" >"C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/../lab3_Hilborn_Kopp/clock_divider.vhd" Line 129: &lt;<arg fmt="%s" index="1">downcounter</arg>&gt; remains a black-box since it has no binding entity.
+<msg type="warning" file="HDLCompiler" num="89" delta="unknown" >"C:/Users/Brendon/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/../lab3_Hilborn_Kopp/clock_divider.vhd" Line 129: &lt;<arg fmt="%s" index="1">downcounter</arg>&gt; remains a black-box since it has no binding entity.
 </msg>
 
-<msg type="warning" file="Simulator" num="648" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/../lab3_Hilborn_Kopp/clock_divider.vhd</arg>&quot; Line <arg fmt="%d" index="2">51</arg>. Instance <arg fmt="%s" index="3">downcounter</arg> is unbound
+<msg type="warning" file="Simulator" num="648" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Users/Brendon/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/../lab3_Hilborn_Kopp/clock_divider.vhd</arg>&quot; Line <arg fmt="%d" index="2">51</arg>. Instance <arg fmt="%s" index="3">downcounter</arg> is unbound
 </msg>
 
-<msg type="warning" file="Simulator" num="648" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/../lab3_Hilborn_Kopp/clock_divider.vhd</arg>&quot; Line <arg fmt="%d" index="2">64</arg>. Instance <arg fmt="%s" index="3">downcounter</arg> is unbound
+<msg type="warning" file="Simulator" num="648" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Users/Brendon/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/../lab3_Hilborn_Kopp/clock_divider.vhd</arg>&quot; Line <arg fmt="%d" index="2">64</arg>. Instance <arg fmt="%s" index="3">downcounter</arg> is unbound
 </msg>
 
-<msg type="warning" file="Simulator" num="648" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/../lab3_Hilborn_Kopp/clock_divider.vhd</arg>&quot; Line <arg fmt="%d" index="2">77</arg>. Instance <arg fmt="%s" index="3">downcounter</arg> is unbound
+<msg type="warning" file="Simulator" num="648" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Users/Brendon/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/../lab3_Hilborn_Kopp/clock_divider.vhd</arg>&quot; Line <arg fmt="%d" index="2">77</arg>. Instance <arg fmt="%s" index="3">downcounter</arg> is unbound
 </msg>
 
-<msg type="warning" file="Simulator" num="648" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/../lab3_Hilborn_Kopp/clock_divider.vhd</arg>&quot; Line <arg fmt="%d" index="2">90</arg>. Instance <arg fmt="%s" index="3">downcounter</arg> is unbound
+<msg type="warning" file="Simulator" num="648" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Users/Brendon/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/../lab3_Hilborn_Kopp/clock_divider.vhd</arg>&quot; Line <arg fmt="%d" index="2">90</arg>. Instance <arg fmt="%s" index="3">downcounter</arg> is unbound
 </msg>
 
-<msg type="warning" file="Simulator" num="648" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/../lab3_Hilborn_Kopp/clock_divider.vhd</arg>&quot; Line <arg fmt="%d" index="2">103</arg>. Instance <arg fmt="%s" index="3">downcounter</arg> is unbound
+<msg type="warning" file="Simulator" num="648" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Users/Brendon/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/../lab3_Hilborn_Kopp/clock_divider.vhd</arg>&quot; Line <arg fmt="%d" index="2">103</arg>. Instance <arg fmt="%s" index="3">downcounter</arg> is unbound
 </msg>
 
-<msg type="warning" file="Simulator" num="648" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/../lab3_Hilborn_Kopp/clock_divider.vhd</arg>&quot; Line <arg fmt="%d" index="2">116</arg>. Instance <arg fmt="%s" index="3">downcounter</arg> is unbound
+<msg type="warning" file="Simulator" num="648" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Users/Brendon/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/../lab3_Hilborn_Kopp/clock_divider.vhd</arg>&quot; Line <arg fmt="%d" index="2">116</arg>. Instance <arg fmt="%s" index="3">downcounter</arg> is unbound
 </msg>
 
-<msg type="warning" file="Simulator" num="648" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/../lab3_Hilborn_Kopp/clock_divider.vhd</arg>&quot; Line <arg fmt="%d" index="2">129</arg>. Instance <arg fmt="%s" index="3">downcounter</arg> is unbound
-</msg>
-
-<msg type="error" file="Simulator" num="861" delta="unknown" >Failed to link the design
+<msg type="warning" file="Simulator" num="648" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Users/Brendon/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/../lab3_Hilborn_Kopp/clock_divider.vhd</arg>&quot; Line <arg fmt="%d" index="2">129</arg>. Instance <arg fmt="%s" index="3">downcounter</arg> is unbound
 </msg>
 
 </messages>

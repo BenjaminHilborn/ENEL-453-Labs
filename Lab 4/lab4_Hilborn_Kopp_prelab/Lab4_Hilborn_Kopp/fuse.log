@@ -1,0 +1,45 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/Brendon/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/tb_vga_with_keyboard_isim_beh.exe -prj C:/Users/Brendon/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/tb_vga_with_keyboard_beh.prj work.tb_vga_with_keyboard 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Brendon/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/keyboard.vhd" into library work
+Parsing VHDL file "C:/Users/Brendon/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/decoded_keyboard.vhd.vhd" into library work
+Parsing VHDL file "C:/Users/Brendon/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/controlled_box.vhd" into library work
+Parsing VHDL file "C:/Users/Brendon/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/../lab3_Hilborn_Kopp/sync_signal_generator.vhd" into library work
+Parsing VHDL file "C:/Users/Brendon/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/../lab3_Hilborn_Kopp/clock_divider.vhd" into library work
+Parsing VHDL file "C:/Users/Brendon/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/vga_with_keyboard.vhd" into library work
+Parsing VHDL file "C:/Users/Brendon/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/tb_vga_with_keyboard.vhd" into library work
+Starting static elaboration
+WARNING:HDLCompiler:89 - "C:/Users/Brendon/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/../lab3_Hilborn_Kopp/clock_divider.vhd" Line 51: <downcounter> remains a black-box since it has no binding entity.
+WARNING:HDLCompiler:89 - "C:/Users/Brendon/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/../lab3_Hilborn_Kopp/clock_divider.vhd" Line 64: <downcounter> remains a black-box since it has no binding entity.
+WARNING:HDLCompiler:89 - "C:/Users/Brendon/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/../lab3_Hilborn_Kopp/clock_divider.vhd" Line 77: <downcounter> remains a black-box since it has no binding entity.
+WARNING:HDLCompiler:89 - "C:/Users/Brendon/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/../lab3_Hilborn_Kopp/clock_divider.vhd" Line 90: <downcounter> remains a black-box since it has no binding entity.
+WARNING:HDLCompiler:89 - "C:/Users/Brendon/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/../lab3_Hilborn_Kopp/clock_divider.vhd" Line 103: <downcounter> remains a black-box since it has no binding entity.
+WARNING:HDLCompiler:89 - "C:/Users/Brendon/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/../lab3_Hilborn_Kopp/clock_divider.vhd" Line 116: <downcounter> remains a black-box since it has no binding entity.
+WARNING:HDLCompiler:89 - "C:/Users/Brendon/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/../lab3_Hilborn_Kopp/clock_divider.vhd" Line 129: <downcounter> remains a black-box since it has no binding entity.
+Completed static elaboration
+WARNING:Simulator:648 - "C:/Users/Brendon/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/../lab3_Hilborn_Kopp/clock_divider.vhd" Line 51. Instance downcounter is unbound
+WARNING:Simulator:648 - "C:/Users/Brendon/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/../lab3_Hilborn_Kopp/clock_divider.vhd" Line 64. Instance downcounter is unbound
+WARNING:Simulator:648 - "C:/Users/Brendon/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/../lab3_Hilborn_Kopp/clock_divider.vhd" Line 77. Instance downcounter is unbound
+WARNING:Simulator:648 - "C:/Users/Brendon/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/../lab3_Hilborn_Kopp/clock_divider.vhd" Line 90. Instance downcounter is unbound
+WARNING:Simulator:648 - "C:/Users/Brendon/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/../lab3_Hilborn_Kopp/clock_divider.vhd" Line 103. Instance downcounter is unbound
+WARNING:Simulator:648 - "C:/Users/Brendon/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/../lab3_Hilborn_Kopp/clock_divider.vhd" Line 116. Instance downcounter is unbound
+WARNING:Simulator:648 - "C:/Users/Brendon/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/../lab3_Hilborn_Kopp/clock_divider.vhd" Line 129. Instance downcounter is unbound
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity clock_divider [clock_divider_default]
+Compiling architecture behavioral of entity controlled_box [\controlled_box(('0','0','1','0'...]
+Compiling architecture behavioral of entity keyboard [keyboard_default]
+Compiling architecture behavioral of entity decoded_keyboard [decoded_keyboard_default]
+Compiling architecture behavioral of entity sync_signals_generator [sync_signals_generator_default]
+Compiling architecture behavioral of entity vga_with_keyboard [vga_with_keyboard_default]
+Compiling architecture behavior of entity tb_vga_with_keyboard
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 17 VHDL Units
+Built simulation executable C:/Users/Brendon/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/tb_vga_with_keyboard_isim_beh.exe
+Fuse Memory Usage: 34500 KB
+Fuse CPU Usage: 561 ms
