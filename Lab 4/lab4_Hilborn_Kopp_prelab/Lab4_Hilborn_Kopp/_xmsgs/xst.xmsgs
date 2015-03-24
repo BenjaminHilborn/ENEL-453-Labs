@@ -5,209 +5,218 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/vga_with_keyboard.vhd</arg>&quot; line <arg fmt="%d" index="2">135</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">sec_dig1</arg>&apos; of component &apos;<arg fmt="%s" index="4">clock_divider</arg>&apos;.
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/vga_with_keyboard.vhd</arg>&quot; line <arg fmt="%d" index="2">135</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">sec_dig1</arg>&apos; of component &apos;<arg fmt="%s" index="4">clock_divider</arg>&apos;.
 </msg>
 
-<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/vga_with_keyboard.vhd</arg>&quot; line <arg fmt="%d" index="2">135</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">sec_dig2</arg>&apos; of component &apos;<arg fmt="%s" index="4">clock_divider</arg>&apos;.
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/vga_with_keyboard.vhd</arg>&quot; line <arg fmt="%d" index="2">135</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">sec_dig2</arg>&apos; of component &apos;<arg fmt="%s" index="4">clock_divider</arg>&apos;.
 </msg>
 
-<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/vga_with_keyboard.vhd</arg>&quot; line <arg fmt="%d" index="2">135</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">min_dig1</arg>&apos; of component &apos;<arg fmt="%s" index="4">clock_divider</arg>&apos;.
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/vga_with_keyboard.vhd</arg>&quot; line <arg fmt="%d" index="2">135</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">min_dig1</arg>&apos; of component &apos;<arg fmt="%s" index="4">clock_divider</arg>&apos;.
 </msg>
 
-<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/vga_with_keyboard.vhd</arg>&quot; line <arg fmt="%d" index="2">135</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">min_dig2</arg>&apos; of component &apos;<arg fmt="%s" index="4">clock_divider</arg>&apos;.
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/vga_with_keyboard.vhd</arg>&quot; line <arg fmt="%d" index="2">135</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">min_dig2</arg>&apos; of component &apos;<arg fmt="%s" index="4">clock_divider</arg>&apos;.
 </msg>
 
-<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/vga_with_keyboard.vhd</arg>&quot; line <arg fmt="%d" index="2">143</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">red</arg>&apos; of component &apos;<arg fmt="%s" index="4">controlled_box</arg>&apos;.
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/vga_with_keyboard.vhd</arg>&quot; line <arg fmt="%d" index="2">143</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">red</arg>&apos; of component &apos;<arg fmt="%s" index="4">controlled_box</arg>&apos;.
 </msg>
 
-<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/vga_with_keyboard.vhd</arg>&quot; line <arg fmt="%d" index="2">143</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">blue</arg>&apos; of component &apos;<arg fmt="%s" index="4">controlled_box</arg>&apos;.
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/vga_with_keyboard.vhd</arg>&quot; line <arg fmt="%d" index="2">143</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">blue</arg>&apos; of component &apos;<arg fmt="%s" index="4">controlled_box</arg>&apos;.
 </msg>
 
-<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/vga_with_keyboard.vhd</arg>&quot; line <arg fmt="%d" index="2">143</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">green</arg>&apos; of component &apos;<arg fmt="%s" index="4">controlled_box</arg>&apos;.
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/vga_with_keyboard.vhd</arg>&quot; line <arg fmt="%d" index="2">143</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">green</arg>&apos; of component &apos;<arg fmt="%s" index="4">controlled_box</arg>&apos;.
 </msg>
 
-<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/vga_with_keyboard.vhd</arg>&quot; line <arg fmt="%d" index="2">143</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">currentX</arg>&apos; of component &apos;<arg fmt="%s" index="4">controlled_box</arg>&apos;.
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/vga_with_keyboard.vhd</arg>&quot; line <arg fmt="%d" index="2">143</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">currentX</arg>&apos; of component &apos;<arg fmt="%s" index="4">controlled_box</arg>&apos;.
 </msg>
 
-<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/vga_with_keyboard.vhd</arg>&quot; line <arg fmt="%d" index="2">143</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">currentY</arg>&apos; of component &apos;<arg fmt="%s" index="4">controlled_box</arg>&apos;.
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/vga_with_keyboard.vhd</arg>&quot; line <arg fmt="%d" index="2">143</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">currentY</arg>&apos; of component &apos;<arg fmt="%s" index="4">controlled_box</arg>&apos;.
 </msg>
 
-<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/vga_with_keyboard.vhd</arg>&quot; line <arg fmt="%d" index="2">154</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">new_value_received</arg>&apos; of component &apos;<arg fmt="%s" index="4">decoded_keyboard</arg>&apos;.
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/vga_with_keyboard.vhd</arg>&quot; line <arg fmt="%d" index="2">154</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">new_value_received</arg>&apos; of component &apos;<arg fmt="%s" index="4">decoded_keyboard</arg>&apos;.
 </msg>
 
-<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/lab3_Hilborn_Kopp/clock_divider.vhd</arg>&quot; line <arg fmt="%d" index="2">51</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">value</arg>&apos; of component &apos;<arg fmt="%s" index="4">downcounter</arg>&apos;.
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/lab3_Hilborn_Kopp/clock_divider.vhd</arg>&quot; line <arg fmt="%d" index="2">51</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">value</arg>&apos; of component &apos;<arg fmt="%s" index="4">downcounter</arg>&apos;.
 </msg>
 
-<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/lab3_Hilborn_Kopp/clock_divider.vhd</arg>&quot; line <arg fmt="%d" index="2">51</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">downcounter</arg>&gt;.
+<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/lab3_Hilborn_Kopp/clock_divider.vhd</arg>&quot; line <arg fmt="%d" index="2">51</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">downcounter</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/lab3_Hilborn_Kopp/clock_divider.vhd</arg>&quot; line <arg fmt="%d" index="2">64</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">value</arg>&apos; of component &apos;<arg fmt="%s" index="4">downcounter</arg>&apos;.
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/lab3_Hilborn_Kopp/clock_divider.vhd</arg>&quot; line <arg fmt="%d" index="2">64</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">value</arg>&apos; of component &apos;<arg fmt="%s" index="4">downcounter</arg>&apos;.
 </msg>
 
-<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/lab3_Hilborn_Kopp/clock_divider.vhd</arg>&quot; line <arg fmt="%d" index="2">64</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">downcounter</arg>&gt;.
+<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/lab3_Hilborn_Kopp/clock_divider.vhd</arg>&quot; line <arg fmt="%d" index="2">64</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">downcounter</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/lab3_Hilborn_Kopp/clock_divider.vhd</arg>&quot; line <arg fmt="%d" index="2">77</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">value</arg>&apos; of component &apos;<arg fmt="%s" index="4">downcounter</arg>&apos;.
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/lab3_Hilborn_Kopp/clock_divider.vhd</arg>&quot; line <arg fmt="%d" index="2">77</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">value</arg>&apos; of component &apos;<arg fmt="%s" index="4">downcounter</arg>&apos;.
 </msg>
 
-<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/lab3_Hilborn_Kopp/clock_divider.vhd</arg>&quot; line <arg fmt="%d" index="2">77</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">downcounter</arg>&gt;.
+<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/lab3_Hilborn_Kopp/clock_divider.vhd</arg>&quot; line <arg fmt="%d" index="2">77</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">downcounter</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/lab3_Hilborn_Kopp/clock_divider.vhd</arg>&quot; line <arg fmt="%d" index="2">90</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">downcounter</arg>&gt;.
+<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/lab3_Hilborn_Kopp/clock_divider.vhd</arg>&quot; line <arg fmt="%d" index="2">90</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">downcounter</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/lab3_Hilborn_Kopp/clock_divider.vhd</arg>&quot; line <arg fmt="%d" index="2">103</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">downcounter</arg>&gt;.
+<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/lab3_Hilborn_Kopp/clock_divider.vhd</arg>&quot; line <arg fmt="%d" index="2">103</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">downcounter</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/lab3_Hilborn_Kopp/clock_divider.vhd</arg>&quot; line <arg fmt="%d" index="2">116</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">downcounter</arg>&gt;.
+<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/lab3_Hilborn_Kopp/clock_divider.vhd</arg>&quot; line <arg fmt="%d" index="2">116</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">downcounter</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/lab3_Hilborn_Kopp/clock_divider.vhd</arg>&quot; line <arg fmt="%d" index="2">129</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">zero</arg>&apos; of component &apos;<arg fmt="%s" index="4">downcounter</arg>&apos;.
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/lab3_Hilborn_Kopp/clock_divider.vhd</arg>&quot; line <arg fmt="%d" index="2">129</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">zero</arg>&apos; of component &apos;<arg fmt="%s" index="4">downcounter</arg>&apos;.
 </msg>
 
-<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/lab3_Hilborn_Kopp/clock_divider.vhd</arg>&quot; line <arg fmt="%d" index="2">129</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">downcounter</arg>&gt;.
+<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/lab3_Hilborn_Kopp/clock_divider.vhd</arg>&quot; line <arg fmt="%d" index="2">129</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">downcounter</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">stable_ps2_clk_old</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="1780" delta="old" >Signal &lt;<arg fmt="%s" index="1">stable_ps2_clk_old</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">ps2_word&lt;0&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">ps2_word&lt;0&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">ps2_data_key</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">ps2_data_key</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">decoded_value&lt;7&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">decoded_value&lt;7&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">move_up</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">move_up</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">move_right</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">i_hHz</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">move_left</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">i_Hz</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">move_down</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">disp_red</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">000</arg>.
 </msg>
 
-<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">i_hHz</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">disp_green</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">000</arg>.
 </msg>
 
-<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">i_Hz</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">disp_blue</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">00</arg>.
 </msg>
 
-<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">disp_red</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">000</arg>.
+<msg type="warning" file="Xst" num="1780" delta="old" >Signal &lt;<arg fmt="%s" index="1">box_red</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">disp_green</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">000</arg>.
+<msg type="warning" file="Xst" num="1780" delta="old" >Signal &lt;<arg fmt="%s" index="1">box_green</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">disp_blue</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">00</arg>.
+<msg type="warning" file="Xst" num="1780" delta="old" >Signal &lt;<arg fmt="%s" index="1">box_blue</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">box_red</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">box_green</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">box_blue</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1290" delta="new" >Hierarchical block &lt;<arg fmt="%s" index="1">MOVING_BOX</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">vga_with_keyboard</arg>&gt;.
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">MOVING_BOX</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">vga_with_keyboard</arg>&gt;.
 It will be removed from the design.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ps2_word_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PS2_KEYBOARD</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ps2_word_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PS2_KEYBOARD</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ps2_word_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">keyboard</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ps2_word_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">keyboard</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">boxLocY_9</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">controlled_box</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">MOVING_BOX/boxLocY_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vga_with_keyboard</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">boxLocX_9</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">controlled_box</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">MOVING_BOX/boxLocX_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vga_with_keyboard</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">boxLocY_8</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">controlled_box</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">MOVING_BOX/boxLocY_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vga_with_keyboard</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">boxLocY_7</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">controlled_box</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">MOVING_BOX/boxLocY_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vga_with_keyboard</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">boxLocY_6</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">controlled_box</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">MOVING_BOX/boxLocY_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vga_with_keyboard</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">boxLocY_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">controlled_box</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">MOVING_BOX/boxLocY_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vga_with_keyboard</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">boxLocY_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">controlled_box</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">MOVING_BOX/boxLocY_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vga_with_keyboard</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">boxLocY_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">controlled_box</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">MOVING_BOX/boxLocY_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vga_with_keyboard</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">boxLocY_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">controlled_box</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">MOVING_BOX/boxLocY_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vga_with_keyboard</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">boxLocY_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">controlled_box</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">MOVING_BOX/boxLocY_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vga_with_keyboard</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">boxLocY_2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">controlled_box</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">MOVING_BOX/boxLocY_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vga_with_keyboard</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">boxLocX_8</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">controlled_box</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">MOVING_BOX/boxLocX_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vga_with_keyboard</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">boxLocX_7</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">controlled_box</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">MOVING_BOX/boxLocX_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vga_with_keyboard</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">boxLocX_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">controlled_box</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">MOVING_BOX/boxLocX_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vga_with_keyboard</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">boxLocX_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">controlled_box</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">MOVING_BOX/boxLocX_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vga_with_keyboard</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">boxLocX_6</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">controlled_box</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">MOVING_BOX/boxLocX_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vga_with_keyboard</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">boxLocX_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">controlled_box</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">MOVING_BOX/boxLocX_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vga_with_keyboard</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">boxLocX_2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">controlled_box</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">MOVING_BOX/boxLocX_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vga_with_keyboard</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">boxLocX_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">controlled_box</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">MOVING_BOX/boxLocX_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vga_with_keyboard</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">boxLocX_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">controlled_box</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">MOVING_BOX/boxLocX_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vga_with_keyboard</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">KEYBOARD/new_value_received</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vga_with_keyboard</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">MOVING_BOX/redraw_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vga_with_keyboard</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="616" delta="new" >Invalid property &quot;<arg fmt="%s" index="1">WIDTH</arg> <arg fmt="%s" index="2">4</arg>&quot;: Did not attach to <arg fmt="%s" index="3">DIVIDER/tenminHzClock</arg>.
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">MOVING_BOX/redraw_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vga_with_keyboard</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="616" delta="new" >Invalid property &quot;<arg fmt="%s" index="1">WIDTH</arg> <arg fmt="%s" index="2">4</arg>&quot;: Did not attach to <arg fmt="%s" index="3">DIVIDER/minHzClock</arg>.
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">MOVING_BOX/redraw_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vga_with_keyboard</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="616" delta="new" >Invalid property &quot;<arg fmt="%s" index="1">WIDTH</arg> <arg fmt="%s" index="2">4</arg>&quot;: Did not attach to <arg fmt="%s" index="3">DIVIDER/deciHzClock</arg>.
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">MOVING_BOX/redraw_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vga_with_keyboard</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="616" delta="new" >Invalid property &quot;<arg fmt="%s" index="1">WIDTH</arg> <arg fmt="%s" index="2">4</arg>&quot;: Did not attach to <arg fmt="%s" index="3">DIVIDER/oneHzClock</arg>.
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">MOVING_BOX/redraw_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vga_with_keyboard</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="616" delta="new" >Invalid property &quot;<arg fmt="%s" index="1">WIDTH</arg> <arg fmt="%s" index="2">7</arg>&quot;: Did not attach to <arg fmt="%s" index="3">DIVIDER/tenHzClock</arg>.
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">MOVING_BOX/redraw_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vga_with_keyboard</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="616" delta="new" >Invalid property &quot;<arg fmt="%s" index="1">WIDTH</arg> <arg fmt="%s" index="2">4</arg>&quot;: Did not attach to <arg fmt="%s" index="3">DIVIDER/hundredHzClock</arg>.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">KEYBOARD/new_value_received</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vga_with_keyboard</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="616" delta="new" >Invalid property &quot;<arg fmt="%s" index="1">WIDTH</arg> <arg fmt="%s" index="2">15</arg>&quot;: Did not attach to <arg fmt="%s" index="3">DIVIDER/kiloHzClock</arg>.
+<msg type="warning" file="Xst" num="616" delta="old" >Invalid property &quot;<arg fmt="%s" index="1">WIDTH</arg> <arg fmt="%s" index="2">4</arg>&quot;: Did not attach to <arg fmt="%s" index="3">DIVIDER/tenminHzClock</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="616" delta="old" >Invalid property &quot;<arg fmt="%s" index="1">WIDTH</arg> <arg fmt="%s" index="2">4</arg>&quot;: Did not attach to <arg fmt="%s" index="3">DIVIDER/minHzClock</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="616" delta="old" >Invalid property &quot;<arg fmt="%s" index="1">WIDTH</arg> <arg fmt="%s" index="2">4</arg>&quot;: Did not attach to <arg fmt="%s" index="3">DIVIDER/deciHzClock</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="616" delta="old" >Invalid property &quot;<arg fmt="%s" index="1">WIDTH</arg> <arg fmt="%s" index="2">4</arg>&quot;: Did not attach to <arg fmt="%s" index="3">DIVIDER/oneHzClock</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="616" delta="old" >Invalid property &quot;<arg fmt="%s" index="1">WIDTH</arg> <arg fmt="%s" index="2">7</arg>&quot;: Did not attach to <arg fmt="%s" index="3">DIVIDER/tenHzClock</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="616" delta="old" >Invalid property &quot;<arg fmt="%s" index="1">WIDTH</arg> <arg fmt="%s" index="2">4</arg>&quot;: Did not attach to <arg fmt="%s" index="3">DIVIDER/hundredHzClock</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="616" delta="old" >Invalid property &quot;<arg fmt="%s" index="1">WIDTH</arg> <arg fmt="%s" index="2">15</arg>&quot;: Did not attach to <arg fmt="%s" index="3">DIVIDER/kiloHzClock</arg>.
 </msg>
 
 </messages>
