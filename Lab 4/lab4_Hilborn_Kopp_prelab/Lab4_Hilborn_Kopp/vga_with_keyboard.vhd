@@ -32,6 +32,7 @@ use IEEE.STD_LOGIC_1164.ALL;
 entity vga_with_keyboard is
     Port ( button0 : in  STD_LOGIC;
            clk : in  STD_LOGIC;
+			  reset: in STD_LOGIC;
            ps2_clk : in  STD_LOGIC;
            ps2_data : in  STD_LOGIC;
            blue : out  STD_LOGIC_VECTOR (1 downto 0);
@@ -144,16 +145,18 @@ MOVING_BOX: controlled_box
 				scanlineX => scanlineX,
 				scanlineY => scanlineY,
 				kHz => i_kHz,
-				move_right,
-				move_left,
-				move_up,
-				move_down);
+				move_right => move_right,
+				move_left => move_left,
+				move_up => move_left,
+				move_down => move_down);
 
 KEYBOARD: decoded_keyboard
 	Port map(clk => clk,
 				shift => keyboard_shift,
 				ctrl => keyboard_ctrl,
-				value => keyboard_value);
+				value => keyboard_value,
+				ps2_clk => ps2_clk,
+				ps2_data => ps2_data);
 
 VGA_SYNC: sync_signals_generator
 	Port map( 	clk => clk,

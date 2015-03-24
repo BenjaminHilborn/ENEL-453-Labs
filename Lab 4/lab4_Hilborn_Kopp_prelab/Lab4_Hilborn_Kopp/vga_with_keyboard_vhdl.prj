@@ -1,1 +1,6 @@
+vhdl work "C:\Users\Benjamin\Documents\GitHub\ENEL-453-Labs\Lab 4\lab4_Hilborn_Kopp_prelab\Lab4_Hilborn_Kopp\keyboard.vhd"
+vhdl work "C:\Users\Benjamin\Documents\GitHub\ENEL-453-Labs\Lab 4\lab4_Hilborn_Kopp_prelab\Lab4_Hilborn_Kopp\decoded_keyboard.vhd.vhd"
+vhdl work "C:\Users\Benjamin\Documents\GitHub\ENEL-453-Labs\Lab 4\lab4_Hilborn_Kopp_prelab\Lab4_Hilborn_Kopp\controlled_box.vhd"
+vhdl work "C:\Users\Benjamin\Documents\GitHub\ENEL-453-Labs\Lab 4\lab4_Hilborn_Kopp_prelab\lab3_Hilborn_Kopp\sync_signal_generator.vhd"
+vhdl work "C:\Users\Benjamin\Documents\GitHub\ENEL-453-Labs\Lab 4\lab4_Hilborn_Kopp_prelab\lab3_Hilborn_Kopp\clock_divider.vhd"
 vhdl work "C:\Users\Benjamin\Documents\GitHub\ENEL-453-Labs\Lab 4\lab4_Hilborn_Kopp_prelab\Lab4_Hilborn_Kopp\vga_with_keyboard.vhd"
