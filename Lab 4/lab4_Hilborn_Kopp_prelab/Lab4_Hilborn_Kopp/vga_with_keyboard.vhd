@@ -123,7 +123,7 @@ signal scanlineX, scanlineY: STD_LOGIC_VECTOR(10 downto 0);
 signal box_red: std_logic_vector(2 downto 0);
 signal box_green: std_logic_vector(2 downto 0);
 signal box_blue: std_logic_vector(1 downto 0);
-
+signal move_right, move_left, move_up, move_down: std_logic;
 -- END SIGNALS
 
 begin
@@ -144,10 +144,16 @@ MOVING_BOX: controlled_box
 				scanlineX => scanlineX,
 				scanlineY => scanlineY,
 				kHz => i_kHz,
-				move_right);
+				move_right,
+				move_left,
+				move_up,
+				move_down);
 
 KEYBOARD: decoded_keyboard
-	Port map(clk => clk);
+	Port map(clk => clk,
+				shift => keyboard_shift,
+				ctrl => keyboard_ctrl,
+				value => keyboard_value);
 
 VGA_SYNC: sync_signals_generator
 	Port map( 	clk => clk,
