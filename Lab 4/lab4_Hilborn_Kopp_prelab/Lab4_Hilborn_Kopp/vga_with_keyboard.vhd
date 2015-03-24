@@ -105,7 +105,7 @@ component decoded_keyboard is
 end component;
 
 -- SIGNALS
-signal reset: in STD_LOGIC;
+signal reset: STD_LOGIC;
 signal disp_blue: std_logic_vector(1 downto 0);
 signal disp_red: std_logic_vector(2 downto 0);
 signal disp_green: std_logic_vector(2 downto 0);
