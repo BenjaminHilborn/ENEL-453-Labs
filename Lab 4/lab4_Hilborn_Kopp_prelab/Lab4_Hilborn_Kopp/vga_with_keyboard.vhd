@@ -44,6 +44,7 @@ entity vga_with_keyboard is
 end vga_with_keyboard;
 
 
+
 architecture Behavioral of vga_with_keyboard is
 
 --COMPONENTS
