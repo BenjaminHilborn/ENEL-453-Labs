@@ -42,6 +42,9 @@ entity vga_with_keyboard is
            vsync : out  STD_LOGIC);
 end vga_with_keyboard;
 
+
+architecture Behavioral of vga_with_keyboard is
+
 --COMPONENTS
 component clock_divider is
     Port ( clk : in  STD_LOGIC;
@@ -100,10 +103,63 @@ component decoded_keyboard is
 	);
 end component;
 
-architecture Behavioral of vga_with_keyboard is
+-- SIGNALS
+signal disp_blue: std_logic_vector(1 downto 0);
+signal disp_red: std_logic_vector(2 downto 0);
+signal disp_green: std_logic_vector(2 downto 0);
+
+-- Clock divider signals:
+signal i_kHz, i_Hz, i_hHz: std_logic;
+
+--Keyboard signals:
+signal keyboard_shift, keyboard_ctrl: std_logic;
+signal keyboard_value: std_logic_vector(6 downto 0);
+
+-- Sync signals:
+signal vga_blank : std_logic;
+signal scanlineX, scanlineY: STD_LOGIC_VECTOR(10 downto 0);
+
+--Box signals:
+signal box_red: std_logic_vector(2 downto 0);
+signal box_green: std_logic_vector(2 downto 0);
+signal box_blue: std_logic_vector(1 downto 0);
+
+-- END SIGNALS
 
 begin
 
+-- INSTANTIATION
+
+DIVIDER: clock_divider
+	Port map(clk			=> clk,
+					reset			=> reset,
+					kHz			=> i_kHz,
+					Hz				=> i_Hz,
+					hundredHz => i_hHz
+					); 
+					
+MOVING_BOX: controlled_box
+	Port map(clk => clk,
+				reset => reset,
+				scanlineX => scanlineX,
+				scanlineY => scanlineY,
+				kHz => i_kHz,
+				move_right);
+
+KEYBOARD: decoded_keyboard
+	Port map(clk => clk);
+
+VGA_SYNC: sync_signals_generator
+	Port map( 	clk => clk,
+						reset => reset,
+						HorSync => HSYNC,
+						VerSync => VSYNC,
+						blank => vga_blank,
+						scanlineX => scanlineX,
+						scanlineY => scanlineY
+				  );
+
+-- END INSTANTIATION
 
 end Behavioral;
 

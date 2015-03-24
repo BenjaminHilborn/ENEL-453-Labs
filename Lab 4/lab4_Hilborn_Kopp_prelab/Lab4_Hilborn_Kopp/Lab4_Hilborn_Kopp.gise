@@ -22,6 +22,7 @@
   <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Lab4_Hilborn_Kopp.xise"/>
 
   <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_LSO" xil_pn:name=".lso"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="controlled_box_isim_beh.exe"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="decoded_keyboard_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
@@ -36,7 +37,11 @@
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_decoded_keyboard_stx_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_keyboard_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_keyboard_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="vga_with_keyboard.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="vga_with_keyboard.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="vga_with_keyboard.xst"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
   </files>
 
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
@@ -47,6 +52,10 @@
     <transform xil_pn:end_ts="1426029695" xil_pn:in_ck="6340804767404448544" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1426029695">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="../lab3_Hilborn_Kopp/clock_divider.vhd"/>
       <outfile xil_pn:name="../lab3_Hilborn_Kopp/sync_signal_generator.vhd"/>
       <outfile xil_pn:name="../lab3_Hilborn_Kopp/tb_clockdivider.vhd"/>
@@ -74,6 +83,11 @@
     <transform xil_pn:end_ts="1426029695" xil_pn:in_ck="6340804767404448544" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1426029695">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="../lab3_Hilborn_Kopp/clock_divider.vhd"/>
       <outfile xil_pn:name="../lab3_Hilborn_Kopp/sync_signal_generator.vhd"/>
       <outfile xil_pn:name="../lab3_Hilborn_Kopp/tb_clockdivider.vhd"/>
@@ -89,8 +103,11 @@
     <transform xil_pn:end_ts="1426029699" xil_pn:in_ck="6340804767404448544" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-2603399381554036430" xil_pn:start_ts="1426029695">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
