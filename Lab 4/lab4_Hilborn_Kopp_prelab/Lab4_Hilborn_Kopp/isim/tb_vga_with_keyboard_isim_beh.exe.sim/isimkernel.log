@@ -1,0 +1,10 @@
+Command line:
+   tb_vga_with_keyboard_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  51065
+
+Tue Mar 24 14:54:10 2015
+
+
+ Elaboration Time: 0.093601 sec
