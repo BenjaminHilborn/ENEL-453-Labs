@@ -170,6 +170,17 @@ VGA_SYNC: sync_signals_generator
 				  );
 
 -- END INSTANTIATION
+
+
+move_left <= '1' when (keyboard_value = "1100001") --a
+							else '0';
+move_right <= '1' when (keyboard_value = "1100100") --d
+							else '0';
+move_up <= '1' when (keyboard_value = "1110111") --w
+							else '0';
+move_down <= '1' when (keyboard_value = "1110011") --s
+							else '0';
+
 reset <= button0;
 
 red <= "000" when (vga_blank = '1') else disp_red;
