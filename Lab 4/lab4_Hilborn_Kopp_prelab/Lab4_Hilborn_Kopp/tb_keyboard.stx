@@ -1,0 +1,92 @@
+Release 14.7 - xst P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/keyboard.vhd" in Library work.
+Architecture behavioral of Entity keyboard is up to date.
+Compiling vhdl file "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/tb_keyboard.vhd" in Library work.
+Entity <tb_keyboard> compiled.
+ERROR:HDLParsers:1015 - "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/tb_keyboard.vhd" Line 58. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/tb_keyboard.vhd" Line 60. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/tb_keyboard.vhd" Line 66. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/tb_keyboard.vhd" Line 71. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/tb_keyboard.vhd" Line 73. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/tb_keyboard.vhd" Line 78. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/tb_keyboard.vhd" Line 80. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/tb_keyboard.vhd" Line 85. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/tb_keyboard.vhd" Line 87. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/tb_keyboard.vhd" Line 92. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/tb_keyboard.vhd" Line 94. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/tb_keyboard.vhd" Line 101. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/tb_keyboard.vhd" Line 106. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/tb_keyboard.vhd" Line 108. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/tb_keyboard.vhd" Line 111. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/tb_keyboard.vhd" Line 113. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/tb_keyboard.vhd" Line 116. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/tb_keyboard.vhd" Line 118. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/tb_keyboard.vhd" Line 121. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/tb_keyboard.vhd" Line 123. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/tb_keyboard.vhd" Line 126. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/tb_keyboard.vhd" Line 128. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/tb_keyboard.vhd" Line 131. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/tb_keyboard.vhd" Line 133. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/tb_keyboard.vhd" Line 136. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/tb_keyboard.vhd" Line 138. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/tb_keyboard.vhd" Line 141. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/tb_keyboard.vhd" Line 143. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/tb_keyboard.vhd" Line 146. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/tb_keyboard.vhd" Line 148. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/tb_keyboard.vhd" Line 153. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/tb_keyboard.vhd" Line 155. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/tb_keyboard.vhd" Line 158. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/tb_keyboard.vhd" Line 160. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/tb_keyboard.vhd" Line 173. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/tb_keyboard.vhd" Line 175. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/tb_keyboard.vhd" Line 178. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/tb_keyboard.vhd" Line 180. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/tb_keyboard.vhd" Line 183. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/tb_keyboard.vhd" Line 185. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/tb_keyboard.vhd" Line 188. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/tb_keyboard.vhd" Line 190. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/tb_keyboard.vhd" Line 193. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/tb_keyboard.vhd" Line 195. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/tb_keyboard.vhd" Line 198. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/tb_keyboard.vhd" Line 200. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/tb_keyboard.vhd" Line 203. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/tb_keyboard.vhd" Line 205. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/tb_keyboard.vhd" Line 208. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/tb_keyboard.vhd" Line 210. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/tb_keyboard.vhd" Line 213. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/tb_keyboard.vhd" Line 215. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/tb_keyboard.vhd" Line 220. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/tb_keyboard.vhd" Line 222. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/tb_keyboard.vhd" Line 225. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/tb_keyboard.vhd" Line 227. Wait for statement unsupported.
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.19 secs
+ 
+--> 
+
+Total memory usage is 176460 kilobytes
+
+Number of errors   :   56 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

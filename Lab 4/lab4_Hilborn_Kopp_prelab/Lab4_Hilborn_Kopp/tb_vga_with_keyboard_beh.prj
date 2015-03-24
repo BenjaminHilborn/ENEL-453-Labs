@@ -1,0 +1,7 @@
+vhdl work "keyboard.vhd"
+vhdl work "decoded_keyboard.vhd.vhd"
+vhdl work "controlled_box.vhd"
+vhdl work "../lab3_Hilborn_Kopp/sync_signal_generator.vhd"
+vhdl work "../lab3_Hilborn_Kopp/clock_divider.vhd"
+vhdl work "vga_with_keyboard.vhd"
+vhdl work "tb_vga_with_keyboard.vhd"

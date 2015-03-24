@@ -1,12 +1,13 @@
 AR decoded_keyboard behavioral "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/decoded_keyboard.vhd.vhd" sub00/vhpl09 1427227608
-EN keyboard NULL "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/keyboard.vhd" sub00/vhpl02 1427227601
+EN keyboard NULL "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/keyboard.vhd" sub00/vhpl02 1427228839
 AR sync_signals_generator behavioral "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/lab3_Hilborn_Kopp/sync_signal_generator.vhd" sub00/vhpl11 1427227610
-AR clock_divider behavioral "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/lab3_Hilborn_Kopp/clock_divider.vhd" sub00/vhpl05 1427227604
+AR clock_divider behavioral "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/lab3_Hilborn_Kopp/clock_divider.vhd" sub00/vhpl05 1427228083
 EN sync_signals_generator NULL "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/lab3_Hilborn_Kopp/sync_signal_generator.vhd" sub00/vhpl10 1427227609
 EN controlled_box NULL "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/controlled_box.vhd" sub00/vhpl06 1427227605
-EN clock_divider NULL "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/lab3_Hilborn_Kopp/clock_divider.vhd" sub00/vhpl04 1427227603
+EN clock_divider NULL "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/lab3_Hilborn_Kopp/clock_divider.vhd" sub00/vhpl04 1427228082
 AR vga_with_keyboard behavioral "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/vga_with_keyboard.vhd" sub00/vhpl01 1427227612
-AR keyboard behavioral "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/keyboard.vhd" sub00/vhpl03 1427227602
+AR keyboard behavioral "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/keyboard.vhd" sub00/vhpl03 1427228840
 EN decoded_keyboard NULL "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/decoded_keyboard.vhd.vhd" sub00/vhpl08 1427227607
 AR controlled_box behavioral "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/controlled_box.vhd" sub00/vhpl07 1427227606
+EN tb_keyboard NULL "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/tb_keyboard.vhd" sub00/vhpl12 1427228841
 EN vga_with_keyboard NULL "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/vga_with_keyboard.vhd" sub00/vhpl00 1427227611

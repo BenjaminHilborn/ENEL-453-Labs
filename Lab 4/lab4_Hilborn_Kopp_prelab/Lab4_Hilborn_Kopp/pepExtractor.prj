@@ -1,2 +1,6 @@
+work	"../lab3_Hilborn_Kopp/clock_divider.vhd"
+work	"../lab3_Hilborn_Kopp/sync_signal_generator.vhd"
+work	"controlled_box.vhd"
 work	"decoded_keyboard.vhd.vhd"
 work	"keyboard.vhd"
+work	"vga_with_keyboard.vhd"

@@ -1,11 +1,11 @@
-V3 24
+V3 27
 FL "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/lab3_Hilborn_Kopp/clock_divider.vhd" 2015/03/23.17:18:52 P.20131013
-EN work/clock_divider 1427227603 \
+EN work/clock_divider 1427228082 \
       FL "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/lab3_Hilborn_Kopp/clock_divider.vhd" \
       PB ieee/std_logic_1164 1381692176
-AR work/clock_divider/Behavioral 1427227604 \
+AR work/clock_divider/Behavioral 1427228083 \
       FL "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/lab3_Hilborn_Kopp/clock_divider.vhd" \
-      EN work/clock_divider 1427227603 CP downcounter
+      EN work/clock_divider 1427228082 CP downcounter
 FL "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/lab3_Hilborn_Kopp/sync_signal_generator.vhd" 2015/03/23.17:18:54 P.20131013
 EN work/sync_signals_generator 1427227609 \
       FL "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/lab3_Hilborn_Kopp/sync_signal_generator.vhd" \
@@ -30,13 +30,19 @@ AR work/decoded_keyboard/Behavioral 1427227608 \
       FL "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/decoded_keyboard.vhd.vhd" \
       EN work/decoded_keyboard 1427227607 CP keyboard
 FL "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/keyboard.vhd" 2015/03/23.17:18:52 P.20131013
-EN work/keyboard 1427227601 \
+EN work/keyboard 1427228839 \
       FL "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/keyboard.vhd" \
       PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
       PB ieee/STD_LOGIC_UNSIGNED 1381692179
-AR work/keyboard/Behavioral 1427227602 \
+AR work/keyboard/Behavioral 1427228840 \
       FL "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/keyboard.vhd" \
-      EN work/keyboard 1427227601
+      EN work/keyboard 1427228839
+EN work/tb_keyboard 0 \
+      FL "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/tb_keyboard.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/tb_keyboard/behavior 0 \
+      FL "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/tb_keyboard.vhd" \
+      EN work/tb_keyboard 0 CP keyboard
 FL "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/vga_with_keyboard.vhd" 2015/03/24.14:05:06 P.20131013
 EN work/vga_with_keyboard 1427227611 \
       FL "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/vga_with_keyboard.vhd" \

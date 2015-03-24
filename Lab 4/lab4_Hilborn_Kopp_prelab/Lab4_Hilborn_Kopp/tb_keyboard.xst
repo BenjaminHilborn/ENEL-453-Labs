@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/xst"
+elaborate
+-ifn tb_keyboard.prj
+-ifmt mixed
