@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2015-03-02T17:40:54</DateModified>
+  <DateModified>2015-03-24T13:53:06</DateModified>
   <ModuleName>vga_module</ModuleName>
   <SummaryTimeStamp>2015-03-02T16:57:12</SummaryTimeStamp>
-  <SavedFilePath>C:/Users/blhilbor/Desktop/Lab 3/lab3_Hilborn_Kopp_postlabwork/lab3_Hilborn_Kopp/iseconfig/vga_module.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/blhilbor/Desktop/Lab 3/lab3_Hilborn_Kopp_postlabwork/lab3_Hilborn_Kopp\</ImplementationReportsDirectory>
+  <SavedFilePath>C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 3/lab3_Hilborn_Kopp_final/lab3_Hilborn_Kopp/iseconfig/vga_module.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 3/lab3_Hilborn_Kopp_final/lab3_Hilborn_Kopp\</ImplementationReportsDirectory>
   <DateInitialized>2015-02-26T11:27:06</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

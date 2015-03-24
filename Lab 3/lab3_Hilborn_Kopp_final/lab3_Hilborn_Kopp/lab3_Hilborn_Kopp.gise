@@ -45,8 +45,8 @@
       <branch xil_pn:name="PostTranslateSimulation"/>
     </file>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="netgen"/>
-    <file xil_pn:branch="PostSynthSim" xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/synthesis/vga_module_synthesis.nlf"/>
-    <file xil_pn:branch="PostSynthSim" xil_pn:fileType="FILE_VERILOG" xil_pn:name="netgen/synthesis/vga_module_synthesis.v"/>
+    <file xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/synthesis/vga_module_synthesis.nlf"/>
+    <file xil_pn:fileType="FILE_VERILOG" xil_pn:name="netgen/synthesis/vga_module_synthesis.v"/>
     <file xil_pn:branch="PostTranslateSimulation" xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/translate/vga_module_translate.nlf"/>
     <file xil_pn:branch="PostTranslateSimulation" xil_pn:fileType="FILE_VERILOG" xil_pn:name="netgen/translate/vga_module_translate.v"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_bouncing_box_isim_beh.exe"/>
@@ -326,6 +326,7 @@
     <transform xil_pn:end_ts="1425343923" xil_pn:in_ck="-6113659699894507414" xil_pn:name="TRAN_postXlateSimModel" xil_pn:prop_ck="7613275016189268561" xil_pn:start_ts="1425343920">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
       <outfile xil_pn:name="netgen"/>
       <outfile xil_pn:name="netgen/translate/vga_module_translate.nlf"/>
       <outfile xil_pn:name="netgen/translate/vga_module_translate.v"/>
@@ -333,6 +334,7 @@
     <transform xil_pn:end_ts="1425343923" xil_pn:in_ck="6316588144908200862" xil_pn:name="TRAN_copyPost-TranslateAbstractToPreSimulation" xil_pn:start_ts="1425343923">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="netgen/translate/vga_module_translate.v"/>
       <outfile xil_pn:name="tb_bouncing_box.vhd"/>
       <outfile xil_pn:name="tb_sync_signals_generator.vhd"/>
@@ -344,6 +346,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="fuse.log"/>

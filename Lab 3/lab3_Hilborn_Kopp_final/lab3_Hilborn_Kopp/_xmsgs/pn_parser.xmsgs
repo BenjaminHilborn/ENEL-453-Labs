@@ -8,7 +8,22 @@
 <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/blhilbor/Desktop/Lab 3/lab3_Hilborn_Kopp_postlabwork/lab3_Hilborn_Kopp/netgen/translate/vga_module_translate.v&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 3/lab3_Hilborn_Kopp_final/lab3_Hilborn_Kopp/netgen/translate/vga_module_translate.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 3/lab3_Hilborn_Kopp_final/lab3_Hilborn_Kopp/tb_bouncing_box.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 3/lab3_Hilborn_Kopp_final/lab3_Hilborn_Kopp/tb_sync_signals_generator.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 3/lab3_Hilborn_Kopp_final/lab3_Hilborn_Kopp/tb_up_down_counter.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 3/lab3_Hilborn_Kopp_final/lab3_Hilborn_Kopp/tb_vga_module.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 3/lab3_Hilborn_Kopp_final/lab3_Hilborn_Kopp/tb_vga_stripes_dff.vhd&quot; into library work</arg>
 </msg>
 
 </messages>

@@ -1,47 +1,47 @@
 V3 24
 FL "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/lab3_Hilborn_Kopp/clock_divider.vhd" 2015/03/23.17:18:52 P.20131013
-EN work/clock_divider 1427225963 \
+EN work/clock_divider 1427226985 \
       FL "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/lab3_Hilborn_Kopp/clock_divider.vhd" \
       PB ieee/std_logic_1164 1381692176
-AR work/clock_divider/Behavioral 1427225964 \
+AR work/clock_divider/Behavioral 1427226986 \
       FL "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/lab3_Hilborn_Kopp/clock_divider.vhd" \
-      EN work/clock_divider 1427225963 CP downcounter
+      EN work/clock_divider 1427226985 CP downcounter
 FL "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/lab3_Hilborn_Kopp/sync_signal_generator.vhd" 2015/03/23.17:18:54 P.20131013
-EN work/sync_signals_generator 1427225969 \
+EN work/sync_signals_generator 1427226991 \
       FL "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/lab3_Hilborn_Kopp/sync_signal_generator.vhd" \
       PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
       PB ieee/STD_LOGIC_UNSIGNED 1381692179
-AR work/sync_signals_generator/Behavioral 1427225970 \
+AR work/sync_signals_generator/Behavioral 1427226992 \
       FL "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/lab3_Hilborn_Kopp/sync_signal_generator.vhd" \
-      EN work/sync_signals_generator 1427225969
+      EN work/sync_signals_generator 1427226991
 FL "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/controlled_box.vhd" 2015/03/23.17:18:51 P.20131013
-EN work/controlled_box 1427225965 \
+EN work/controlled_box 1427226987 \
       FL "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/controlled_box.vhd" \
       PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
       PB ieee/STD_LOGIC_UNSIGNED 1381692179
-AR work/controlled_box/Behavioral 1427225966 \
+AR work/controlled_box/Behavioral 1427226988 \
       FL "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/controlled_box.vhd" \
-      EN work/controlled_box 1427225965
+      EN work/controlled_box 1427226987
 FL "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/decoded_keyboard.vhd.vhd" 2015/03/23.17:18:51 P.20131013
-EN work/decoded_keyboard 1427225967 \
+EN work/decoded_keyboard 1427226989 \
       FL "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/decoded_keyboard.vhd.vhd" \
       PB ieee/std_logic_1164 1381692176
-AR work/decoded_keyboard/Behavioral 1427225968 \
+AR work/decoded_keyboard/Behavioral 1427226990 \
       FL "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/decoded_keyboard.vhd.vhd" \
-      EN work/decoded_keyboard 1427225967 CP keyboard
+      EN work/decoded_keyboard 1427226989 CP keyboard
 FL "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/keyboard.vhd" 2015/03/23.17:18:52 P.20131013
-EN work/keyboard 1427225961 \
+EN work/keyboard 1427226983 \
       FL "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/keyboard.vhd" \
       PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
       PB ieee/STD_LOGIC_UNSIGNED 1381692179
-AR work/keyboard/Behavioral 1427225962 \
+AR work/keyboard/Behavioral 1427226984 \
       FL "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/keyboard.vhd" \
-      EN work/keyboard 1427225961
-FL "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/vga_with_keyboard.vhd" 2015/03/24.12:59:21 P.20131013
-EN work/vga_with_keyboard 1427225971 \
+      EN work/keyboard 1427226983
+FL "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/vga_with_keyboard.vhd" 2015/03/24.13:56:19 P.20131013
+EN work/vga_with_keyboard 1427226993 \
       FL "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/vga_with_keyboard.vhd" \
       PB ieee/std_logic_1164 1381692176
-AR work/vga_with_keyboard/Behavioral 1427225972 \
+AR work/vga_with_keyboard/Behavioral 1427226994 \
       FL "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/vga_with_keyboard.vhd" \
-      EN work/vga_with_keyboard 1427225971 CP clock_divider CP controlled_box \
+      EN work/vga_with_keyboard 1427226993 CP clock_divider CP controlled_box \
       CP decoded_keyboard CP sync_signals_generator

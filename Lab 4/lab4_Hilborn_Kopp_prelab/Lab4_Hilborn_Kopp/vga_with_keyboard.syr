@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.34 secs
+Total CPU time to Xst completion: 0.09 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.34 secs
+Total CPU time to Xst completion: 0.09 secs
  
 --> Reading design: vga_with_keyboard.prj
 
@@ -315,24 +315,15 @@ Unit <decoded_keyboard> synthesized.
 
 Synthesizing Unit <vga_with_keyboard>.
     Related source file is "C:/Users/Benjamin/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/vga_with_keyboard.vhd".
-WARNING:Xst:1306 - Output <blue> is never assigned.
-WARNING:Xst:1306 - Output <green> is never assigned.
-WARNING:Xst:1306 - Output <leds> is never assigned.
-WARNING:Xst:647 - Input <button0> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-WARNING:Xst:1306 - Output <red> is never assigned.
-WARNING:Xst:646 - Signal <vga_blank> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 WARNING:Xst:1780 - Signal <move_up> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
 WARNING:Xst:653 - Signal <move_right> is used but never assigned. This sourceless signal will be automatically connected to value 0.
 WARNING:Xst:653 - Signal <move_left> is used but never assigned. This sourceless signal will be automatically connected to value 0.
 WARNING:Xst:653 - Signal <move_down> is used but never assigned. This sourceless signal will be automatically connected to value 0.
-WARNING:Xst:646 - Signal <keyboard_value> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
-WARNING:Xst:646 - Signal <keyboard_shift> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
-WARNING:Xst:646 - Signal <keyboard_ctrl> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 WARNING:Xst:646 - Signal <i_hHz> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 WARNING:Xst:646 - Signal <i_Hz> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
-WARNING:Xst:1780 - Signal <disp_red> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
-WARNING:Xst:1780 - Signal <disp_green> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
-WARNING:Xst:1780 - Signal <disp_blue> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:653 - Signal <disp_red> is used but never assigned. This sourceless signal will be automatically connected to value 000.
+WARNING:Xst:653 - Signal <disp_green> is used but never assigned. This sourceless signal will be automatically connected to value 000.
+WARNING:Xst:653 - Signal <disp_blue> is used but never assigned. This sourceless signal will be automatically connected to value 00.
 WARNING:Xst:1780 - Signal <box_red> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
 WARNING:Xst:1780 - Signal <box_green> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
 WARNING:Xst:1780 - Signal <box_blue> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
@@ -387,8 +378,7 @@ Optimizing FSM <KEYBOARD/state/FSM> on signal <state[1:2]> with user encoding.
 -----------------------
 WARNING:Xst:1290 - Hierarchical block <MOVING_BOX> is unconnected in block <vga_with_keyboard>.
    It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <KEYBOARD> is unconnected in block <vga_with_keyboard>.
-   It will be removed from the design.
+WARNING:Xst:2677 - Node <ps2_word_0> of sequential type is unconnected in block <PS2_KEYBOARD>.
 WARNING:Xst:2677 - Node <ps2_word_0> of sequential type is unconnected in block <keyboard>.
 
 =========================================================================
@@ -452,100 +442,34 @@ Optimizing unit <controlled_box> ...
 Optimizing unit <keyboard> ...
 
 Optimizing unit <decoded_keyboard> ...
-WARNING:Xst:2677 - Node <KEYBOARD/PS2_KEYBOARD/debounce_ps2_clk_dffs_0> of sequential type is unconnected in block <vga_with_keyboard>.
-WARNING:Xst:2677 - Node <KEYBOARD/PS2_KEYBOARD/debounce_ps2_data_dffs_0> of sequential type is unconnected in block <vga_with_keyboard>.
-WARNING:Xst:2677 - Node <KEYBOARD/PS2_KEYBOARD/ps2_error> of sequential type is unconnected in block <vga_with_keyboard>.
-WARNING:Xst:2677 - Node <KEYBOARD/PS2_KEYBOARD/ps2_newcode> of sequential type is unconnected in block <vga_with_keyboard>.
-WARNING:Xst:2677 - Node <KEYBOARD/PS2_KEYBOARD/debounce_ps2_clk_dffs_1> of sequential type is unconnected in block <vga_with_keyboard>.
-WARNING:Xst:2677 - Node <KEYBOARD/PS2_KEYBOARD/debounce_ps2_data_dffs_1> of sequential type is unconnected in block <vga_with_keyboard>.
-WARNING:Xst:2677 - Node <KEYBOARD/PS2_KEYBOARD/stable_ps2_clk> of sequential type is unconnected in block <vga_with_keyboard>.
-WARNING:Xst:2677 - Node <KEYBOARD/PS2_KEYBOARD/stable_ps2_data> of sequential type is unconnected in block <vga_with_keyboard>.
-WARNING:Xst:2677 - Node <KEYBOARD/PS2_KEYBOARD/ps2_word_1> of sequential type is unconnected in block <vga_with_keyboard>.
-WARNING:Xst:2677 - Node <KEYBOARD/PS2_KEYBOARD/ps2_word_2> of sequential type is unconnected in block <vga_with_keyboard>.
-WARNING:Xst:2677 - Node <KEYBOARD/PS2_KEYBOARD/ps2_word_3> of sequential type is unconnected in block <vga_with_keyboard>.
-WARNING:Xst:2677 - Node <KEYBOARD/PS2_KEYBOARD/ps2_word_4> of sequential type is unconnected in block <vga_with_keyboard>.
-WARNING:Xst:2677 - Node <KEYBOARD/PS2_KEYBOARD/ps2_word_5> of sequential type is unconnected in block <vga_with_keyboard>.
-WARNING:Xst:2677 - Node <KEYBOARD/PS2_KEYBOARD/ps2_word_6> of sequential type is unconnected in block <vga_with_keyboard>.
-WARNING:Xst:2677 - Node <KEYBOARD/PS2_KEYBOARD/ps2_word_7> of sequential type is unconnected in block <vga_with_keyboard>.
-WARNING:Xst:2677 - Node <KEYBOARD/PS2_KEYBOARD/ps2_word_8> of sequential type is unconnected in block <vga_with_keyboard>.
-WARNING:Xst:2677 - Node <KEYBOARD/PS2_KEYBOARD/ps2_word_9> of sequential type is unconnected in block <vga_with_keyboard>.
-WARNING:Xst:2677 - Node <KEYBOARD/PS2_KEYBOARD/ps2_word_10> of sequential type is unconnected in block <vga_with_keyboard>.
-WARNING:Xst:2677 - Node <KEYBOARD/PS2_KEYBOARD/stable_ps2_clk_dffs_0> of sequential type is unconnected in block <vga_with_keyboard>.
-WARNING:Xst:2677 - Node <KEYBOARD/PS2_KEYBOARD/ps2_code_0> of sequential type is unconnected in block <vga_with_keyboard>.
-WARNING:Xst:2677 - Node <KEYBOARD/PS2_KEYBOARD/ps2_code_1> of sequential type is unconnected in block <vga_with_keyboard>.
-WARNING:Xst:2677 - Node <KEYBOARD/PS2_KEYBOARD/ps2_code_2> of sequential type is unconnected in block <vga_with_keyboard>.
-WARNING:Xst:2677 - Node <KEYBOARD/PS2_KEYBOARD/ps2_code_3> of sequential type is unconnected in block <vga_with_keyboard>.
-WARNING:Xst:2677 - Node <KEYBOARD/PS2_KEYBOARD/ps2_code_4> of sequential type is unconnected in block <vga_with_keyboard>.
-WARNING:Xst:2677 - Node <KEYBOARD/PS2_KEYBOARD/ps2_code_5> of sequential type is unconnected in block <vga_with_keyboard>.
-WARNING:Xst:2677 - Node <KEYBOARD/PS2_KEYBOARD/ps2_code_6> of sequential type is unconnected in block <vga_with_keyboard>.
-WARNING:Xst:2677 - Node <KEYBOARD/PS2_KEYBOARD/ps2_code_7> of sequential type is unconnected in block <vga_with_keyboard>.
-WARNING:Xst:2677 - Node <KEYBOARD/PS2_KEYBOARD/stable_ps2_clk_dffs_1> of sequential type is unconnected in block <vga_with_keyboard>.
-WARNING:Xst:2677 - Node <KEYBOARD/PS2_KEYBOARD/ps2_parity> of sequential type is unconnected in block <vga_with_keyboard>.
-WARNING:Xst:2677 - Node <KEYBOARD/PS2_KEYBOARD/count_idle_0> of sequential type is unconnected in block <vga_with_keyboard>.
-WARNING:Xst:2677 - Node <KEYBOARD/PS2_KEYBOARD/count_idle_1> of sequential type is unconnected in block <vga_with_keyboard>.
-WARNING:Xst:2677 - Node <KEYBOARD/PS2_KEYBOARD/count_idle_2> of sequential type is unconnected in block <vga_with_keyboard>.
-WARNING:Xst:2677 - Node <KEYBOARD/PS2_KEYBOARD/count_idle_3> of sequential type is unconnected in block <vga_with_keyboard>.
-WARNING:Xst:2677 - Node <KEYBOARD/PS2_KEYBOARD/count_idle_4> of sequential type is unconnected in block <vga_with_keyboard>.
-WARNING:Xst:2677 - Node <KEYBOARD/PS2_KEYBOARD/count_idle_5> of sequential type is unconnected in block <vga_with_keyboard>.
-WARNING:Xst:2677 - Node <KEYBOARD/PS2_KEYBOARD/count_idle_6> of sequential type is unconnected in block <vga_with_keyboard>.
-WARNING:Xst:2677 - Node <KEYBOARD/PS2_KEYBOARD/count_idle_7> of sequential type is unconnected in block <vga_with_keyboard>.
-WARNING:Xst:2677 - Node <KEYBOARD/PS2_KEYBOARD/count_idle_8> of sequential type is unconnected in block <vga_with_keyboard>.
-WARNING:Xst:2677 - Node <KEYBOARD/PS2_KEYBOARD/count_idle_9> of sequential type is unconnected in block <vga_with_keyboard>.
-WARNING:Xst:2677 - Node <KEYBOARD/PS2_KEYBOARD/count_idle_10> of sequential type is unconnected in block <vga_with_keyboard>.
-WARNING:Xst:2677 - Node <KEYBOARD/PS2_KEYBOARD/debounce_ps2_data_count_0> of sequential type is unconnected in block <vga_with_keyboard>.
-WARNING:Xst:2677 - Node <KEYBOARD/PS2_KEYBOARD/debounce_ps2_data_count_1> of sequential type is unconnected in block <vga_with_keyboard>.
-WARNING:Xst:2677 - Node <KEYBOARD/PS2_KEYBOARD/debounce_ps2_data_count_2> of sequential type is unconnected in block <vga_with_keyboard>.
-WARNING:Xst:2677 - Node <KEYBOARD/PS2_KEYBOARD/debounce_ps2_data_count_3> of sequential type is unconnected in block <vga_with_keyboard>.
-WARNING:Xst:2677 - Node <KEYBOARD/PS2_KEYBOARD/debounce_ps2_data_count_4> of sequential type is unconnected in block <vga_with_keyboard>.
-WARNING:Xst:2677 - Node <KEYBOARD/PS2_KEYBOARD/debounce_ps2_data_count_5> of sequential type is unconnected in block <vga_with_keyboard>.
-WARNING:Xst:2677 - Node <KEYBOARD/PS2_KEYBOARD/debounce_ps2_data_count_6> of sequential type is unconnected in block <vga_with_keyboard>.
-WARNING:Xst:2677 - Node <KEYBOARD/PS2_KEYBOARD/debounce_ps2_data_count_7> of sequential type is unconnected in block <vga_with_keyboard>.
-WARNING:Xst:2677 - Node <KEYBOARD/PS2_KEYBOARD/debounce_ps2_clk_count_0> of sequential type is unconnected in block <vga_with_keyboard>.
-WARNING:Xst:2677 - Node <KEYBOARD/PS2_KEYBOARD/debounce_ps2_clk_count_1> of sequential type is unconnected in block <vga_with_keyboard>.
-WARNING:Xst:2677 - Node <KEYBOARD/PS2_KEYBOARD/debounce_ps2_clk_count_2> of sequential type is unconnected in block <vga_with_keyboard>.
-WARNING:Xst:2677 - Node <KEYBOARD/PS2_KEYBOARD/debounce_ps2_clk_count_3> of sequential type is unconnected in block <vga_with_keyboard>.
-WARNING:Xst:2677 - Node <KEYBOARD/PS2_KEYBOARD/debounce_ps2_clk_count_4> of sequential type is unconnected in block <vga_with_keyboard>.
-WARNING:Xst:2677 - Node <KEYBOARD/PS2_KEYBOARD/debounce_ps2_clk_count_5> of sequential type is unconnected in block <vga_with_keyboard>.
-WARNING:Xst:2677 - Node <KEYBOARD/PS2_KEYBOARD/debounce_ps2_clk_count_6> of sequential type is unconnected in block <vga_with_keyboard>.
-WARNING:Xst:2677 - Node <KEYBOARD/PS2_KEYBOARD/debounce_ps2_clk_count_7> of sequential type is unconnected in block <vga_with_keyboard>.
-WARNING:Xst:2677 - Node <KEYBOARD/state_FSM_FFd2> of sequential type is unconnected in block <vga_with_keyboard>.
-WARNING:Xst:2677 - Node <KEYBOARD/state_FSM_FFd1> of sequential type is unconnected in block <vga_with_keyboard>.
-WARNING:Xst:2677 - Node <KEYBOARD/decoded_value_6> of sequential type is unconnected in block <vga_with_keyboard>.
-WARNING:Xst:2677 - Node <KEYBOARD/decoded_value_5> of sequential type is unconnected in block <vga_with_keyboard>.
-WARNING:Xst:2677 - Node <KEYBOARD/decoded_value_4> of sequential type is unconnected in block <vga_with_keyboard>.
-WARNING:Xst:2677 - Node <KEYBOARD/decoded_value_2> of sequential type is unconnected in block <vga_with_keyboard>.
-WARNING:Xst:2677 - Node <KEYBOARD/decoded_value_1> of sequential type is unconnected in block <vga_with_keyboard>.
-WARNING:Xst:2677 - Node <KEYBOARD/decoded_value_3> of sequential type is unconnected in block <vga_with_keyboard>.
-WARNING:Xst:2677 - Node <KEYBOARD/decoded_value_0> of sequential type is unconnected in block <vga_with_keyboard>.
-WARNING:Xst:2677 - Node <KEYBOARD/ps2_newcode_old> of sequential type is unconnected in block <vga_with_keyboard>.
-WARNING:Xst:2677 - Node <KEYBOARD/caps_lock> of sequential type is unconnected in block <vga_with_keyboard>.
-WARNING:Xst:2677 - Node <KEYBOARD/ctrl_r> of sequential type is unconnected in block <vga_with_keyboard>.
-WARNING:Xst:2677 - Node <KEYBOARD/value_6> of sequential type is unconnected in block <vga_with_keyboard>.
-WARNING:Xst:2677 - Node <KEYBOARD/value_5> of sequential type is unconnected in block <vga_with_keyboard>.
-WARNING:Xst:2677 - Node <KEYBOARD/value_4> of sequential type is unconnected in block <vga_with_keyboard>.
-WARNING:Xst:2677 - Node <KEYBOARD/value_3> of sequential type is unconnected in block <vga_with_keyboard>.
-WARNING:Xst:2677 - Node <KEYBOARD/value_2> of sequential type is unconnected in block <vga_with_keyboard>.
-WARNING:Xst:2677 - Node <KEYBOARD/value_1> of sequential type is unconnected in block <vga_with_keyboard>.
-WARNING:Xst:2677 - Node <KEYBOARD/value_0> of sequential type is unconnected in block <vga_with_keyboard>.
-WARNING:Xst:2677 - Node <KEYBOARD/ctrl_l> of sequential type is unconnected in block <vga_with_keyboard>.
-WARNING:Xst:2677 - Node <KEYBOARD/shift_r> of sequential type is unconnected in block <vga_with_keyboard>.
-WARNING:Xst:2677 - Node <KEYBOARD/break> of sequential type is unconnected in block <vga_with_keyboard>.
-WARNING:Xst:2677 - Node <KEYBOARD/shift_l> of sequential type is unconnected in block <vga_with_keyboard>.
-WARNING:Xst:2677 - Node <KEYBOARD/multikey_code> of sequential type is unconnected in block <vga_with_keyboard>.
 WARNING:Xst:2677 - Node <KEYBOARD/new_value_received> of sequential type is unconnected in block <vga_with_keyboard>.
 
 Mapping all equations...
 Building and optimizing final netlist ...
-Found area constraint ratio of 100 (+ 5) on block vga_with_keyboard, actual ratio is 1.
+Found area constraint ratio of 100 (+ 5) on block vga_with_keyboard, actual ratio is 15.
+FlipFlop KEYBOARD/PS2_KEYBOARD/ps2_code_0 has been replicated 1 time(s)
+FlipFlop KEYBOARD/PS2_KEYBOARD/ps2_code_1 has been replicated 1 time(s)
+FlipFlop KEYBOARD/PS2_KEYBOARD/ps2_code_2 has been replicated 1 time(s)
+FlipFlop KEYBOARD/PS2_KEYBOARD/ps2_code_3 has been replicated 1 time(s)
+FlipFlop KEYBOARD/PS2_KEYBOARD/ps2_code_4 has been replicated 2 time(s)
+FlipFlop KEYBOARD/PS2_KEYBOARD/ps2_code_5 has been replicated 1 time(s)
+FlipFlop KEYBOARD/PS2_KEYBOARD/ps2_code_6 has been replicated 2 time(s)
 
 Final Macro Processing ...
+
+Processing Unit <vga_with_keyboard> :
+	Found 2-bit shift register for signal <KEYBOARD/PS2_KEYBOARD/debounce_ps2_data_dffs_1>.
+	Found 2-bit shift register for signal <KEYBOARD/PS2_KEYBOARD/ps2_word_9>.
+Unit <vga_with_keyboard> processed.
 
 =========================================================================
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 22
- Flip-Flops                                            : 22
+# Registers                                            : 107
+ Flip-Flops                                            : 107
+# Shift Registers                                      : 2
+ 2-bit shift register                                  : 2
 
 =========================================================================
 
@@ -571,29 +495,39 @@ Optimization Goal                  : Speed
 Keep Hierarchy                     : No
 
 Design Statistics
-# IOs                              : 23
+# IOs                              : 22
 
 Cell Usage :
-# BELS                             : 79
+# BELS                             : 361
 #      GND                         : 1
-#      INV                         : 2
-#      LUT1                        : 20
-#      LUT2_L                      : 1
-#      LUT3                        : 1
-#      LUT3_L                      : 1
-#      LUT4                        : 9
-#      LUT4_L                      : 1
-#      MUXCY                       : 20
+#      INV                         : 10
+#      LUT1                        : 44
+#      LUT2                        : 16
+#      LUT2_D                      : 4
+#      LUT2_L                      : 3
+#      LUT3                        : 26
+#      LUT3_D                      : 9
+#      LUT3_L                      : 7
+#      LUT4                        : 102
+#      LUT4_D                      : 7
+#      LUT4_L                      : 32
+#      MUXCY                       : 44
+#      MUXF5                       : 6
 #      VCC                         : 1
-#      XORCY                       : 22
-# FlipFlops/Latches                : 22
-#      FDR                         : 11
-#      FDRE                        : 11
+#      XORCY                       : 49
+# FlipFlops/Latches                : 109
+#      FD                          : 16
+#      FDE                         : 40
+#      FDR                         : 15
+#      FDRE                        : 38
+# Shift Registers                  : 2
+#      SRL16                       : 1
+#      SRL16E                      : 1
 # Clock Buffers                    : 1
 #      BUFGP                       : 1
-# IO Buffers                       : 3
-#      IBUF                        : 1
-#      OBUF                        : 2
+# IO Buffers                       : 21
+#      IBUF                        : 3
+#      OBUF                        : 18
 # Others                           : 7
 #      downcounter_1               : 1
 #      downcounter_2               : 5
@@ -605,11 +539,13 @@ Device utilization summary:
 
 Selected Device : 3s100ecp132-5 
 
- Number of Slices:                       19  out of    960     1%  
- Number of Slice Flip Flops:             22  out of   1920     1%  
- Number of 4 input LUTs:                 35  out of   1920     1%  
- Number of IOs:                          23
- Number of bonded IOBs:                   4  out of     83     4%  
+ Number of Slices:                      134  out of    960    13%  
+ Number of Slice Flip Flops:            109  out of   1920     5%  
+ Number of 4 input LUTs:                262  out of   1920    13%  
+    Number used as logic:               260
+    Number used as Shift registers:       2
+ Number of IOs:                          22
+ Number of bonded IOBs:                  22  out of     83    26%  
  Number of GCLKs:                         1  out of     24     4%  
 
 ---------------------------
@@ -633,7 +569,7 @@ Clock Information:
 -----------------------------------+------------------------+-------+
 Clock Signal                       | Clock buffer(FF name)  | Load  |
 -----------------------------------+------------------------+-------+
-clk                                | BUFGP                  | 22    |
+clk                                | BUFGP                  | 111   |
 -----------------------------------+------------------------+-------+
 
 Asynchronous Control Signals Information:
@@ -644,10 +580,10 @@ Timing Summary:
 ---------------
 Speed Grade: -5
 
-   Minimum period: 5.512ns (Maximum Frequency: 181.427MHz)
+   Minimum period: 8.056ns (Maximum Frequency: 124.137MHz)
    Minimum input arrival time before clock: 3.838ns
    Maximum output required time after clock: 6.376ns
-   Maximum combinational path delay: 2.446ns
+   Maximum combinational path delay: 2.551ns
 
 Timing Detail:
 --------------
@@ -655,43 +591,48 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'clk'
-  Clock period: 5.512ns (frequency: 181.427MHz)
-  Total number of paths / destination ports: 429 / 55
+  Clock period: 8.056ns (frequency: 124.137MHz)
+  Total number of paths / destination ports: 2703 / 238
 -------------------------------------------------------------------------
-Delay:               5.512ns (Levels of Logic = 3)
-  Source:            VGA_SYNC/currentHPos_6 (FF)
-  Destination:       VGA_SYNC/currentVPos_0 (FF)
+Delay:               8.056ns (Levels of Logic = 8)
+  Source:            KEYBOARD/PS2_KEYBOARD/ps2_code_0_1 (FF)
+  Destination:       KEYBOARD/decoded_value_6 (FF)
   Source Clock:      clk rising
   Destination Clock: clk rising
 
-  Data Path: VGA_SYNC/currentHPos_6 to VGA_SYNC/currentVPos_0
+  Data Path: KEYBOARD/PS2_KEYBOARD/ps2_code_0_1 to KEYBOARD/decoded_value_6
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDR:C->Q              4   0.514   0.651  VGA_SYNC/currentHPos_6 (VGA_SYNC/currentHPos_6)
-     LUT3_L:I0->LO         1   0.612   0.103  VGA_SYNC/currentHPos_cmp_gt00001_SW0 (N27)
-     LUT4:I3->O           12   0.612   0.820  VGA_SYNC/currentHPos_cmp_gt00001 (VGA_SYNC/currentHPos_cmp_gt0000)
-     LUT4:I3->O           11   0.612   0.793  VGA_SYNC/currentVPos_or000040 (VGA_SYNC/currentVPos_or0000)
-     FDRE:R                    0.795          VGA_SYNC/currentVPos_0
+     FDE:C->Q              4   0.514   0.651  KEYBOARD/PS2_KEYBOARD/ps2_code_0_1 (KEYBOARD/PS2_KEYBOARD/ps2_code_0_1)
+     LUT3_D:I0->LO         1   0.612   0.103  KEYBOARD/decoded_value_2_or000321 (N169)
+     LUT4:I3->O            3   0.612   0.603  KEYBOARD/decoded_value_0_cmp_eq00081 (KEYBOARD/decoded_value_0_cmp_eq0008)
+     LUT4:I0->O            1   0.612   0.000  KEYBOARD/decoded_value_4_or000241_G (N157)
+     MUXF5:I1->O           2   0.278   0.410  KEYBOARD/decoded_value_4_or000241 (KEYBOARD/decoded_value_4_or000241)
+     LUT3_D:I2->O          3   0.612   0.454  KEYBOARD/decoded_value_4_or000275 (KEYBOARD/decoded_value_4_or0002)
+     LUT4_L:I3->LO         1   0.612   0.130  KEYBOARD/decoded_value_6_mux000069 (KEYBOARD/decoded_value_6_mux000069)
+     LUT4:I2->O            1   0.612   0.360  KEYBOARD/decoded_value_6_mux000082 (KEYBOARD/decoded_value_6_mux000082)
+     LUT4:I3->O            1   0.612   0.000  KEYBOARD/decoded_value_6_mux0000106 (KEYBOARD/decoded_value_6_mux0000)
+     FDE:D                     0.268          KEYBOARD/decoded_value_6
     ----------------------------------------
-    Total                      5.512ns (3.145ns logic, 2.367ns route)
-                                       (57.1% logic, 42.9% route)
+    Total                      8.056ns (5.344ns logic, 2.712ns route)
+                                       (66.3% logic, 33.7% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
-  Total number of paths / destination ports: 22 / 22
+  Total number of paths / destination ports: 24 / 24
 -------------------------------------------------------------------------
 Offset:              3.838ns (Levels of Logic = 2)
-  Source:            reset (PAD)
+  Source:            button0 (PAD)
   Destination:       VGA_SYNC/currentHPos_0 (FF)
   Destination Clock: clk rising
 
-  Data Path: reset to VGA_SYNC/currentHPos_0
+  Data Path: button0 to VGA_SYNC/currentHPos_0
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O             2   1.106   0.532  reset_IBUF (reset_IBUF)
-     LUT4:I0->O           11   0.612   0.793  VGA_SYNC/currentHPos_or00001 (VGA_SYNC/currentHPos_or0000)
+     IBUF:I->O             2   1.106   0.532  button0_IBUF (button0_IBUF)
+     LUT2:I0->O           11   0.612   0.793  VGA_SYNC/currentHPos_or00001 (VGA_SYNC/currentHPos_or0000)
      FDR:R                     0.795          VGA_SYNC/currentHPos_0
     ----------------------------------------
     Total                      3.838ns (2.513ns logic, 1.325ns route)
@@ -699,7 +640,7 @@ Offset:              3.838ns (Levels of Logic = 2)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
-  Total number of paths / destination ports: 16 / 2
+  Total number of paths / destination ports: 27 / 10
 -------------------------------------------------------------------------
 Offset:              6.376ns (Levels of Logic = 3)
   Source:            VGA_SYNC/currentVPos_6 (FF)
@@ -722,7 +663,7 @@ Offset:              6.376ns (Levels of Logic = 3)
 Timing constraint: Default path analysis
   Total number of paths / destination ports: 20 / 20
 -------------------------------------------------------------------------
-Delay:               2.446ns (Levels of Logic = 1)
+Delay:               2.551ns (Levels of Logic = 1)
   Source:            clk (PAD)
   Destination:       DIVIDER/tenminHzClock:clk (PAD)
 
@@ -730,11 +671,11 @@ Delay:               2.446ns (Levels of Logic = 1)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     BUFGP:I->O           22   1.457   0.989  clk_BUFGP (clk_BUFGP)
+     BUFGP:I->O          111   1.457   1.094  clk_BUFGP (clk_BUFGP)
     downcounter_2:clk          0.000          DIVIDER/tenminHzClock
     ----------------------------------------
-    Total                      2.446ns (1.457ns logic, 0.989ns route)
-                                       (59.6% logic, 40.4% route)
+    Total                      2.551ns (1.457ns logic, 1.094ns route)
+                                       (57.1% logic, 42.9% route)
 
 =========================================================================
 WARNING:Xst:616 - Invalid property "WIDTH 4": Did not attach to DIVIDER/tenminHzClock.
@@ -746,14 +687,14 @@ WARNING:Xst:616 - Invalid property "WIDTH 4": Did not attach to DIVIDER/hundredH
 WARNING:Xst:616 - Invalid property "WIDTH 15": Did not attach to DIVIDER/kiloHzClock.
 
 
-Total REAL time to Xst completion: 7.00 secs
-Total CPU time to Xst completion: 7.32 secs
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 7.76 secs
  
 --> 
 
-Total memory usage is 203840 kilobytes
+Total memory usage is 205056 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :  157 (   0 filtered)
+Number of warnings :   68 (   0 filtered)
 Number of infos    :    0 (   0 filtered)
 

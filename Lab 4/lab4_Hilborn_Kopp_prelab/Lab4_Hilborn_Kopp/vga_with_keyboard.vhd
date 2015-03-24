@@ -170,6 +170,11 @@ VGA_SYNC: sync_signals_generator
 				  );
 
 -- END INSTANTIATION
+reset <= button0;
+
+red <= "000" when (vga_blank = '1') else disp_red;
+green <= "000" when (vga_blank = '1') else disp_green;
+blue <= "00" when (vga_blank = '1') else disp_blue;
 
 leds(0) <= keyboard_value(0);
 leds(1) <= keyboard_value(1);
@@ -179,7 +184,6 @@ leds(4) <= keyboard_value(4);
 leds(5) <= keyboard_value(5);
 leds(6) <= keyboard_value(6);
 leds(7) <= keyboard_shift OR keyboard_ctrl;
-button0 <= reset;
 
 end Behavioral;
 
