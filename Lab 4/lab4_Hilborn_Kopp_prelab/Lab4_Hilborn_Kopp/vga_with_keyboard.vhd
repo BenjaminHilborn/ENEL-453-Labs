@@ -32,7 +32,6 @@ use IEEE.STD_LOGIC_1164.ALL;
 entity vga_with_keyboard is
     Port ( button0 : in  STD_LOGIC;
            clk : in  STD_LOGIC;
-			  reset: in STD_LOGIC;
            ps2_clk : in  STD_LOGIC;
            ps2_data : in  STD_LOGIC;
            blue : out  STD_LOGIC_VECTOR (1 downto 0);
@@ -106,6 +105,7 @@ component decoded_keyboard is
 end component;
 
 -- SIGNALS
+signal reset: in STD_LOGIC;
 signal disp_blue: std_logic_vector(1 downto 0);
 signal disp_red: std_logic_vector(2 downto 0);
 signal disp_green: std_logic_vector(2 downto 0);
@@ -179,6 +179,7 @@ leds(4) <= keyboard_value(4);
 leds(5) <= keyboard_value(5);
 leds(6) <= keyboard_value(6);
 leds(7) <= keyboard_shift OR keyboard_ctrl;
+button0 <= reset;
 
 end Behavioral;
 
