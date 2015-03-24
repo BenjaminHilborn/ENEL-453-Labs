@@ -171,5 +171,14 @@ VGA_SYNC: sync_signals_generator
 
 -- END INSTANTIATION
 
+leds(0) <= keyboard_value(0);
+leds(1) <= keyboard_value(1);
+leds(2) <= keyboard_value(2);
+leds(3) <= keyboard_value(3);
+leds(4) <= keyboard_value(4);
+leds(5) <= keyboard_value(5);
+leds(6) <= keyboard_value(6);
+leds(7) <= keyboard_shift OR keyboard_ctrl;
+
 end Behavioral;
 
