@@ -1,0 +1,3 @@
+vhdl work "downcounter.vhd"
+vhdl work "score_keeper.vhd"
+vhdl work "tb_score_keeper.vhd"

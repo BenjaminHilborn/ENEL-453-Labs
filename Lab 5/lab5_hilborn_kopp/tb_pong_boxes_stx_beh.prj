@@ -1,0 +1,3 @@
+vhdl isim_temp "controlled_box.vhd"
+vhdl isim_temp "pong_boxes.vhd"
+vhdl isim_temp "tb_pong_boxes.vhd"

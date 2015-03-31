@@ -1,0 +1,30 @@
+Command line:
+   tb_pong_boxes_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  57233
+
+Tue Mar 31 03:32:09 2015
+
+
+ Elaboration Time: 0.327602 sec
+
+ Current Memory Usage: 1162.18 Meg
+
+ Total Signals          : 94
+ Total Nets             : 250
+ Total Signal Drivers   : 42
+ Total Blocks           : 7
+ Total Primitive Blocks : 5
+ Total Processes        : 29
+ Total Traceable Variables  : 31
+ Total Scalar Nets and Variables : 791
+Total Line Count : 117
+Total Line Count : 117
+
+ Total Simulation Time: 96.5022 sec
+
+ Current Memory Usage: 690.287 Meg
+
+Tue Mar 31 04:20:39 2015
+

@@ -22,8 +22,17 @@
   <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="lab5_hilborn_kopp.xise"/>
 
   <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_controlled_box_stx_beh.prj"/>
-    <file xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_pong_boxes_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_pong_boxes_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_score_keeper_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_score_keeper_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="tb_score_keeper_isim_beh.wdb"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
   </files>
 
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
@@ -31,25 +40,74 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1427782245" xil_pn:in_ck="4745777291661453713" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1427782245">
+    <transform xil_pn:end_ts="1427797794" xil_pn:in_ck="-8083487178411789799" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1427797794">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="controlled_box.vhd"/>
+      <outfile xil_pn:name="downcounter.vhd"/>
+      <outfile xil_pn:name="pong_boxes.vhd"/>
+      <outfile xil_pn:name="score_keeper.vhd"/>
       <outfile xil_pn:name="tb_controlled_box.vhd"/>
+      <outfile xil_pn:name="tb_pong_boxes.vhd"/>
+      <outfile xil_pn:name="tb_score_keeper.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1427776007" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-9044832904953873877" xil_pn:start_ts="1427776007">
+    <transform xil_pn:end_ts="1427797794" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-8107791269622944158" xil_pn:start_ts="1427797794">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
     </transform>
-    <transform xil_pn:end_ts="1427776007" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="3418866178078708973" xil_pn:start_ts="1427776007">
+    <transform xil_pn:end_ts="1427797794" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-8739355675283275548" xil_pn:start_ts="1427797794">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
     </transform>
-    <transform xil_pn:end_ts="1427776007" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="6620439802930979213" xil_pn:start_ts="1427776007">
+    <transform xil_pn:end_ts="1427794104" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="4022316045537873603" xil_pn:start_ts="1427794104">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1427797794" xil_pn:in_ck="-8083487178411789799" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1427797794">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="controlled_box.vhd"/>
+      <outfile xil_pn:name="downcounter.vhd"/>
+      <outfile xil_pn:name="pong_boxes.vhd"/>
+      <outfile xil_pn:name="score_keeper.vhd"/>
+      <outfile xil_pn:name="tb_controlled_box.vhd"/>
+      <outfile xil_pn:name="tb_pong_boxes.vhd"/>
+      <outfile xil_pn:name="tb_score_keeper.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1427797797" xil_pn:in_ck="-8083487178411789799" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="7883236502686312614" xil_pn:start_ts="1427797794">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="tb_score_keeper_beh.prj"/>
+      <outfile xil_pn:name="tb_score_keeper_isim_beh.exe"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1427797797" xil_pn:in_ck="1270468990531662195" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-1921372449031855981" xil_pn:start_ts="1427797797">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="tb_score_keeper_isim_beh.wdb"/>
     </transform>
   </transforms>
 
