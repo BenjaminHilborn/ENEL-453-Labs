@@ -1,2 +1,1 @@
-work	"downcounter.vhd"
-work	"score_keeper.vhd"
+work	"controlled_box.vhd"
