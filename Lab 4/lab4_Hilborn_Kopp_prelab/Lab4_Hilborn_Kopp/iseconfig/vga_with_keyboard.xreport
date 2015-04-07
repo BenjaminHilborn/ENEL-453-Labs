@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2015-03-29T23:04:20</DateModified>
+  <DateModified>2015-03-31T13:09:00</DateModified>
   <ModuleName>vga_with_keyboard</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
   <SavedFilePath>C:/Users/Brendon/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp/iseconfig/vga_with_keyboard.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/Brendon/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp</ImplementationReportsDirectory>
+  <ImplementationReportsDirectory>C:/Users/Brendon/Documents/GitHub/ENEL-453-Labs/Lab 4/lab4_Hilborn_Kopp_prelab/Lab4_Hilborn_Kopp\</ImplementationReportsDirectory>
   <DateInitialized>2015-03-29T23:04:20</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
